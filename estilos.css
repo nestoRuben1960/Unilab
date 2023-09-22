@@ -1,3 +1,26 @@
+@media screen and (max-width: 640px) {
+  #contenedor {
+  background: blue;
+  width: auto;
+  }
+  }
+ @media screen and (min-width: 640px) and (max-width: 1280px) {
+    #contenedor { background: red;
+    }
+    } 
+ @media screen and (min-width: 1280px) {
+      #contenedor {
+        width: auto;
+      }
+      }
+
+
+
+
+
+
+
+
 #agrupar { 
    
     margin: 15px auto; 
@@ -77,7 +100,7 @@
     text-shadow: 3px 3px 5px #999999,
                  6px 6px 5px black,
                  9px 9px 5px grey;
-    color: darkgreen; 
+    color: darkblue; 
     text-align: left;  
     margin-left: 20px;          
 
@@ -95,7 +118,7 @@
     border-radius: 20px 20px 20px 20px;
    font-size: 20px;
     align-content: center;
-    margin-left: 100px;
+    margin-left: 50px;
     margin-top: 50px;
     transition:width 2s ease;
     -moz-transition:width 2s ease;
@@ -122,7 +145,7 @@
 
    #imagen{
     float: right;
-    width: 400px;
+    width: 500px;
     height: 350px;
     margin-right: 50px;
     margin-top: 50px;
@@ -272,10 +295,10 @@ body{
 width: 100%;
 height: 500px;
 border-radius: 20px 20px 20px 20px;
-background: -webkit-linear-gradient(left,darkcyan,darkcyan); 
- background: -moz-linear-gradient(left,darkcyan, darkcyan);
- background: -o-linear-gradientl(left,darkcyan, darkcyan); 
- background: -ms-linear-gradient(left,darkcyan, darkcyan);
+background: -webkit-linear-gradient(left,darkcyan,aqua);
+ background: -moz-linear-gradient(left,darkcyan, aqua);
+ background: -o-linear-gradientl(left,darkcyan, aqua); 
+ background: -ms-linear-gradient(left,darkcyan, aqua);
  margin-top: 10px;
  
 }
@@ -551,7 +574,7 @@ margin-top: 44px;
    padding-top: 25px;
    padding-left: 25px;
     margin-bottom: 50px;
-    background-image:url( "laboratorio-medico-salud-brillante-interior-tubos-ensayo-instrumentos_530697-56855.avif");
+    background-image:url( "C:/Users/sul40/OneDrive/Escritorio/laboratorio-medico-salud-brillante-interior-tubos-ensayo-instrumentos_530697-56855.avif");
     opacity: 0.9;
      }
 
@@ -567,7 +590,7 @@ margin-top: 44px;
    
    
     margin-bottom: 50px;
-    background-image:url("cerrar-cientifico-que-trabaja-microscopio_23-2148882093.avif");
+    background-image:url("C:/Users/sul40/OneDrive/Escritorio/cerrar-cientifico-que-trabaja-microscopio_23-2148882093.avif");
     opacity: 0.9;
      }
 
@@ -582,7 +605,7 @@ margin-top: 44px;
     height: 400px;
    
     margin-bottom: 50px;
-    background-image:url("mano-guantes-protectores-haciendo-prueba-covid_23-2148958400.avif");
+    background-image:url("C:/Users/sul40/OneDrive/Escritorio/mano-guantes-protectores-haciendo-prueba-covid_23-2148958400.avif");
     opacity: 0.9;
      }
    
