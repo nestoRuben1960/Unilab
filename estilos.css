@@ -105,7 +105,7 @@
     text-shadow: 3px 3px 5px #999999,
                  6px 6px 5px black,
                  9px 9px 5px grey;
-    color: blue; 
+    color: darkgreen; 
     text-align: left;  
     margin-left: 20px;          
 
@@ -137,7 +137,7 @@
   
   #etiqueta:hover{
     width:175px;
-    background-color:darkturquoise;
+    background-color:aqua;
    
   }
 
@@ -297,14 +297,29 @@ body{
 
 #fondo
 {
-width: 100%;
+width: 90%;
 height: 500px;
 border-radius: 20px 20px 20px 20px;
-background: -webkit-linear-gradient(left,darkcyan,aqua);
- background: -moz-linear-gradient(left,darkcyan, aqua);
- background: -o-linear-gradientl(left,darkcyan, aqua); 
- background: -ms-linear-gradient(left,darkcyan, aqua);
+background: -webkit-linear-gradient(left,darkmagenta,aqua);
+ background: -moz-linear-gradient(left,darkmagenta, aqua);
+ background: -o-linear-gradientl(left,darkmagenta, aqua); 
+ background: -ms-linear-gradient(left,darkmagenta, aqua);
  margin-top: 10px;
+ margin-left: 75px;
+ 
+}
+
+#fondo1
+{
+width: 90%;
+height: 250px;
+border-radius: 20px 20px 20px 20px;
+background: -webkit-linear-gradient(left,darkblue,aqua);
+ background: -moz-linear-gradient(left,darkblue, aqua);
+ background: -o-linear-gradientl(left,darkblue, aqua); 
+ background: -ms-linear-gradient(left,darkblue, aqua);
+ margin-top: 10px;
+ margin-left: 75px;
  
 }
 
@@ -325,12 +340,13 @@ background: -webkit-linear-gradient(left,darkcyan,aqua);
     font-weight: bold;
     position: relative;
     margin-top: 150px;
-    
+    background: darkslategrey;
     font-family: verdana, 'Lato', sans-serif;
     text-transform: uppercase;
   text-rendering: optimizeLegibility;
   margin-bottom: 5px;
- 
+  border-radius: 20px 20px 0px 0px;
+  padding-bottom: 25px;
 
 
    
@@ -362,7 +378,7 @@ background: -webkit-linear-gradient(left,darkcyan,aqua);
  #titulo3{
   text-align: center;
   font-size: 35px;
-  color: blueviolet;
+  color: darkmagenta;
   font-weight: bold;
   position: relative;
   margin-top: 150px;
@@ -579,7 +595,7 @@ margin-top: 44px;
    padding-top: 25px;
    padding-left: 25px;
     margin-bottom: 50px;
-    background-image:url( "laboratorio-medico-salud-brillante-interior-tubos-ensayo-instrumentos_530697-56855.avif");
+    background-image:url( "C:/Users/sul40/OneDrive/Escritorio/laboratorio-medico-salud-brillante-interior-tubos-ensayo-instrumentos_530697-56855.avif");
     opacity: 0.9;
      }
 
@@ -595,7 +611,7 @@ margin-top: 44px;
    
    
     margin-bottom: 50px;
-    background-image:url("cerrar-cientifico-que-trabaja-microscopio_23-2148882093.avif");
+    background-image:url("C:/Users/sul40/OneDrive/Escritorio/cerrar-cientifico-que-trabaja-microscopio_23-2148882093.avif");
     opacity: 0.9;
      }
 
@@ -610,7 +626,7 @@ margin-top: 44px;
     height: 400px;
    
     margin-bottom: 50px;
-    background-image:url("mano-guantes-protectores-haciendo-prueba-covid_23-2148958400.avif");
+    background-image:url("C:/Users/sul40/OneDrive/Escritorio/mano-guantes-protectores-haciendo-prueba-covid_23-2148958400.avif");
     opacity: 0.9;
      }
    
