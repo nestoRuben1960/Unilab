@@ -81,6 +81,7 @@
 
    #menu ul {
     text-decoration: none;
+   }
 
     @media (max-width: 480px) { 
   
@@ -116,7 +117,7 @@
    
    
    #seccion { 
-   display: block
+   display: block;
 
    
     margin: 5 px;
