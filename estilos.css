@@ -27,7 +27,8 @@
    #menuicono { 
     display: none; 
     width: 90%; 
-    height: 38px; 
+    height: 45px; 
+    margin: auto;
     padding: 12px 2% 0px 3%; 
     background-color:aqua; 
     border-top: 1px solid #094660; 
