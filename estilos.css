@@ -1,22 +1,12 @@
-@media screen and (max-width: 640px) {
-  #contenedor {
- 
-  width: 100%;
-  }
-  }
- @media screen and (min-width: 640px) and (max-width: 1280px) {
-  #contenedor{
-    width: 100%;
-  }
- }
-  
- 
 
- @media screen and (min-width: 1280px) {
-      #contenedor {
-        width: 100%;
-       
+      #cabecera{
+        display: flex;
+        flex-direction:column;
       }
+
+      #menu{
+        display: flex;
+        justify-content:flex-end;
       }
 
 
@@ -44,26 +34,26 @@
     border-radius: 0px 0px 20px 20px;
    } 
 
-#cabecera li { 
+#menu li { 
     display: inline-block; 
     list-style: none; 
     padding: 15px; 
     font:  25px verdana, sans-serif; 
     text-decoration: none;
    }
-   #cabecera a{
+   #menu a{
     text-decoration: none;
     color: darkblue;
     font-weight: bold;
    }
-   #cabecera a:hover {
+   #menu a:hover {
     background-color:darkblue;
     color:#ffffff; 
     font: bold 35px , sans-serif; 
     padding: 10px; 
   }
 
-   #cabecera ul {
+   #menu ul {
     text-decoration: none;
     text-align: right;
     
@@ -163,7 +153,7 @@
    .slider {
     width: 75vw;
     height: 80px;
-    margin-left: 150px;
+    margin-left: 50px;
     margin-top: 50px;
     margin-bottom:0px;
     overflow: hidden;
