@@ -1,24 +1,16 @@
 
- #cabecera{
+    #cabecera{
         display: flex;
         flex-direction:column;
         background: darkblue;
-        border-radius: 20px 20px 0px 0px;
+        border-radius: 20px 20px 20px 2cqi;
         width: 90%;
         margin: auto;
        
       }
 
-      
-
-
-
-
-
-
-
-
-#agrupar { 
+     
+    #agrupar { 
    
     margin: 15px auto; 
     text-align: left; 
@@ -46,11 +38,11 @@
 #menu {
   display: flex; 
  
-  justify-content:flex-end;
+  justify-content:center;
  
   height: 100%;
   background: aqua;
-  width: 90%;
+  width: 60%;
   margin: auto;
    
    
