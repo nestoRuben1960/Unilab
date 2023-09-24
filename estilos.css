@@ -25,7 +25,7 @@
     background-color:aqua; 
     border-top: 1px solid #094660; 
     border-bottom: 1px solid #094660; 
-    border-radius: 0px 0px 20px 20px;
+    border-radius: 20px 20px 20px 20px;
    } 
 
  
@@ -80,8 +80,8 @@
       #menu { 
       display: none; 
      text-align: center;
-      border-radius: 20px 20px 20px 20px;
-      width: 90%; 
+      border-radius: 0px 0px 20px 20px;
+      width: 60%; 
       height: 100%; 
       padding: 0%; 
       } 
