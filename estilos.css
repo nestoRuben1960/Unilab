@@ -94,15 +94,15 @@
       padding: 0%; 
       } 
       
-   
-       #menu li { 
-       display: block; 
-       margin-right: 0px; 
-       text-align: center; 
-       } 
-       #menuicono { 
-       display: block; 
-       } 
+      #menu li { 
+        display: block; 
+        margin-right: 0px; 
+        text-align: center;
+      }
+      #menuicono { 
+        display: block;
+      }
+       
        .seccionpie { 
        width: 90%; 
        text-align: center; 
