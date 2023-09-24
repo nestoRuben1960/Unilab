@@ -29,7 +29,7 @@
     width: 90%; 
     height: 38px; 
     padding: 12px 2% 0px 3%; 
-    background-color: #9FC8D9; 
+    background-color:aqua; 
     border-top: 1px solid #094660; 
     border-bottom: 1px solid #094660; 
    } 
@@ -38,8 +38,12 @@
     #menu { 
     display: none; 
     width: 100%; 
-    height: 100%; 
-    padding: 0%; 
+   
+    padding: 0%;
+    height: 100%;
+    background: aqua;
+    width: 90%;
+    margin: auto;
     } 
     #menu li { 
     display: block; 
@@ -66,7 +70,7 @@
   display: flex; 
  
   justify-content:flex-end;
-  width: 100%;
+ 
   height: 100%;
   background: aqua;
   width: 90%;
