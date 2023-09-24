@@ -4,10 +4,7 @@
         flex-direction:column;
       }
 
-      #menu{
-        display: flex;
-        justify-content:flex-end;
-      }
+      
 
 
 
@@ -25,10 +22,13 @@
 
   
 
-#menu { 
+#menu {
+  display: flex; 
+ 
+  justify-content:flex-start;
    
    
-    text-align: center; 
+    
     text-decoration: none;
    
     border-radius: 0px 0px 20px 20px;
@@ -55,7 +55,7 @@
 
    #menu ul {
     text-decoration: none;
-    text-align: right;
+    
     
 
    }
