@@ -744,12 +744,13 @@ margin-top: 44px;
 
       #cabecera{
         display: flex;
-        flex-direction:column;
+        flex-direction:row;
+        justify-content:center;
         background: darkblue;
         border-radius: 20px 20px 20px 20px;
         width: 100%;
-        padding-top: 5px;
-        padding-bottom: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
        
       }
 
@@ -794,8 +795,8 @@ margin-top: 44px;
       text-rendering: optimizeLegibility;
       width: 100%;
       border-radius: 20px 20px 20px 20px;
-      padding-top:  5px;
-      padding-bottom: 5px;
+      padding-top:  10px;
+      padding-bottom: 10px;
        }
     
 
