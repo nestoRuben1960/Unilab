@@ -75,63 +75,7 @@
     text-decoration: none;
    }
 
-    @media (max-width: 480px) { 
-
-      #cabecera{
-        display: flex;
-        flex-direction:column;
-        background: darkblue;
-        border-radius: 20px 20px 20px 20px;
-        width: 100%;
-        margin: auto;
-       
-      }
-
-  
-      #menu { 
-      display: none; 
-     text-align: center;
-      border-radius: 0px 0px 20px 20px;
-      width: 60%; 
-      height: 100%; 
-      padding: 0%; 
-      } 
-      
-      #menu li { 
-        display: block; 
-        margin-right: 0px; 
-        text-align: center;
-      }
-      #menuicono { 
-        display: block;
-      }
-       
-       .seccionpie { 
-       width: 90%; 
-       text-align: center; 
-       } 
-       #cabeceralogo > div { 
-       text-align: center; 
-       } 
-
-       #fondo1
-{
-display: flex;
-flex-direction:column;
-justify-content: center; 
-width: 100%;
-height: 380px;
-border-radius: 20px 20px 20px 20px;
-background: -webkit-linear-gradient(left,darkblue,aqua);
- background: -moz-linear-gradient(left,darkblue, aqua);
- background: -o-linear-gradientl(left,darkblue, aqua); 
- background: -ms-linear-gradient(left,darkblue, aqua);
- margin-top: 90px;
-
-}
-
-
-     }
+   
     
     
 
@@ -802,6 +746,64 @@ margin-top: 44px;
       height: 300px;
 
     }
+
+    @media (max-width: 480px) { 
+
+      #cabecera{
+        display: flex;
+        flex-direction:column;
+        background: darkblue;
+        border-radius: 20px 20px 20px 20px;
+        width: 100%;
+        margin: auto;
+       
+      }
+
+  
+      #menu { 
+      display: none; 
+     text-align: center;
+      border-radius: 0px 0px 20px 20px;
+      width: 60%; 
+      height: 100%; 
+      padding: 0%; 
+      } 
+      
+      #menu li { 
+        display: block; 
+        margin-right: 0px; 
+        text-align: center;
+      }
+      #menuicono { 
+        display: block;
+      }
+       
+       .seccionpie { 
+       width: 90%; 
+       text-align: center; 
+       } 
+       #cabeceralogo > div { 
+       text-align: center; 
+       } 
+
+       #fondo1{
+
+       display: flex;
+       flex-direction:column;
+       justify-content: center; 
+       width: 100%;
+       height: 380px;
+       border-radius: 20px 20px 20px 20px;
+       background: -webkit-linear-gradient(left,darkblue,aqua);
+       background: -moz-linear-gradient(left,darkblue, aqua);
+       background: -o-linear-gradientl(left,darkblue, aqua); 
+       background: -ms-linear-gradient(left,darkblue, aqua);
+       margin-top: 90px;
+
+}
+
+
+     }
 
    
     
