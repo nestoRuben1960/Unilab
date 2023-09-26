@@ -113,6 +113,24 @@
        #cabeceralogo > div { 
        text-align: center; 
        } 
+
+       #fondo1
+{
+display: flex;
+flex-direction:column;
+justify-content: center; 
+width: 100%;
+height: 380px;
+border-radius: 20px 20px 20px 20px;
+background: -webkit-linear-gradient(left,darkblue,aqua);
+ background: -moz-linear-gradient(left,darkblue, aqua);
+ background: -o-linear-gradientl(left,darkblue, aqua); 
+ background: -ms-linear-gradient(left,darkblue, aqua);
+ margin-top: 90px;
+ margin-left: 75px;
+}
+
+
      }
     
     
