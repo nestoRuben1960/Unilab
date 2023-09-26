@@ -177,7 +177,7 @@
 
    .slider {
     flex: 1;
-    width:75vw;
+    width:100%;
     height: 100px;
    
     overflow: hidden;
@@ -194,8 +194,7 @@
 }
 
 .slider .slide-track {
-    display: flex;
-    flex: 1;
+   
     animation: scroll 40s linear infinite;
     -webkit-animation: scroll 40s linear infinite;
     width:100%;
@@ -779,6 +778,24 @@ margin-top: 44px;
        #cabeceralogo > div { 
        text-align: center; 
        } 
+
+       #titulo{
+        height:auto;
+        text-align: center;
+        font-size: 30px;
+        color: blue;
+        font-weight: bold;
+        position: relative;
+        margin-top: 90px;
+        background: darkslategrey;
+        font-family: verdana, 'Lato', sans-serif;
+        text-transform: uppercase;
+      text-rendering: optimizeLegibility;
+      width: 100%;
+      border-radius: 20px 20px 20px 20px;
+      padding-top:  5px;
+       }
+    
 
       
 
