@@ -813,6 +813,8 @@ margin-top: 44px;
   font-weight: bold;
   color: darkblue;
   font-weight: bold;
+  margin: auto;
+  display: block;
   
  
 
@@ -823,16 +825,22 @@ margin-top: 44px;
   animation: scroll 40s linear infinite;
   -webkit-animation: scroll 40s linear infinite;
   width: 200px;
+  margin: auto;
+  display: block;
 }
 
 .slider .slide {
   width: 200px;
   height: auto;
+  margin: auto;
+  display: block;
  
 }
 
 .slider .slide img {
   width: 200px;
+  margin: auto;
+  display: block;
  
 }
 
