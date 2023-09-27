@@ -800,11 +800,11 @@ margin-top: 44px;
        }
 
        .slider {
-        width: 50%;
+        width: 90%;
    
        
         
-        position: absolute;
+        position:relative;
         left: 0px;
         top: 0px;
        }
