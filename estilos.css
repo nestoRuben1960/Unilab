@@ -805,8 +805,8 @@ margin-top: 44px;
        
         
         position: absolute;
-        left: 100px;
-        top: 100px;
+        left: 0px;
+        top: 0px;
        }
 
        .slider .slide-track {
