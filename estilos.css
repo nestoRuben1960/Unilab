@@ -801,8 +801,29 @@ margin-top: 44px;
 
        .slider {
    
-        width:100%;
+        width:200%;
         height: 100%;
+       }
+
+       .slider .slide-track {
+   
+        animation: scroll 40s linear infinite;
+        -webkit-animation: scroll 40s linear infinite;
+        width:200%;
+        height: 100%;}
+
+        .slider .slide {
+          
+            width: 200%;
+            height: auto;
+           
+           
+        }
+        
+        .slider .slide img {
+         
+            width: 200%;
+            height: 100%;}
     
 
       
@@ -815,6 +836,4 @@ margin-top: 44px;
 
 
    
-    
-    
-     
+ 
