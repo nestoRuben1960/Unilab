@@ -804,6 +804,10 @@ margin-top: 44px;
         width:90%;
         margin-left: 0px;
         height: 100%;
+        position: absolute;
+        left: 0px;
+        margin-top: 600px;
+        top: 600px;
        }
 
        .slider .slide-track {
