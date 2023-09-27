@@ -802,7 +802,7 @@ margin-top: 44px;
        .slider {
    
         width:90%;
-        margin: auto;
+        margin-left: 0px;
         height: 100%;
        }
 
@@ -811,13 +811,13 @@ margin-top: 44px;
         animation: scroll 40s linear infinite;
         -webkit-animation: scroll 40s linear infinite;
         width:90%;
-        margin: auto;
+        margin-left: 0px;
         height: 100%;}
 
         .slider .slide {
           
             width: 90%;
-            margin: auto;
+            margin-left: 0px;
            height: 100%;
            
            
@@ -826,7 +826,7 @@ margin-top: 44px;
         .slider .slide img {
          
             width: 90%;
-            margin: auto;
+            margin-left: 0px;
             height: 100%;}
     
 
