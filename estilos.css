@@ -806,15 +806,15 @@ margin-top: 44px;
        
         
         position:relative;
-        left: 0px;
-        top: 0px;
+        margin-top:  0px;
+        margin-top: 0px;
        }
 
        .slider .slide-track {
    
         animation: scroll 40s linear infinite;
         -webkit-animation: scroll 40s linear infinite;
-        width:100%;
+        width:100%;}
        
 
         .slider .slide {
@@ -830,17 +830,12 @@ margin-top: 44px;
          
             width: 90%;
             margin-left: 0px;
-            height: 100%;}
+           }
     
 
-      
-
-}
+    
 
 
  
  
-
-
-   
- 
+          }
