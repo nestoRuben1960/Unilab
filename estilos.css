@@ -1,14 +1,13 @@
 
     #cabecera{
         display: flex;
-        flex-direction:row;
+        flex-direction:column;
         background: darkblue;
-        border-radius: 20px 20px 20px 2cqi;
+       
         width: 90%;
         margin: auto;
         justify-content:center;
-        height: 50px;
-        padding-top: 10px;
+        height: 100px;
        
       }
 
@@ -41,7 +40,7 @@
   justify-content:center;
  
   height: 100%;
-  background: aqua;
+  
   width: 70%;
   margin: auto;
    
@@ -75,6 +74,100 @@
     text-decoration: none;
    }
 
+   #prepagas{
+    display: flex;
+    flex-direction:row;
+    width: 90%;
+    margin: auto;
+    justify-content:center;
+    align-content:center;
+    height: 180px;
+    margin-top: 90px;
+    margin-bottom: 90px;
+   
+  }
+
+  #titulo{
+    flex: 1;
+    height:auto;
+    text-align: center;
+    font-size: 20px;
+    color: blue;
+    font-weight: bold;
+    position: relative;
+    background:  #225677;
+    font-family: verdana, 'Lato', sans-serif;
+    text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  border-radius: 20px 20px 20px 20px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+
+
+   
+   
+    letter-spacing: .15em;
+    text-shadow: 
+      -1px -1px 1px #efede3, 
+      0px 1px 0 darkblue, 
+      0px 2px 0 darkblue, 
+      0px 3px 0 darkblue, 
+      0px 4px 0 darkblue, 
+      0px 5px 0 darkblue, 
+      0px 6px 0 darkblue, 
+      0px 7px 0 darkblue, 
+      0px 8px 0 darkblue, 
+      0px 9px 0 darkblue, 
+      0px 10px 0 darkblue, 
+      0px 11px 0 darkblue, 
+      0px 12px 0 darkblue, 
+      0px 13px 0 darkblue, 
+      0px 14px 0 darkblue, 
+      0px 15px 0 darkblue,
+      2px 20px 5px white,
+      5px 23px 5px white,
+      8px 27px 8px white,
+      8px 28px 35px white;
+ }
+
+ .slider {
+  flex: 2;
+   
+  width:100%;
+  height: 100px;
+ 
+  overflow: hidden;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: darkblue;
+  font-weight: bold;
+ }
+  
+ 
+.slider .slide-track {
+  flex: 2;
+ 
+  animation: scroll 40s linear infinite;
+  -webkit-animation: scroll 40s linear infinite;
+  width:100%;
+}
+  
+  
+.slider .slide {
+flex: 2;
+  width: 100%;
+  height: auto;
+}
+ 
+
+.slider .slide img {
+flex: 2;
+  width: 100%;
+}
+
+
    
     
     
@@ -106,7 +199,6 @@
     width: 90%;
     margin: auto;
     margin-top:20px;
-    border-radius: 20px 20px 20px 20px;
    
     clear: both; 
    }
@@ -117,12 +209,14 @@
 
 
    #titulo1 {
-    text-shadow: 3px 3px 5px #999999,
-                 6px 6px 5px black,
-                 9px 9px 5px grey;
+    
     color: white; 
-    text-align: left;  
-    margin-left: 20px;          
+    font-size: 25px;
+   
+    
+    
+   
+
 
   
 
@@ -131,7 +225,7 @@
    
 
    #etiqueta {
-   background: white;
+   background:#0d7588;  
     float: left;
     width: 150px;
     height: 150px;
@@ -152,7 +246,7 @@
   
   #etiqueta:hover{
     width:175px;
-    background-color:aqua;
+    background-color:darkcyan;
    
   }
 
@@ -160,7 +254,7 @@
     text-align: center;
     padding-top: 60px;
   
-    color: darkblue;
+    color: white;
    }
 
    #imagen{
@@ -175,48 +269,10 @@
    }
   
 
-   .slider {
    
-    width:100%;
-    height: 100px;
    
-    overflow: hidden;
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-    color: darkblue;
-    font-weight: bold;
-    
-   
-    
    
 
-}
-
-.slider .slide-track {
-   
-    animation: scroll 40s linear infinite;
-    -webkit-animation: scroll 40s linear infinite;
-    width:100%;
-    
-    
-    
-}
-
-.slider .slide {
-  flex: 1;
-    width: 100%;
-    height: auto;
-   
-   
-}
-
-.slider .slide img {
-  flex: 1;
-    width: 100%;
-   
-   
-}
 
 @keyframes scroll {
     0% {
@@ -247,7 +303,7 @@ body{
   font-size: 40px;
   font-family: arial;
   margin-top: 150px;
-  color: black;
+  color: #225677; 
   text-shadow: 0px 0px 6px black;
 }
 
@@ -324,11 +380,7 @@ body{
 {
 width: 90%;
 height: 500px;
-border-radius: 20px 20px 20px 20px;
-background: -webkit-linear-gradient(left,darkmagenta,aqua);
- background: -moz-linear-gradient(left,darkmagenta, aqua);
- background: -o-linear-gradientl(left,darkmagenta, aqua); 
- background: -ms-linear-gradient(left,darkmagenta, aqua);
+
  margin-top: 10px;
  margin-left: 75px;
  
@@ -345,68 +397,24 @@ background: -webkit-linear-gradient(left,darkmagenta,aqua);
 
 
 
-  #titulo{
-    height: 98px;
+  
+
+ #titulo3{
+  height: 98px;
     text-align: center;
-    font-size: 30px;
-    color: blue;
+    font-size: 35px;
+    color:darkblue ;
     font-weight: bold;
     position: relative;
     margin-top: 90px;
-    background: darkslategrey;
-    font-family: verdana, 'Lato', sans-serif;
+   font-family:Arial, Helvetica, sans-serif Times, serif verdana, 'Lato', sans-serif;
     text-transform: uppercase;
   text-rendering: optimizeLegibility;
-  width: 90%;
+  
   border-radius: 20px 20px 20px 20px;
   padding-top:  5px;
   margin-left: auto;
   margin-right: auto;
-
-
-   
-   
-    letter-spacing: .15em;
-    text-shadow: 
-      -1px -1px 1px #efede3, 
-      0px 1px 0 darkblue, 
-      0px 2px 0 darkblue, 
-      0px 3px 0 darkblue, 
-      0px 4px 0 darkblue, 
-      0px 5px 0 darkblue, 
-      0px 6px 0 darkblue, 
-      0px 7px 0 darkblue, 
-      0px 8px 0 darkblue, 
-      0px 9px 0 darkblue, 
-      0px 10px 0 darkblue, 
-      0px 11px 0 darkblue, 
-      0px 12px 0 darkblue, 
-      0px 13px 0 darkblue, 
-      0px 14px 0 darkblue, 
-      0px 15px 0 darkblue,
-      2px 20px 5px white,
-      5px 23px 5px white,
-      8px 27px 8px white,
-      8px 28px 35px white;
- }
-
- #titulo3{
-  text-align: center;
-  font-size: 35px;
-  color: darkmagenta;
-  font-weight: bold;
-  position: relative;
-  margin-top: 150px;
-  margin-bottom: 5px;
-  
-  font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif, 'Lato', sans-serif;
-  text-transform: uppercase;
-text-rendering: optimizeLegibility;
-margin-bottom: 5px;
-background: darkblue;
-padding-left: 15px;
-padding-bottom: 15px;
-border-radius: 20px 20px 0px 0px;
 
 
 
@@ -414,22 +422,22 @@ border-radius: 20px 20px 0px 0px;
  
   letter-spacing: .15em;
   text-shadow: 
-    -1px -1px 1px #efede3, 
-    0px 1px 0 darkmagenta, 
-    0px 2px 0 darkmagenta,  
-    0px 3px 0 darkmagenta, 
-    0px 4px 0 darkmagenta, 
-    0px 5px 0 darkmagenta, 
-    0px 6px 0 darkmagenta, 
-    0px 7px 0  darkmagenta, 
-    0px 8px 0  darkmagenta, 
-    0px 9px 0 darkmagenta, 
-    0px 10px 0 darkmagenta, 
-    0px 11px 0 darkmagenta, 
-    0px 12px 0 darkmagenta,  
-    0px 13px 0  darkmagenta, 
-    0px 14px 0 darkmagenta, 
-    0px 15px 0 darkmagenta, 
+    -1px -1px 1px  darkblue, 
+    0px 1px 0 darkblue, 
+    0px 2px 0 darkblue,  
+    0px 3px 0 darkblue , 
+    0px 4px 0 darkblue , 
+    0px 5px 0 darkblue , 
+    0px 6px 0 darkblue, 
+    0px 7px 0 darkblue, 
+    0px 8px 0  darkblue, 
+    0px 9px 0 darkblue, 
+    0px 10px 0 darkblue, 
+    0px 11px 0 darkblue, 
+    0px 12px 0 darkblue,  
+    0px 13px 0  darkblue, 
+    0px 14px 0 darkblue, 
+    0px 15px 0 darkblue, 
     2px 20px 5px white,
     5px 23px 5px white,
     8px 27px 8px white,
