@@ -830,12 +830,12 @@ margin-top: 44px;
         width: 100%;
         overflow: hidden;
         display: block;
+        margin-bottom: 100px;
    
        
         
         position:relative;
-        margin-top:  0px;
-        margin-top: 0px;
+       
        }
 
        .slider .slide-track {
