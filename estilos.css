@@ -769,7 +769,7 @@ margin-top: 44px;
     @media (max-width: 480px) { 
 
       #cabecera{
-        display: flex;
+        display:flex;
         flex-direction:column;
         justify-content:center;
         background: darkblue;
@@ -816,12 +816,12 @@ margin-top: 44px;
         font-weight: bold;
         position: relative;
         margin-top: 90px;
-        background: darkslategrey;
+       
         font-family: verdana, 'Lato', sans-serif;
         text-transform: uppercase;
       text-rendering: optimizeLegibility;
       width: 100%;
-      border-radius: 20px 20px 20px 20px;
+      
       padding-top:  10px;
       padding-bottom: 20px;
        }
@@ -858,6 +858,10 @@ margin-top: 44px;
          
             width: 90%;
             margin-left: 0px;
+           }
+
+           #prepagas{
+            display: block;
            }
     
 
