@@ -869,7 +869,7 @@ margin-top: 44px;
             
             width: 100%;
             height:auto;
-           
+           background: white;
            
             margin-top: 100px;
             margin-bottom: 100px;
@@ -895,6 +895,7 @@ margin-top: 44px;
              font-family:Arial, Helvetica, sans-serif Times, serif verdana, 'Lato', sans-serif;
               text-transform: uppercase;
             text-rendering: optimizeLegibility;
+            background: white;
             
            
             padding-top:  5px;
@@ -930,6 +931,7 @@ margin-top: 44px;
 
           #etiquetas{
             display: block;
+            margin-top: 100px;
             
       
            }
