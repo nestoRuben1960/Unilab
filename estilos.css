@@ -816,12 +816,12 @@ margin-top: 44px;
         font-weight: bold;
         position: relative;
         margin-top: 90px;
-       background: white;
+        background: darkslategrey;
         font-family: verdana, 'Lato', sans-serif;
         text-transform: uppercase;
       text-rendering: optimizeLegibility;
       width: 100%;
-      
+      border-radius: 20px 20px 20px 20px;
       padding-top:  10px;
       padding-bottom: 20px;
        }
@@ -856,13 +856,90 @@ margin-top: 44px;
         
         .slider .slide img {
          
-            width: 90%;
+            width: 100%;
             margin-left: 0px;
            }
 
            #prepagas{
             display: block;
            }
+
+           #fondo{
+            display:block;
+            
+            width: 100%;
+            height:auto;
+           
+            background: #1d4169   ;
+            margin-top: 10px;
+            margin-bottom: 50px;
+           
+           }
+
+           #imagen{
+           display: block;
+            
+              width: 100%;
+              height:auto;
+           }
+
+           #titulo3{
+           display: block;
+            height:auto;
+              text-align: center;
+              font-size: 35px;
+              color:blue ;
+              font-weight: bold;
+              position: relative;
+              margin-top: 50px;
+             font-family:Arial, Helvetica, sans-serif Times, serif verdana, 'Lato', sans-serif;
+              text-transform: uppercase;
+            text-rendering: optimizeLegibility;
+            
+            border-radius: 20px 20px 20px 20px;
+            padding-top:  5px;
+            margin-left: auto;
+            margin-right: auto;
+          
+          
+          
+           
+           
+            letter-spacing: .15em;
+            text-shadow: 
+              -1px -1px 1px  darkblue, 
+              0px 1px 0 darkblue, 
+              0px 2px 0 darkblue,  
+              0px 3px 0 darkblue , 
+              0px 4px 0 darkblue , 
+              0px 5px 0 darkblue , 
+              0px 6px 0 darkblue, 
+              0px 7px 0 darkblue, 
+              0px 8px 0  darkblue, 
+              0px 9px 0 darkblue, 
+              0px 10px 0 darkblue, 
+              0px 11px 0 darkblue, 
+              0px 12px 0 darkblue,  
+              0px 13px 0  darkblue, 
+              0px 14px 0 darkblue, 
+              0px 15px 0 darkblue, 
+              2px 20px 5px white,
+              5px 23px 5px white,
+              8px 27px 8px white,
+              8px 28px 35px white;
+          }
+
+          #etiquetas{
+            display: block;
+            background: #225677  ;
+      
+           }
+          
+              
+
+
+
+           
     
 
     
