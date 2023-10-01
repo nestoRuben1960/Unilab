@@ -812,7 +812,7 @@ margin-top: 44px;
 
        #titulo{
         display: block;
-        height:auto;
+        height:400px;
         text-align: center;
         font-size: 25px;
         color: blue;
@@ -865,6 +865,7 @@ margin-top: 44px;
 
            #prepagas{
             display: block;
+            height: 400px;
            }
 
            #fondo{
