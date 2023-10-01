@@ -778,6 +778,7 @@ margin-top: 44px;
         background: darkblue;
        
         width: 90%;
+        height: auto;
         padding-top: 10px;
         padding-bottom: 10px;
        
@@ -987,6 +988,7 @@ margin-top: 44px;
         width: 100%;
         padding-top: 10px;
         padding-bottom: 10px;
+        height: auto;
        
       }
 
