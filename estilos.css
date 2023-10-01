@@ -799,7 +799,7 @@ margin-top: 44px;
         text-align: center;
       }
      
-      }
+      
        
        .seccionpie { 
        width: 90%; 
@@ -959,9 +959,11 @@ margin-top: 44px;
             text-align: left;
            }
 
+          }
 
 
-    }
+
+    
 
     @media (max-width: 480px) { 
 
