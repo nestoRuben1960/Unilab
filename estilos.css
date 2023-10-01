@@ -882,10 +882,11 @@ margin-top: 44px;
 
            #imagen{
            display: block;
-
+           width:250px ;
+           height: 250px;
             
              
-              height:auto;
+             
            }
 
            #titulo3{
@@ -1074,8 +1075,8 @@ margin-top: 44px;
 
            #imagen{
            display: block;
-           width: 250px;
-           height: 250px; 
+           width:100%;
+           height:auto; 
              
            }
 
