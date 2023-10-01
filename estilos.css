@@ -771,11 +771,11 @@ margin-top: 44px;
 
     }
 
-    @media (max-width: 720px) { 
+    @media (max-width: 820px) { 
       #cabecera{
         display:block;
        
-        background:black;
+        background: darkblue;
        
         width: 90%;
         padding-top: 10px;
