@@ -814,7 +814,7 @@ margin-top: 44px;
         display: block;
         height:auto;
         text-align: center;
-        font-size: 30px;
+        font-size: 25px;
         color: blue;
         font-weight: bold;
         position: relative;
@@ -825,8 +825,8 @@ margin-top: 44px;
       text-rendering: optimizeLegibility;
      
       border-radius: 20px 20px 20px 20px;
-      padding-top:  10px;
-      padding-bottom: 20px;
+      padding-top:  5px;
+      padding-bottom: 5px;
        }
 
        .slider {
@@ -951,7 +951,7 @@ margin-top: 44px;
             padding: 20px; 
             width: 100%;
             clear: both; 
-           }
+           }  
         
            #pie h3{
             text-align: left;
