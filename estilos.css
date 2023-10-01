@@ -318,7 +318,7 @@ flex: 2;
     flex-direction:column;
     justify-content:center;
 
-    margin-top: 50px;
+    
     color: white;
    
     background:  #1d4169    ; 
@@ -944,6 +944,7 @@ margin-top: 44px;
            }
 
            #pie { 
+            display: block;
             margin-top: 100px;
             color: white;
            
@@ -951,9 +952,6 @@ margin-top: 44px;
             
             padding: 20px; 
             width: 100%;
-            margin: auto;
-           
-           
             clear: both; 
            }
         
@@ -961,9 +959,7 @@ margin-top: 44px;
             text-align: left;
            }
 
-           #pie{
-            display: block;
-           }
+           
           
               
 
