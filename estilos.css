@@ -799,12 +799,7 @@ margin-top: 44px;
         text-align: center;
       }
 
-      #prepagas{
-        display:inline-block ;
-        margin-bottom: 100px;
-        background: #000000;
-       
-       }
+     
      
       
        
@@ -812,7 +807,7 @@ margin-top: 44px;
 
        #titulo{
        
-       
+       display: block;
         text-align: center;
         font-size: 25px;
         color: blue;
@@ -831,11 +826,13 @@ margin-top: 44px;
        }
 
        .slider {
-       
+       display: block;
         overflow: hidden;
+        
        
         margin-bottom: 100px;
-        width: 40%;
+        width: 90%;
+        margin: auto;
        
         
         position:relative;
@@ -852,7 +849,8 @@ margin-top: 44px;
 
         .slider .slide {
           
-         width:auto;
+         width:90%;
+         margin: auto;
            
           
            
@@ -863,7 +861,8 @@ margin-top: 44px;
          
            
            
-            width: 40%;
+            width: 90%;
+            margin: auto;
            }
 
           
