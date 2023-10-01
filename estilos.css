@@ -2,11 +2,12 @@
     #cabecera{
         display: flex;
         flex-direction:column;
+        justify-content:center;
         background: darkblue;
        
         width: 90%;
         margin: auto;
-        justify-content:center;
+       
         height: 100px;
        
       }
@@ -313,10 +314,14 @@ flex: 2;
    }
 
    #pie { 
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+
     margin-top: 50px;
     color: white;
    
-    background:#0d7588  ; 
+    background:  #1d4169    ; 
     
     padding: 20px; 
     width: 90%;
@@ -954,6 +959,10 @@ margin-top: 44px;
         
            #pie h3{
             text-align: left;
+           }
+
+           #pie{
+            display: block;
            }
           
               
