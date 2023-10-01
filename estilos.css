@@ -812,7 +812,7 @@ margin-top: 44px;
         font-size: 25px;
         color: blue;
         font-weight: bold;
-        position: relative;
+       
         margin-top: 90px;
         margin-bottom: 90px;
         background:  #225677;
@@ -831,7 +831,7 @@ margin-top: 44px;
         
        
         margin-bottom: 100px;
-        width: 90%;
+        width: 40%;
         margin: auto;
        
         
@@ -849,7 +849,7 @@ margin-top: 44px;
 
         .slider .slide {
           
-         width:90%;
+         width:40%;
          margin: auto;
            
           
@@ -861,7 +861,7 @@ margin-top: 44px;
          
            
            
-            width: 90%;
+            width: 40%;
             margin: auto;
            }
 
