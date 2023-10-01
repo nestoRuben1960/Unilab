@@ -785,7 +785,7 @@ margin-top: 44px;
 
   
       #menu { 
-      display:block; 
+      display: block; 
      text-align: center;
      
       width: 90%; 
@@ -794,7 +794,7 @@ margin-top: 44px;
       } 
       
       #menu li { 
-        display: block; 
+      display: inline-block;   
        
         text-align: center;
       }
@@ -875,8 +875,8 @@ margin-top: 44px;
 
            #imagen{
            display: block;
-           width: 90px;
-           height:auto;
+           width: 90%;
+          
             
              
              
