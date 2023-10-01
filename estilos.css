@@ -964,7 +964,7 @@ margin-top: 44px;
 
     }-->
 
-    @media (max-width: 720px) { 
+    @media (max-width: 1200px) { 
 
       #cabecera{
         display:block;
