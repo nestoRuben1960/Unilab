@@ -802,6 +802,7 @@ margin-top: 44px;
       #prepagas{
         display: block;
         margin-bottom: 100px;
+        background: #000000;
        
        }
      
@@ -861,7 +862,7 @@ margin-top: 44px;
         .slider .slide img {
          
            
-            margin-left: 0px;
+           
             width: 40%;
            }
 
