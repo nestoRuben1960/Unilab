@@ -812,7 +812,8 @@ margin-top: 44px;
         font-weight: bold;
         position: relative;
         margin-top: 90px;
-        background: white ;
+        margin-bottom: 90px;
+        background: black ;
         font-family: verdana, 'Lato', sans-serif;
         text-transform: uppercase;
       text-rendering: optimizeLegibility;
@@ -858,7 +859,7 @@ margin-top: 44px;
 
            #prepagas{
             display: block;
-            height:auto;
+           
            }
 
            #fondo{
