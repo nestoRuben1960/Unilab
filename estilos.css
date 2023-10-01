@@ -798,6 +798,12 @@ margin-top: 44px;
        
         text-align: center;
       }
+
+      #prepagas{
+        display: block;
+        margin-bottom: 100px;
+       
+       }
      
       
        
@@ -839,12 +845,13 @@ margin-top: 44px;
    
         animation: scroll 40s linear infinite;
         -webkit-animation: scroll 40s linear infinite;
+        width: 40%;
        }
        
 
         .slider .slide {
           
-            width:auto;
+         width: 40%;
            
           
            
@@ -855,12 +862,10 @@ margin-top: 44px;
          
            
             margin-left: 0px;
+            width: 40%;
            }
 
-           #prepagas{
-            display: block;
-           
-           }
+          
 
            #fondo{
             display:block;
