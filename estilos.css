@@ -448,6 +448,88 @@ body{
 
 #titulo2{
   background: aqua;
+
+}
+
+#novedades{
+  margin-top: 50px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #225677 ;
+}
+
+
+#contenedor8{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+  text-align:left;
+ 
+  width: 90%;
+  height:auto;
+  margin: auto;
+  margin-bottom: 50px;
+ 
+ 
+}
+#contenedor8 > div{
+width: 350px;
+font-size: 17px;
+
+}
+
+#contenido4{
+  flex: 1;
+  order: 2;
+ 
+
+
+
+ }
+
+ 
+  
+
+ 
+
+ #contenido5{
+  flex: 1;
+  order: 1;
+ 
+
+
+
+
+
+
+
+
+ }
+
+ #contenido6{
+  flex: 1;
+  order: 3;
+ 
+
+ }
+
+ #imagen4{
+  width: 350px;
+  height: 300px;
+
+}
+
+#imagen5{
+  
+  width: 350px;
+  height: 300px;
+
+}
+
+#imagen6{
+  width: 350px;
+  height: 300px;
+
 }
 
 
@@ -578,8 +660,8 @@ margin-top: 44px;
    
     padding: 30px;
    
-    margin-top: 83px;
-    margin-right: 20px;
+    margin-top: 39px;
+    margin-right: 0px;
     background: rgba(15, 50, 72, 0.3);
     border-radius: 5px;
     float: right; }
@@ -705,71 +787,9 @@ margin-top: 44px;
 
      }
 
-     .contenido4{
-      font-size: 25px;
-    text-align: left;
-    font-weight: bold;
-    padding-top: 0px;
-     padding-left: 25px;
-      float: left;
-    width: 350px;
-    height: 800px;
-   margin-left: 30px;
-   margin-top: 75px;
-    margin-bottom: 100px;
-   
-    opacity: 0.9;
-     }
+    
 
-     .contenido5{
-      font-size: 25px;
-    text-align: left;
-    font-weight: bold;
-    padding-top: 0px;
-     padding-left: 25px;
-      float: left;
-    width: 350px;
-    height: 800px;
-    margin-top: 75px;
-    margin-left: 100px;
-    margin-bottom: 50px;
-   
-    opacity: 0.9;
-     }
-
-     .contenido6{
-      font-size: 25px;
-    text-align: left;
-    font-weight: bold;
-    padding-top: 0px;
-     padding-left: 25px;
-      float: left;
-    width: 350px;
-    height: 800px;
-    margin-top: 75px;
-    margin-bottom: 50px;
-    margin-left: 100px;
-    opacity: 0.9;
-     }
-
-    #imagen4{
-      width: 350px;
-      height: 300px;
-
-    }
-
-    #imagen5{
-      
-      width: 350px;
-      height: 300px;
-
-    }
-
-    #imagen6{
-      width: 350px;
-      height: 300px;
-
-    }
+    
 
     @media (max-width: 1120px) { 
       #cabecera{
@@ -972,6 +992,12 @@ margin-top: 44px;
             text-align: left;
            }
 
+          }
+
+          #contenedor7{
+
+            width: 90%;
+            margin: auto;
           }
 
 
