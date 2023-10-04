@@ -42,7 +42,29 @@
                 } 
                 } 
                 window.addEventListener("load", iniciar);
-                </script>
+            </script>
+
+            <script> 
+                var nombre1, nombre2; 
+                function iniciar() { 
+                nombre1 = document.getElementById("Nombre"); 
+                nombre2 = document.getElementById("Apellido"); 
+                nombre1.addEventListener("input", validacion); 
+                nombre2.addEventListener("input", validacion); 
+                validacion(); 
+                } 
+                function validacion() { 
+                if (nombre1.value == "" && nombre2.value == "") { 
+                nombre1.setCustomValidity("Inserte su nombre o su apellido"); 
+               
+                } else { 
+                nombre1.setCustomValidity(""); 
+                nombre1.style.background = "#FFFFFF";
+                nombre2.style.background = "#FFFFFF"; 
+                } 
+                } 
+                window.addEventListener("load", iniciar); 
+            </script> 
         
       </head>
      
@@ -71,7 +93,7 @@
 
        
 
-    
+ <div id="contenedor7" > 
     
     <!--FORMULARIO---->
 <form class="form1">
@@ -80,8 +102,8 @@
     <h1 class="titulo">Contacto</h1>
     
     <!--CAJAS-DE-ENTRADA-DE-DATOS------------------------------------------------>
-    <input class="cajas" type="text" placeholder="Nombre" required maxlength="30">
-    <input class="cajas" type="text" placeholder="Apellido" required maxlength="30">
+    <input class="cajas" type="text"  placeholder="Nombre" id="Nombre"  maxlength="30">
+    <input class="cajas" type="text"  placeholder="Apellido" id="Apellido"  maxlength="30">
     <input class="cajas" type="number" placeholder="Teleéfono" required maxlength="30">
     <input class="cajas" type="email" placeholder="Email" required maxlength="30">
     <input class="cajas" type="text"  placeholder="Escriba aquí su consulta" required maxlength="1000" >
@@ -111,6 +133,8 @@
 
 
 </div>
+
+</div> 
 
 <footer id="pie">
     
