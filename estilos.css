@@ -1206,26 +1206,22 @@ margin-top: 44px;
           
           #contenedor8{
             display: block;
-            flex-direction:row;
-            justify-content: space-between;
+           
             text-align:left;
            
             width: 100%;
             height:auto;
             margin: auto;
             margin-bottom: 50px;
-           
+            font-size: 17px;
            
           }
-          #contenedor8 > div{
-          width: 350px;
-          font-size: 17px;
-          
-          }
+         
           
           #contenido4{
            display: block;
            width: 100%;
+           margin: auto;
            
           
           
@@ -1240,6 +1236,7 @@ margin-top: 44px;
            #contenido5{
             display: block;
             width: 100%;
+            margin: auto;
            
           
           
@@ -1254,6 +1251,7 @@ margin-top: 44px;
            #contenido6{
             display: block;
            width: 100%;
+           margin: auto;
            
           
            }
@@ -1261,12 +1259,14 @@ margin-top: 44px;
            #imagen4{
             width:100%;
             height:auto;
+            margin: auto;
           
           }
           
           #imagen5{
             width:100%;
-            height:auto;  
+            height:auto; 
+            margin: auto; 
             
           
           }
@@ -1274,6 +1274,7 @@ margin-top: 44px;
           #imagen6{
             width:100%;
             height:auto;
+            margin: auto;
           
           }
 
