@@ -1196,6 +1196,87 @@ margin-top: 44px;
             text-align: left;
            }
 
+           #novedades{
+            margin-top: 50px;
+            margin-bottom: 10px;
+            font-size: 20px;
+            color: #225677 ;
+          }
+          
+          
+          #contenedor8{
+            display: block;
+            flex-direction:row;
+            justify-content: space-between;
+            text-align:left;
+           
+            width: 100%;
+            height:auto;
+            margin: auto;
+            margin-bottom: 50px;
+           
+           
+          }
+          #contenedor8 > div{
+          width: 350px;
+          font-size: 17px;
+          
+          }
+          
+          #contenido4{
+           display: block;
+           width: 100%;
+           
+          
+          
+          
+           }
+          
+           
+            
+          
+           
+          
+           #contenido5{
+            display: block;
+            width: 100%;
+           
+          
+          
+          
+          
+          
+          
+          
+          
+           }
+          
+           #contenido6{
+            display: block;
+           width: 100%;
+           
+          
+           }
+          
+           #imagen4{
+            width:100%;
+            height:auto;
+          
+          }
+          
+          #imagen5{
+            width:100%;
+            height:auto;  
+            
+          
+          }
+          
+          #imagen6{
+            width:100%;
+            height:auto;
+          
+          }
+
            
           
               
