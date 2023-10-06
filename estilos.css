@@ -104,7 +104,7 @@
     color: blue;
     font-weight: bold;
     position: relative;
-    background:  #225677;
+    background: darkcyan ;
     font-family: verdana, 'Lato', sans-serif;
     text-transform: uppercase;
   text-rendering: optimizeLegibility;
@@ -182,7 +182,7 @@ flex: 2;
   width: 90%;
   height:350px;
   margin: auto;
-  background: #1d4169   ;
+  background: darkcyan ;
   margin-top: 10px;
   margin-bottom: 50px;
   border-radius: 20px 0px 0px 20px;
@@ -713,8 +713,45 @@ margin-top: 44px;
       background: rgba(0,0,150,.2); 
      }
 
+     #caja1{
+      display: flex;
+      flex-direction:row;
+      justify-content:center;
+      width: 90%;
+      margin: auto;
+     }
+
+     #caja1 > div{
+      display: flex;
+     }
+
+     #caja2{
+      display: flex;
+      flex-direction:row;
+      justify-content:center;
+      width: 90%;
+      margin: auto;
+     }
+
+     #caja2 > div{
+      display: flex;
+     }
+
+     #caja3{
+      display: flex;
+      flex-direction:row;
+      justify-content:center;
+      width: 90%;
+      margin: auto;
+     }
+
+     #caja3 > div{
+      display: flex;
+     }
+
+
      .contenido1{
-      float: left;
+      
     width: 800px;
     height: 400px;
     font-size: 25px;
@@ -733,7 +770,7 @@ margin-top: 44px;
       font-weight: bold;
       padding-top: 50px;
       padding-left: 25px;
-      float: left;
+     
     width: 800px;
     height: 400px;
    
@@ -749,7 +786,7 @@ margin-top: 44px;
     font-weight: bold;
     padding-top: 275px;
      padding-left: 25px;
-      float: left;
+     
     width: 800px;
     height: 400px;
    
@@ -761,7 +798,7 @@ margin-top: 44px;
     
      
      .left1{
-      float: left;
+      
       width: 400px;
     height: 400px;
     margin-top: 75px;
@@ -775,7 +812,7 @@ margin-top: 44px;
      }
 
      .left{
-      float: left;
+      
       width: 400px;
     height: 400px;
     color: #225677;
@@ -1283,6 +1320,23 @@ margin-top: 44px;
             margin-top: 20px;
           
           }
+
+          #caja1{
+            display: block;
+            width: 100%;
+          }
+
+          #caja2{
+            display: block;
+            width: 100%;
+          }
+
+          #caja3{
+            display: block;
+            width: 100%;
+          }
+
+
 
            
           
