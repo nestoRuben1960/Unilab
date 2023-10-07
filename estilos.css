@@ -1363,9 +1363,9 @@ margin-top: 44px;
                  
                   text-align:left;
                  
-                  width: 90%;
+                  width: 100%;
                   height:auto;
-                 margin: auto;
+                
                   margin-bottom: 50px;
                   font-size: 17px;
                  
@@ -1376,7 +1376,7 @@ margin-top: 44px;
                 
                 #contenido4{
                  display: block;
-                 width: 90%;
+                 width: 100%;
                  margin: auto;
                 
                  margin-bottom: 30px;
@@ -1393,7 +1393,7 @@ margin-top: 44px;
                 
                  #contenido5{
                   display: block;
-                  width: 90%;
+                  width: 1000%;
                   margin: auto;
                  
                   margin-bottom: 30px;
@@ -1410,7 +1410,7 @@ margin-top: 44px;
                 
                  #contenido6{
                   display: block;
-                 width: 90%;
+                 width: 100%;
                  margin: auto;
                 
                  margin-bottom: 30px;
@@ -1419,7 +1419,7 @@ margin-top: 44px;
                  }
                 
                  #imagen4{
-                  width:auto;
+                  width:100%;
                   margin: auto;
                   height:auto;
                  
@@ -1428,7 +1428,7 @@ margin-top: 44px;
                 }
                 
                 #imagen5{
-                  width:auto;
+                  width:100%;
                   margin: auto;
                   height:auto; 
                  
@@ -1438,7 +1438,7 @@ margin-top: 44px;
                 }
                 
                 #imagen6{
-                  width:auto;
+                  width:100%;
                   margin: auto;
                   height:auto;
                  
@@ -1690,7 +1690,7 @@ margin-top: 44px;
            
             text-align:left;
            
-            width: 90%;
+            width: 100%;
             margin: auto;
             height:auto;
            
@@ -1703,7 +1703,7 @@ margin-top: 44px;
           
           #contenido4{
            display: block;
-           width: 90%;
+           width: 100%;
            margin: auto;
            
            margin-bottom: 30px;
@@ -1720,7 +1720,7 @@ margin-top: 44px;
           
            #contenido5{
             display: block;
-            width: 90%;
+            width: 100%;
 
             margin: auto;
            
@@ -1738,7 +1738,7 @@ margin-top: 44px;
           
            #contenido6{
             display: block;
-           width: 90%;
+           width: 100%;
            margin: auto;
           
            margin-bottom: 30px;
@@ -1747,7 +1747,7 @@ margin-top: 44px;
            }
           
            #imagen4{
-            width:90%;
+            width:100%;
             margin: auto;
             height:auto;
            
@@ -1756,7 +1756,7 @@ margin-top: 44px;
           }
           
           #imagen5{
-            width:90%;
+            width:100%;
             margin: auto;
             height:auto; 
            
@@ -1766,7 +1766,7 @@ margin-top: 44px;
           }
           
           #imagen6{
-            width:90%;
+            width:100%;
             margin: auto;
             height:auto;
             
