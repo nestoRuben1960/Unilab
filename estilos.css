@@ -1094,8 +1094,8 @@ margin-top: 44px;
           
           #contenido4{
            display: block;
-           width: 100%;
-           margin: auto;
+           width: 30%;
+          
            margin-bottom: 30px;
            
           
@@ -1110,8 +1110,7 @@ margin-top: 44px;
           
            #contenido5{
             display: block;
-            width: 100%;
-            margin: auto;
+            width: 30%; 
             margin-bottom: 30px;
            
           
@@ -1126,34 +1125,34 @@ margin-top: 44px;
           
            #contenido6{
             display: block;
-           width: 100%;
-           margin: auto;
+           width: 30%;
+          
            margin-bottom: 30px;
            
           
            }
           
            #imagen4{
-            width:100%;
+            width:30%;
             height:auto;
-            margin: auto;
+            
             margin-top: 20px;
           
           }
           
           #imagen5{
-            width:100%;
-            height:auto; 
-            margin: auto; 
+            width:30%;
+            height:auto;  
+            
             margin-top: 20px;
             
           
           }
           
           #imagen6{
-            width:100%;
+            width:30%;
             height:auto;
-            margin: auto;
+            
             margin-top: 20px;
           
           }
