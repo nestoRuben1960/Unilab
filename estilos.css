@@ -1364,12 +1364,13 @@ margin-top: 44px;
                  
                   text-align:left;
                  
-                  width: 100%;
+                  width: 80%;
                   height:auto;
-                 
+                 margin: auto;
                   margin-bottom: 50px;
                   font-size: 17px;
                   background: darkcyan;
+                 
                  
                 }
                
