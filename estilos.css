@@ -880,7 +880,7 @@ margin-top: 44px;
        
         background: darkblue;
        
-        width: 90%;
+        width: 100%;
         height: auto;
         padding-top: 10px;
         padding-bottom: 10px;
@@ -930,7 +930,7 @@ margin-top: 44px;
         font-family: verdana, 'Lato', sans-serif;
         text-transform: uppercase;
       text-rendering: optimizeLegibility;
-     width: 90%;
+     width: 100%;
      border-radius: 20px 20px 20px 20px;
      
       
@@ -994,7 +994,7 @@ margin-top: 44px;
 
            #imagen{
            display: block;
-           width: 90%;
+           width: 100%;
            height: auto;
           
             
@@ -1015,7 +1015,7 @@ margin-top: 44px;
               text-transform: uppercase;
             text-rendering: optimizeLegibility;
             background:  darkcyan ;
-           
+           width: 100%;
            
             padding-top:  5px;
             padding-bottom: 20px;
@@ -1053,7 +1053,7 @@ margin-top: 44px;
             display: block;
             margin-top: 50px;
             margin-bottom: 100px;
-            width: 50%;
+            width: 100%;
             margin: auto;
             
       
@@ -1117,7 +1117,7 @@ margin-top: 44px;
       }
        
        .seccionpie { 
-       width: 90%; 
+       width: 100%; 
        text-align: center; 
        } 
        #cabeceralogo > div { 
@@ -1251,7 +1251,7 @@ margin-top: 44px;
             display: block;
             margin-top: 50px;
             margin-bottom: 100px;
-            width: 90%;
+            width: 100%;
             margin: auto;
             background-color: #000000;
 
@@ -1299,7 +1299,7 @@ margin-top: 44px;
           
           #contenido4{
            display: block;
-           width: 90%;
+           width: 100%;
            margin: auto;
            margin-bottom: 30px;
            
