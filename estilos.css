@@ -1133,7 +1133,7 @@ margin-top: 44px;
            }
           
            #imagen4{
-            width:auto;
+            width:100%;
             height:auto;
             
             margin-top: 20px;
@@ -1141,7 +1141,7 @@ margin-top: 44px;
           }
           
           #imagen5{
-            width:auto;
+            width:100%;
             height:auto;  
             
             margin-top: 20px;
@@ -1150,7 +1150,7 @@ margin-top: 44px;
           }
           
           #imagen6{
-            width:auto;
+            width:100%;
             height:auto;
             
             margin-top: 20px;
