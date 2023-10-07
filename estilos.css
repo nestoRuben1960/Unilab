@@ -1093,7 +1093,8 @@ margin-top: 44px;
          
           
           #contenido4{
-           display: inline-block;
+           display: block;
+           float: left;
            width: 30%;
           
            margin-bottom: 30px;
@@ -1109,7 +1110,8 @@ margin-top: 44px;
            
           
            #contenido5{
-            display: inline-block;
+            display:block;
+            float: left;
             width: 30%; 
             margin-bottom: 30px;
            
@@ -1124,7 +1126,8 @@ margin-top: 44px;
            }
           
            #contenido6{
-            display: inline-block;
+            display:block;
+            float: left;
            width: 30%;
           
            margin-bottom: 30px;
