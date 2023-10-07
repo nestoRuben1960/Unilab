@@ -878,7 +878,7 @@ margin-top: 44px;
       #cabecera{
         display:block;
        
-        background: darkcyan;
+        background: darkblue;
        
         width: 100%;
         height: auto;
@@ -892,7 +892,7 @@ margin-top: 44px;
       display: block; 
      text-align: center;
      
-      width: 90%; 
+      width: 100%; 
       height: 100%; 
       padding: 0%; 
       } 
@@ -953,7 +953,7 @@ margin-top: 44px;
        }
 
        .slider .slide-track {
-   
+        width: 100%;
         animation: scroll 40s linear infinite;
         -webkit-animation: scroll 40s linear infinite;
        
