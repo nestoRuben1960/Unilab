@@ -1093,7 +1093,7 @@ margin-top: 44px;
          
           
           #contenido4{
-           display: block;
+           display: inline-block;
            width: 30%;
           
            margin-bottom: 30px;
@@ -1109,7 +1109,7 @@ margin-top: 44px;
            
           
            #contenido5{
-            display: block;
+            display: inline-block;
             width: 30%; 
             margin-bottom: 30px;
            
@@ -1124,7 +1124,7 @@ margin-top: 44px;
            }
           
            #contenido6{
-            display: block;
+            display: inline-block;
            width: 30%;
           
            margin-bottom: 30px;
