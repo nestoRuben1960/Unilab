@@ -1077,6 +1077,319 @@ margin-top: 44px;
 
           }
 
+          @media (max-width: 720px) {
+
+            #cabecera{
+              display:block;
+             
+              background: darkblue;
+             
+              width: 100%;
+              padding-top: 10px;
+              padding-bottom: 10px;
+              height: auto;
+             
+            }
+      
+        
+            #menu { 
+            display: none; 
+           text-align: center;
+            border-radius: 0px 0px 20px 20px;
+            width: 60%; 
+            height: 100%; 
+            padding: 0%; 
+            } 
+            
+            #menu li { 
+              display: block; 
+             
+              text-align: center;
+            }
+            #menuicono { 
+              display: block;
+            }
+             
+             .seccionpie { 
+             width: 100%; 
+             text-align: center; 
+             } 
+             #cabeceralogo > div { 
+             text-align: center; 
+             } 
+      
+             #titulo{
+              display: block;
+              height:auto;
+              text-align: center;
+              font-size: 30px;
+              color: blue;
+              font-weight: bold;
+              position: relative;
+              margin-top: 90px;
+              background: darkcyan;
+              font-family: verdana, 'Lato', sans-serif;
+              text-transform: uppercase;
+            text-rendering: optimizeLegibility;
+            width: 100%;
+            border-radius: 20px 20px 20px 20px;
+            padding-top:  10px;
+            padding-bottom: 20px;
+             }
+      
+             .slider {
+              width: 100%;
+              overflow: hidden;
+              display: block;
+              margin-bottom: 100px;
+         
+             
+              
+              position:relative;
+             
+             }
+      
+             .slider .slide-track {
+         
+              animation: scroll 40s linear infinite;
+              -webkit-animation: scroll 40s linear infinite;
+              width:100%;}
+             
+      
+              .slider .slide {
+                
+                  width: 100%;
+                 
+                
+                 
+                 
+              }
+              
+              .slider .slide img {
+               
+                  width: 100%;
+                  margin-left: 0px;
+                 }
+      
+                 #prepagas{
+                  display: block;
+                 }
+      
+                 #fondo{
+                  display:block;
+                  
+                  width: 100%;
+                  height:auto;
+                 background: white;
+                 
+                  margin-top: 100px;
+                  margin-bottom: 100px;
+                 
+                 }
+      
+                 #imagen{
+                 display: block;
+                 width:100%;
+                 height:auto; 
+                   
+                 }
+      
+                 #titulo3{
+                 display: block;
+                  height:auto;
+                    text-align: center;
+                    font-size: 35px;
+                    color:blue ;
+                    font-weight: bold;
+                    position: relative;
+                    margin-top: 100px;
+                   font-family:Arial, Helvetica, sans-serif Times, serif verdana, 'Lato', sans-serif;
+                    text-transform: uppercase;
+                  text-rendering: optimizeLegibility;
+                  background: darkcyan;
+                  border-radius: 20px 20px 20px 20px;
+                  
+                 
+                  padding-top:  5px;
+                 
+                
+                
+                
+                 
+                 
+                  letter-spacing: .15em;
+                  text-shadow: 
+                    -1px -1px 1px  darkblue, 
+                    0px 1px 0 darkblue, 
+                    0px 2px 0 darkblue,  
+                    0px 3px 0 darkblue , 
+                    0px 4px 0 darkblue , 
+                    0px 5px 0 darkblue , 
+                    0px 6px 0 darkblue, 
+                    0px 7px 0 darkblue, 
+                    0px 8px 0  darkblue, 
+                    0px 9px 0 darkblue, 
+                    0px 10px 0 darkblue, 
+                    0px 11px 0 darkblue, 
+                    0px 12px 0 darkblue,  
+                    0px 13px 0  darkblue, 
+                    0px 14px 0 darkblue, 
+                    0px 15px 0 darkblue, 
+                    2px 20px 5px white,
+                    5px 23px 5px white,
+                    8px 27px 8px white,
+                    8px 28px 35px white;
+                }
+      
+                #etiquetas{
+                  display: block;
+                  margin-top: 50px;
+                  margin-bottom: 100px;
+                  width: 100%;
+                  margin: auto;
+                  background-color: #000000;
+      
+                  
+            
+                 }
+      
+                 #pie { 
+                  display: block;
+                  margin-top: 100px;
+                  color: white;
+                 
+                  background: #225677 ; 
+                  
+                  padding: 20px; 
+                  width: 100%;
+                  clear: both; 
+                 }
+              
+                 #pie h3{
+                  text-align: left;
+                 }
+      
+                 #novedades{
+                  margin-top: 50px;
+                  margin-bottom: 10px;
+                  font-size: 20px;
+                  color: #225677 ;
+                }
+                
+                
+                #contenedor8{
+                  display: block;
+                 
+                  text-align:left;
+                 
+                  width: 90%;
+                  height:auto;
+                  margin: auto;
+                  margin-bottom: 50px;
+                  font-size: 17px;
+                 
+                }
+               
+                
+                #contenido4{
+                 display: block;
+                 width: 100%;
+                 margin: auto;
+                 margin-bottom: 30px;
+                 
+                
+                
+                
+                 }
+                
+                 
+                  
+                
+                 
+                
+                 #contenido5{
+                  display: block;
+                  width: 100%;
+                  margin: auto;
+                  margin-bottom: 30px;
+                 
+                
+                
+                
+                
+                
+                
+                
+                
+                 }
+                
+                 #contenido6{
+                  display: block;
+                 width: 100%;
+                 margin: auto;
+                 margin-bottom: 30px;
+                 
+                
+                 }
+                
+                 #imagen4{
+                  width:100%;
+                  height:auto;
+                  margin: auto;
+                  margin-top: 20px;
+                
+                }
+                
+                #imagen5{
+                  width:100%;
+                  height:auto; 
+                  margin: auto; 
+                  margin-top: 20px;
+                  
+                
+                }
+                
+                #imagen6{
+                  width:100%;
+                  height:auto;
+                  margin: auto;
+                  margin-top: 20px;
+                
+                }
+      
+                #caja1{
+                  display: block;
+                  width: 100%;
+                }
+      
+                #caja2{
+                  display: block;
+                  width: 100%;
+                }
+      
+                #caja3{
+                  display: block;
+                  width: 100%;
+                }
+      
+                #contenedor7{
+                  display: block;
+                  width: 100%;
+                }
+      
+                #formulario{
+                  display: block;
+                  width: 100%;
+                }
+      
+                #contacto{
+                  display: block;
+                  width: 100%;
+                }
+      
+              }
+
+
           
 
 
@@ -1393,6 +1706,8 @@ margin-top: 44px;
             width: 100%;
           }
 
+        }
+
 
 
            
@@ -1401,12 +1716,4 @@ margin-top: 44px;
 
 
 
-           
-    
-
-    
-
-
- 
- 
-          }
+          
