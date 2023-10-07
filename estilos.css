@@ -1077,6 +1077,87 @@ margin-top: 44px;
 
           }
 
+          #contenedor8{
+            display: block;
+           
+            text-align:left;
+           
+            width: 100%;
+            height:auto;
+            
+            
+            margin-bottom: 50px;
+            font-size: 17px;
+           
+          }
+         
+          
+          #contenido4{
+           display: block;
+           width: 100%;
+           margin: auto;
+           margin-bottom: 30px;
+           
+          
+          
+          
+           }
+          
+           
+            
+          
+           
+          
+           #contenido5{
+            display: block;
+            width: 100%;
+            margin: auto;
+            margin-bottom: 30px;
+           
+          
+          
+          
+          
+          
+          
+          
+          
+           }
+          
+           #contenido6{
+            display: block;
+           width: 100%;
+           margin: auto;
+           margin-bottom: 30px;
+           
+          
+           }
+          
+           #imagen4{
+            width:100%;
+            height:auto;
+            margin: auto;
+            margin-top: 20px;
+          
+          }
+          
+          #imagen5{
+            width:100%;
+            height:auto; 
+            margin: auto; 
+            margin-top: 20px;
+            
+          
+          }
+          
+          #imagen6{
+            width:100%;
+            height:auto;
+            margin: auto;
+            margin-top: 20px;
+          
+          }
+
           @media (max-width: 720px) {
 
             #cabecera{
