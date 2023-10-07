@@ -719,6 +719,8 @@ margin-top: 44px;
       justify-content:center;
       width: 90%;
       margin: auto;
+      
+
      }
 
      #caja1 > div{
@@ -751,9 +753,9 @@ margin-top: 44px;
 
 
      .contenido1{
-      
-    width: 800px;
-    height: 400px;
+      flex: 3;
+     height: 400px; 
+   
     font-size: 25px;
     text-align: left;
     margin-top: 75px;
@@ -765,14 +767,14 @@ margin-top: 44px;
      }
 
      .contenido2{
+      flex: 3;
       font-size: 25px;
       text-align: left;
       font-weight: bold;
       padding-top: 50px;
       padding-left: 25px;
-     
-    width: 800px;
-    height: 400px;
+     height: 400px;
+   
    
    
     margin-bottom: 50px;
@@ -781,13 +783,14 @@ margin-top: 44px;
      }
 
      .contenido3{
+      flex: 3;
       font-size: 25px;
     text-align: left;
     font-weight: bold;
     padding-top: 275px;
      padding-left: 25px;
      
-    width: 800px;
+   
     height: 400px;
    
     margin-bottom: 50px;
@@ -798,9 +801,11 @@ margin-top: 44px;
     
      
      .left1{
-      
-      width: 400px;
-    height: 400px;
+      flex: 1;
+      width: 200px;
+      height: 400PX;
+      flex-wrap: wrap;  
+     
     margin-top: 75px;
     font-size: 20px;
    padding-top: 100px;
@@ -812,9 +817,11 @@ margin-top: 44px;
      }
 
      .left{
-      
-      width: 400px;
-    height: 400px;
+      flex: 1;
+      width: 200px;
+      height: 400px;
+      flex-wrap: wrap; 
+     
     color: #225677;
     font-style: italic;
     font-size: 20px;
@@ -822,6 +829,45 @@ margin-top: 44px;
     margin-bottom: 50px;
     margin-left: 75px;
 
+     }
+
+     #contenedor7{
+      display: flex;
+      flex-direction:row;
+      justify-content:space-around;
+
+      width: 90%;
+      margin: auto;
+     
+
+     }
+
+     #contenedor7 > div{
+      display: flex;
+     }
+
+     #formulario{
+     
+      order: 2;
+      width: 30%;
+     
+      
+     }
+
+     #contacto{
+      margin-top: 35px;
+      order: 1;
+      flex-wrap: wrap;  
+      width: 60%;
+      
+      
+     }
+
+     #linea{
+      margin-top: 90px;
+      width:90% ;
+      margin: auto;
+      text-align:left;
      }
 
     
@@ -1031,11 +1077,7 @@ margin-top: 44px;
 
           }
 
-          #contenedor7{
-
-            width: 90%;
-            margin: auto;
-          }
+          
 
 
 
