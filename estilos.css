@@ -1354,27 +1354,27 @@ margin-top: 44px;
                 
                 
                 #contenedor8{
-                  display: block;
-                 
+                  display: flex;
+                  flex-direction:column;
+                  justify-content: space-between;
                   text-align:left;
                  
                   width: 100%;
                   height:auto;
-                
+                  
                   margin-bottom: 50px;
-                  font-size: 17px;
-                 
                  
                  
                 }
-               
+                #contenedor8 > div{
+                width: 100%;
+                font-size: 17px;
+                
+                }
                 
                 #contenido4{
-                 display: block;
-                 width: 100%;
-                 margin: auto;
-                
-                 margin-bottom: 30px;
+                  flex: 1;
+                  order: 2;
                  
                 
                 
@@ -1387,11 +1387,8 @@ margin-top: 44px;
                  
                 
                  #contenido5{
-                  display: block;
-                  width: 1000%;
-                  margin: auto;
-                 
-                  margin-bottom: 30px;
+                  flex: 1;
+                  order: 1;
                  
                 
                 
@@ -1404,42 +1401,31 @@ margin-top: 44px;
                  }
                 
                  #contenido6{
-                  display: block;
-                 width: 100%;
-                 margin: auto;
-                
-                 margin-bottom: 30px;
+                  flex: 1;
+                  order: 3;
                  
                 
                  }
                 
                  #imagen4{
-                  width:100%;
-                  margin: auto;
-                  height:auto;
-                 
-                  margin-top: 20px;
+                  width: 100%;
+                  height: auto;
                 
                 }
                 
                 #imagen5{
-                  width:100%;
-                  margin: auto;
-                  height:auto; 
-                 
-                  margin-top: 20px;
                   
+                  width: 100%;
+                  height: auto;
                 
                 }
                 
                 #imagen6{
-                  width:100%;
-                  margin: auto;
-                  height:auto;
-                 
-                  margin-top: 20px;
+                  width: 100%;
+                  height: auto;
                 
                 }
+        
       
                 #caja1{
                   display: block;
