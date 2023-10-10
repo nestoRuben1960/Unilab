@@ -25,6 +25,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Sliding Diagonals Background Effect</title>
         <link rel="stylesheet" media="all" href="style.css" />
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="icon" type="image/png" href="55b9e2a6-aa13-4636-8b20-83b9dbd0559e.png   ">
         <script>
             var visible = false; 
                 function iniciar() { 
@@ -43,6 +45,18 @@
                 } 
                 window.addEventListener("load", iniciar);
                 </script>
+
+                <script>
+                function verificar() {
+                let clave1 = document.getElementById("clave1").value;
+                let clave2 = document.getElementById("clave2").value;
+                if (clave1 == clave2) {
+                    document.form.submit();
+                } else {
+                alert('Las dos claves ingresadas son distintas');
+                }
+                }
+            </script>
     </head>
         
      
@@ -50,6 +64,9 @@
 
        
         <header id="cabecera">
+            <div class="logos"><a href="index.html">
+                <img src= " 55b9e2a6-aa13-4636-8b20-83b9dbd0559e.png " alt="imagen del logo de la empresa">
+            </a></div>
             <h1 id="titulo1">Laboratorio</h1> <h1 id="titulo1">Unilab S.R.L.</h1>
         </header>
 
@@ -92,43 +109,42 @@
     <input class="cajas" type="datetime" placeholder="Fecha de Nacimiento (dd/mm/aaaa)" required maxlength="30">
     <input class="cajas" type="email" placeholder="Email" required maxlength="30">
     <input class="cajas" type="number" placeholder="Teleéfono" required maxlength="30">
-    <input class="cajas" type="text" placeholder="Elija un nombre de Usuario" required maxlength="30">
-    <input class="cajas" type="password" placeholder="Elija una contraseña" required maxlength="30">
-    
+    <input class="cajas" type="text" placeholder="Elija un nombre de Usuario" required  maxlength="30">
+    <input class="cajas" type="password" placeholder="Elija una contraseña" id="clave1" required maxlength="30">
+    <input class="cajas" type="password" placeholder="Repita la contraseña" id="clave2" required maxlength="30">
+
     <!--TERMINOS-Y-CONDICIONES---------------------------------------------------------------------------------->
     <p class="termino1"><input type="checkbox">  Estoy de acuerdo con <a class="termino2" href="">Terminos y Condiciones</a></p>
     
     <!--BOTON-DE-REGISTRARSE-------------------------->
-    <input type="submit" class="btn" value="REGISTRAR">
+    <input type="submit" class="btn" value="REGISTRAR"   onClick="verificar()" >
+   
     
     <!--YA-TENGO-CUENTA----------------------------------------------------------->
     <p class="tengo-cuenta"><a href="" class="tengo-cuenta">Ya tengo cuenta</a></p>
     
 </form>
 <footer id="pie">
-    
-       
-    <h2> <center>Laboratorio</center></h2>
-    <h2> <center>Unilab S.R.L.</center></h2>
-    <h3>Dreccion: Bulnes 1812 Ciudad autonoma de Bs As</h3>
-    <h3>T.e.:4555-5693</h3>
-    <h3>Email: laboratorio@unilab.com</h3>
-    <h3>Horario de Extracción: </h3>
-    <h3>Lunes a Viernes de 8 a 12 hs</h3>
-    <h3>Horario de Administración: </h3>
-    <h3>Lunes a Viernes de 8 a 18 hs</h3>
-    <hr>
-    <h3><center>2023 Unilab-Todos los derechos reservados<center></h3>
+            
+    <div id="pie1">
+        <h2> <center>Laboratorio</center></h2>
+        <h2> <center>Unilab S.R.L.</center></h2>
+    </div>
 
-     
-     
-    
-    
-    
-    
-     
-     
- </footer>
+    <div id="pie2">
+        <h3><i class='bx bx-building-house' style='color:aqua'></i>Dreccion: Bulnes 1812 Ciudad autonoma de Bs As</h3>
+        <h3><i class='bx bxs-phone bx-xs' style='color:aqua'></i>T.e.:4555-5693</h3>
+        <h3><i class='bx bx-envelope bx-xs' style='color:aqua'></i>Email: laboratorio@unilab.com</h3>
+        <h3><i class='bx bxs-injection' style='color:aqua'></i>Horario de Extracción: </h3>
+        <h3>Lunes a Viernes de 8 a 12 hs</h3>
+        <h3><i class='bx bxs-door-open' style='color:aqua' ></i>Horario de Administración: </h3>
+        <h3>Lunes a Viernes de 8 a 18 hs</h3>
+    </div>
+        <div id="pie3"><hr>
+        <h3><center>2023 Unilab-Todos los derechos reservados<center></h3>
+    </div>
+</footer>      
+
 
 </body>
 </html>
