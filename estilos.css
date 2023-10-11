@@ -1797,50 +1797,7 @@ margin-top: 44px;
           
           }
 
-          #caja1{
-            display: flex;
-            flex-direction:column;
-            justify-content:center ;
-            width: 100%;
-            height: 400px;
-            margin-top: 10px;
-            background: aqua;
-          }
-
-           
-             
-
-          }
-
-          #left1{
-            flex:1;
-            width: 50%;
-            margin: auto;
-            height: 200px;
-            padding-left: 10px;
-            background: blue;
-            margin-top: 10px;
-            margin-bottom: 10px;
-           
-
-          }
-
-          #contenido1{
-            flex:1;
-            width: 100%;
-            font-size: 10px;
-            background: yellow
-          }
-
-          #caja2{
-            display: block;
-            width: 100%;
-          }
-
-          #caja3{
-            display: block;
-            width: 100%;
-          }
+         
 
           #contenedor7{
             display: block;
@@ -1856,6 +1813,124 @@ margin-top: 44px;
             display: block;
             width: 100%;
           }
+
+          #caja1{
+            display: flex;
+            flex-direction:column;
+            justify-content:center;
+            width: 100%;
+            margin: auto;
+            
+      
+           }
+      
+           #caja1 > div{
+            display: flex;
+           }
+      
+           #caja2{
+            display: flex;
+            flex-direction:row;
+            justify-content:center;
+            width: 90%;
+            margin: auto;
+           }
+      
+           #caja2 > div{
+            display: flex;
+           }
+      
+           #caja3{
+            display: flex;
+            flex-direction:row;
+            justify-content:center;
+            width: 90%;
+            margin: auto;
+           }
+      
+           #caja3 > div{
+            display: flex;
+           }
+      
+      
+           .contenido1{
+            flex: 2;
+           height: 400px; 
+         
+          font-size: 25px;
+          text-align: left;
+          margin-top: 75px;
+         padding-top: 25px;
+         padding-left: 25px;
+          margin-bottom: 50px;
+          background-image:url( "laboratorio-medico-salud-brillante-interior-tubos-ensayo-instrumentos_530697-56855.avif");
+          opacity: 0.9;
+           }
+      
+           .contenido2{
+            flex: 3;
+            font-size: 25px;
+            text-align: left;
+            font-weight: bold;
+            padding-top: 50px;
+            padding-left: 25px;
+           height: 400px;
+         
+         
+         
+          margin-bottom: 50px;
+          background-image:url("cerrar-cientifico-que-trabaja-microscopio_23-2148882093.avif");
+          opacity: 0.9;
+           }
+      
+           .contenido3{
+            flex: 3;
+            font-size: 25px;
+          text-align: left;
+          font-weight: bold;
+          padding-top: 275px;
+           padding-left: 25px;
+           
+         
+          height: 400px;
+         
+          margin-bottom: 50px;
+          background-image:url("mano-guantes-protectores-haciendo-prueba-covid_23-2148958400.avif");
+          opacity: 0.9;
+           }
+         
+          
+           
+           .left1{
+            flex: 1;
+            width: 50px;
+            height: 200PX;
+            flex-wrap: wrap;  
+           
+          margin-top: 10px;
+          font-size: 20px;
+         padding-top: 10px;
+          margin-bottom: 10px;
+          margin-left: 15px;
+          color: #225677;
+          font-style: italic;
+      
+           }
+      
+           .left{
+            flex: 1;
+            width: 200px;
+            height: 400px;
+            flex-wrap: wrap; 
+           
+          color: #225677;
+          font-style: italic;
+          font-size: 20px;
+         padding-top: 100px;
+          margin-bottom: 50px;
+          margin-left: 75px;
+      
+           }
 
         }
 
