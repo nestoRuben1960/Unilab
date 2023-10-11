@@ -1807,10 +1807,7 @@ margin-top: 44px;
             background: aqua;
           }
 
-            #caja1 > div{
-              
-              display: flex;
-              background:red ;
+           
              
 
           }
@@ -1819,7 +1816,7 @@ margin-top: 44px;
             flex:1;
             width: 50%;
             margin: auto;
-            height: auto;
+            height: 200px;
             padding-left: 10px;
             background: blue;
             margin-top: 10px;
