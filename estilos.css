@@ -1468,14 +1468,15 @@ margin-top: 44px;
       
                   #caja1 > div{
                     display: flex;
-                    width: 100%;
+                   
                    
       
                 }
       
                 #left1{
                   flex:1;
-                  width: 100%;
+                  width: 50%;
+                  margin: auto;
                   height: 100px;
                   padding-left: 25px;
                  
@@ -1505,7 +1506,8 @@ margin-top: 44px;
       
                 #left{
                   flex:1;
-                  width: 100%;
+                  width: 50%;
+                  margin: auto;
                   height: 100px;
                   padding-left: 25px;
                  
@@ -1535,7 +1537,8 @@ margin-top: 44px;
       
                 #left{
                   flex:1;
-                  width: 100%;
+                  width: 50%;
+                  margin: auto;
                   height: 100px;
                   padding-left: 25px;
                  
@@ -1882,7 +1885,8 @@ margin-top: 44px;
 
           #left1{
             flex:1;
-            width: 100%;
+            width: 50%;
+            margin: auto;
             height: 100px;
             padding-left: 25px;
            
@@ -1905,14 +1909,15 @@ margin-top: 44px;
 
             #caja2 > div{
               display: flex;
-              width: 100%;
+             
              
 
           }
 
           #left{
             flex:1;
-            width: 100%;
+            width: 50%;
+            margin: auto;
             height: 100px;
             padding-left: 25px;
            
@@ -1942,7 +1947,8 @@ margin-top: 44px;
 
           #left{
             flex:1;
-            width: 100%;
+            width: 50%;
+            margin: auto;
             height: 100px;
             padding-left: 25px;
            
