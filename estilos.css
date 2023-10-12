@@ -770,7 +770,7 @@ margin-top: 44px;
      .contenido1{
       flex: 3;
      height: 400px; 
-   
+   font-weight: bold;
     font-size: 25px;
     text-align: left;
     margin-top: 75px;
