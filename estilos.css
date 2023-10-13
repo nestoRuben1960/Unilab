@@ -1380,6 +1380,8 @@ margin-top: 44px;
                 #contenedor8 > div{
                 width: 100%;
                 font-size: 17px;
+                padding-left: 20px;
+           
                 
                 }
                 
@@ -1773,7 +1775,7 @@ margin-top: 44px;
           #contenido4{
            display: block;
            width: 100%;
-           margin: auto;
+          padding-left: 20px;
            
            margin-bottom: 30px;
            
@@ -1790,8 +1792,9 @@ margin-top: 44px;
            #contenido5{
             display: block;
             width: 100%;
-
-            margin: auto;
+            padding-left: 20px;
+           
+           
            
             margin-bottom: 30px;
            
@@ -1808,7 +1811,8 @@ margin-top: 44px;
            #contenido6{
             display: block;
            width: 100%;
-           margin: auto;
+           padding-left: 20px;
+           
           
            margin-bottom: 30px;
            
