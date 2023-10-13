@@ -488,7 +488,7 @@ body{
  
 }
 #contenedor8 > div{
-width: 300px;
+width: auto;
 font-size: 17px;
 
 }
@@ -529,20 +529,20 @@ font-size: 17px;
  }
 
  #imagen4{
-  width: 300px;
+  width: 200px;
   height: 300px;
 
 }
 
 #imagen5{
   
-  width: 300px;
+  width: 200px;
   height: 300px;
 
 }
 
 #imagen6{
-  width: 300px;
+  width: 200px;
   height: 300px;
 
 }
@@ -1527,6 +1527,14 @@ margin-top: 44px;
                   font-size: 10px;
                   padding-top: 25px;
                 }
+
+                #video1{
+                  width: 100%;
+                }
+
+                #video2{
+                  width: 100%;
+                }
       
                
       
@@ -1922,6 +1930,14 @@ margin-top: 44px;
             width: 100%;
             font-size: 10px;
             padding-top: 25px;
+          }
+
+          #video1{
+            width: 100%;
+          }
+
+          #video2{
+            width: 100%;
           }
         }
 
