@@ -13,6 +13,24 @@
        
       }
 
+      #cabecera1{
+        display: flex;
+        flex-direction:column;
+        justify-content:center;
+        background: darkblue;
+       
+        width: 100%;
+        
+       
+        height: 145px;
+        padding-bottom: 10px;
+       
+      }
+
+
+
+
+
       .logos {
         flex:1
        
@@ -147,10 +165,11 @@
       0px 13px 0 darkblue, 
       0px 14px 0 darkblue, 
       0px 15px 0 darkblue,
-      2px 20px 5px white,
-      5px 23px 5px white,
-      8px 27px 8px white,
-      8px 28px 35px white;
+      2px 20px 5px darkcyan,
+      5px 23px 5px darkcyan,
+      8px 27px 8px darkcyan,
+      8px 28px 35px darkcyan;
+     
  }
 
  .slider {
@@ -212,7 +231,7 @@ flex: 2;
      width: 130px;
      height: 130px;
      border-radius: 20px 20px 20px 20px;
-    font-size: 20px;
+    font-size: 15px;
      align-content: center;
      margin-left: 20px;
      margin-top: 30px;
@@ -283,7 +302,8 @@ flex: 2;
      
       letter-spacing: .15em;
       text-shadow: 
-        -1px -1px 1px  darkblue, 
+      -1px -1px 1px #efede3, 
+        
         0px 1px 0 darkblue, 
         0px 2px 0 darkblue,  
         0px 3px 0 darkblue , 
@@ -299,10 +319,10 @@ flex: 2;
         0px 13px 0  darkblue, 
         0px 14px 0 darkblue, 
         0px 15px 0 darkblue, 
-        2px 20px 5px white,
-        5px 23px 5px white,
-        8px 27px 8px white,
-        8px 28px 35px white;
+        2px 20px 5px darkcyan,
+        5px 23px 5px darkcyan,
+        8px 27px 8px darkcyan,
+        8px 28px 35px darkcyan;
     }
     
 
@@ -351,7 +371,46 @@ flex: 2;
    }
 
 
-  
+  #pie1 { 
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+
+    
+    color: white;
+   
+    background:  #1d4169    ; 
+    
+    padding: 20px; 
+    width: 100%;
+   
+    margin-top:20px;
+   
+    clear: both; 
+   }
+
+   #pie3 h3{
+    text-align: left;
+   }
+
+   #pie3 { 
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+
+    
+    color: white;
+   
+    background:  #1d4169    ; 
+    
+    padding: 20px; 
+    width: 100%;
+    
+    margin-top:20px;
+   
+    clear: both; 
+   }
+
    
 
    
@@ -408,7 +467,7 @@ body{
 .content-carrousel{
   width: 100%;
   position: absolute;
-  animation: rotar 10s infinite linear;
+  animation: rotar 40s infinite linear;
   transform-style: preserve-3d;
 }
 
@@ -471,6 +530,7 @@ body{
   margin-bottom: 10px;
   font-size: 20px;
   color: #225677 ;
+  text-align: left;
 }
 
 
@@ -478,94 +538,84 @@ body{
   display: flex;
   flex-direction:row;
   justify-content: space-between;
+  
   text-align:left;
  
   width: 90%;
-  height:auto;
+  
   margin: auto;
   margin-bottom: 50px;
  
  
 }
 #contenedor8 > div{
-width: auto;
-font-size: 17px;
-
-}
-
-#contenido4{
+  width: 25%;
+ 
+ 
+  font-size: 17px;
+  }
+  
+.contenido4{
   flex: 1;
   order: 2;
  
+  margin-top: 30px;
+}
 
+.contenido4 h3{
 
+  font-weight:normal;
+  margin-top: 30px;
 
- }
+}
 
  
   
 
  
 
- #contenido5{
+ .contenido5{
   flex: 1;
   order: 1;
- 
-
-
-
-
-
-
-
-
+  margin-top: 30px;
  }
 
- #contenido6{
+ .contenido5 h3{
+
+  font-weight:normal;
+  margin-top: 30px;
+}
+
+
+.contenido6{
   flex: 1;
   order: 3;
- 
-
+  margin-top: 30px;
  }
 
- #imagen4{
-  width: 200px;
-  height: 300px;
+ .contenido6 h3{
 
+  font-weight:normal;
+  margin-top: 30px;
+}
+
+#imagen4{
+  width: 100%;
+  height: 300px;
 }
 
 #imagen5{
-  
-  width: 200px;
+  width: 100%;
   height: 300px;
-
 }
 
 #imagen6{
-  width: 200px;
+  width: 100%;
   height: 300px;
-
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
+ 
 /*--ACOMODANDO-MARGENES-PADDING--*/
 *{
   margin: 0;
@@ -607,6 +657,10 @@ body{
   border: none;
   border-left: 10px solid #d9e4ea;
   transition: all .5s ease;
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+
 }
 .cajas:hover, .cajas:focus{
   border-left: 10px solid #1a4c7e;
@@ -619,7 +673,7 @@ body{
 .termino2{
   color: #000000;
   text-decoration: none;
-  font-weight: bold;
+ 
 }
 .termino2:hover{
   color: #dbdbdb;
@@ -638,7 +692,7 @@ body{
   transition: all .5s ease;
 }
 .btn:hover{
-  background: #133043;
+  background:#133043; 
 }
 /*--YA-TENGO-CUENTA--------------*/
 .tengo-cuenta{
@@ -651,20 +705,40 @@ body{
   color: #dbdbdb;
 }
 
-#contacto h1{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+#linea {
 color: #225677;
 font-style: italic;
 font-size: 35px;
 font-weight: bold;
 margin-left: 20px;
-margin-top: 44px;
+margin-top: 50px;
 
 }
 
 #contacto h2{
-  color: #225677;
+  color: black;
   font-style: italic;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   margin-left: 20px;
   
@@ -766,20 +840,41 @@ margin-top: 44px;
       display: flex;
      }
 
+     
 
-     .contenido1{
-      flex: 3;
-     height: 400px; 
-   font-weight: bold;
-    font-size: 25px;
-    text-align: left;
-    margin-top: 75px;
-   padding-top: 25px;
-   padding-left: 25px;
-    margin-bottom: 50px;
-    background-image:url( "laboratorio-medico-salud-brillante-interior-tubos-ensayo-instrumentos_530697-56855.avif");
-    opacity: 0.9;
-     }
+
+    
+
+      .contenido1{
+        flex: 3;
+        font-size: 25px;
+        text-align: left;
+        font-weight: bold;
+        padding-top: 50px;
+        padding-left: 25px;
+        height: 400px;
+        margin-bottom: 50px;
+        }
+  
+        .contenido1 p {
+          font-size: 25px;
+          color: black;
+          position: relative
+        }
+  
+        #imagen9{
+      
+     
+          position: absolute;
+          width: 850px;
+          height: 400px;
+          margin-left: 350px;
+          opacity: 0.5;
+         }
+     
+     
+
+    
 
      .contenido2{
       flex: 3;
@@ -788,14 +883,34 @@ margin-top: 44px;
       font-weight: bold;
       padding-top: 50px;
       padding-left: 25px;
-     height: 400px;
-   
-   
-   
-    margin-bottom: 50px;
-    background-image:url("cerrar-cientifico-que-trabaja-microscopio_23-2148882093.avif");
-    opacity: 0.9;
+      height: 400px;
+      margin-bottom: 50px;
+      }
+
+      .contenido2 p {
+        font-size: 25px;
+        color: black;
+        position: relative
+      }
+
+     #imagen7{
+      
+     
+      position: absolute;
+      width: 850px;
+      height: 400px;
+      margin-left: 350px;
+      opacity: 0.5;
      }
+
+    
+
+     
+     
+   
+
+
+
 
      .contenido3{
       flex: 3;
@@ -809,9 +924,27 @@ margin-top: 44px;
     height: 400px;
    
     margin-bottom: 50px;
-    background-image:url("mano-guantes-protectores-haciendo-prueba-covid_23-2148958400.avif");
-    opacity: 0.9;
+    background-image:url("");
+   
      }
+
+     .contenido3 p {
+      font-size: 25px;
+      color: black;
+      position: relative
+    }
+
+
+      #imagen8{
+       
+        position: absolute;
+        width: 850px;
+        height: 400px;
+        margin-left: 350px;
+        opacity: 0.5;
+       }
+
+     
    
     
      
@@ -869,6 +1002,11 @@ margin-top: 44px;
       width:90% ;
       margin: auto;
       text-align:left;
+     }
+
+     #cajon{
+      width: 90%;
+      margin: auto;
      }
     
 
@@ -1103,7 +1241,7 @@ margin-top: 44px;
         width: 30%;
         font-size: 17px;
         margin-left: 20px;
-        margin-left: 20px;
+       
         
         }
         
