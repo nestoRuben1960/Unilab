@@ -2014,20 +2014,9 @@ margin-top: 50px;
 
             #caja1 > div{
               display: flex;
-             
-             
-             
-
           }
 
-         
-
-         
-
-         
-      
-          
-           .contenido1{
+          .contenido1{
             flex: 2;
             width: 100%;
             font-size: 10px;
@@ -2053,75 +2042,137 @@ margin-top: 50px;
               margin-left: 0px;
              }
 
-
-
-
-          #caja2{
-            display: flex;
-            flex-direction:column;
-            justify-content:center ;
-            width: 100%;
-          }
-
-            #caja2 > div{
+             #caja2{
               display: flex;
-             
-             
-             
+              flex-direction:column;
+              justify-content:center ;
+              width: 100%;
+            }
+  
+              #caja2 > div{
+                display: flex;
+            }
+  
+            .contenido2{
+              flex: 2;
+              width: 100%;
+              font-size: 10px;
+              text-align: left;
+              font-weight: bold;
+              padding-top: 10px;
+              padding-left: 25px;
+              height:auto;
+              margin-bottom: 50px;
+              }
+        
+              .contenido2 p {
+                font-size: 25px;
+                color: black;
+                position: relative
+              }
+        
+              #imagen7{
+                position: absolute;
+                width: 100%;
+                height:auto;
+                opacity: 0.5;
+                margin-left: 0px;
+               }
 
-          }
+               #caja3{
+                display: flex;
+                flex-direction:column;
+                justify-content:center ;
+                width: 100%;
+              }
+    
+                #caja13> div{
+                  display: flex;
+              }
+    
+              .contenido3{
+                flex: 2;
+                width: 100%;
+                font-size: 10px;
+                text-align: left;
+                font-weight: bold;
+                padding-top: 10px;
+                padding-left: 25px;
+                height:auto;
+                margin-bottom: 50px;
+                }
+          
+                .contenido3 p {
+                  font-size: 25px;
+                  color: black;
+                  position: relative
+                }
+          
+                #imagen8{
+                  position: absolute;
+                  width: 100%;
+                  height:auto;
+                  opacity: 0.5;
+                  margin-left: 0px;
+                 }
+
+                 #left{
+                  flex:1;
+                  width: 50%;
+                  margin: auto;
+                  height: 100px;
+                  padding-left: 25px;
+                }
+
+                #video1{
+                  width: 400PX;
+                height: 300px;
+                }
+      
+                #video2{
+                  width: 400px;
+                  height: 300px;
+                }
+              }
+      
+  
 
          
 
-          #contenido2{
-            flex:2;
-            width: 100%;
-            font-size: 10px;
-          }
+         
 
-          #caja3{
-            display: flex;
-            flex-direction:column;
-            justify-content:center ;
-            width: 100%;
-          }
+         
+      
+          
+          
 
-            #caja3 > div{
-              display: flex;
-              
+
+
+
+         
+             
+             
              
 
-          }
+         
 
-          #left{
-            flex:1;
-            width: 50%;
-            margin: auto;
-            height: 100px;
-            padding-left: 25px;
+         
+
+         
+
+         
+             
+
+          
+
+        
            
            
 
-          }
+         
 
-          #contenido3{
-            flex:2;
-            width: 100%;
-            font-size: 10px;
-            padding-top: 25px;
-          }
-
-          #video1{
-            width: 400PX;
-          height: 300px;
-          }
-
-          #video2{
-            width: 400px;
-            height: 300px;
-          }
-        }
-
+         
+        
 
 
            
