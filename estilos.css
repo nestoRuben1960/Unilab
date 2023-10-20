@@ -2062,7 +2062,7 @@ margin-top: 50px;
           #contenido4{
            display: block;
            width: 100%;
-          padding-left: 10px;
+          padding-left: 5px;
           padding-right: 10px;
            
            margin-bottom: 30px;
@@ -2080,7 +2080,7 @@ margin-top: 50px;
            #contenido5{
             display: block;
             width: 100%;
-            padding-left: 10px;
+            padding-left: 5px;
             padding-right: 10px;
            
            
@@ -2099,7 +2099,7 @@ margin-top: 50px;
            #contenido6{
             display: block;
            width: 100%;
-           padding-left: 10px;
+           padding-left: 5px;
            padding-right: 10px;
           
            margin-bottom: 30px;
@@ -2118,7 +2118,7 @@ margin-top: 50px;
           
           #imagen5{
             width:100%;
-            margin: auto;
+           
             height:auto; 
            
             margin-top: 20px;
@@ -2128,7 +2128,7 @@ margin-top: 50px;
           
           #imagen6{
             width:100%;
-            margin: auto;
+           
             height:auto;
             
             margin-top: 20px;
