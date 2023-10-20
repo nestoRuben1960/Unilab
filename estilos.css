@@ -1017,7 +1017,7 @@ margin-top: 50px;
 
     
 
-    @media (max-width: 1120px) { 
+    @media (max-width: 1000px) { 
       #cabecera{
         display:block;
        
