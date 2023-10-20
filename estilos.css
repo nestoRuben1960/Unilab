@@ -1312,6 +1312,7 @@ margin-top: 50px;
       
            #caja1 > div{
             display: flex;
+            padding-left: 10px;
            }
       
            .contenido1{
@@ -1349,6 +1350,8 @@ margin-top: 50px;
       
            #caja2 > div{
             display: flex;
+            padding-left: 10px;
+
            }
       
            #caja3{
@@ -1360,6 +1363,7 @@ margin-top: 50px;
       
            #caja3 > div{
             display: flex;
+            padding-left: 10px;
            }
       
            
