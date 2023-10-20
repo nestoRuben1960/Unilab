@@ -1392,13 +1392,12 @@ margin-top: 50px;
             }
       
            #imagen7{
-            
-           
             position: absolute;
-            width: 850px;
+            width: 70%;
             height: 400px;
-            margin-left: 350px;
-            opacity: 0.5;
+            opacity: 0.5; 
+           
+           
            }
       
            .contenido3{
@@ -1422,12 +1421,11 @@ margin-top: 50px;
       
       
             #imagen8{
-             
               position: absolute;
-              width: 850px;
+              width: 70%;
               height: 400px;
-              margin-left: 350px;
               opacity: 0.5;
+             
              }
       
            
