@@ -1340,13 +1340,12 @@ margin-top: 50px;
              }
       
       
-           #caja2{
-            display: flex;
-            flex-direction:row;
-            justify-content:center;
-            width: 90%;
-            margin: auto;
-           }
+             #caja2{
+              display: flex;
+              flex-direction:row;
+              justify-content:center;
+              width: 100%;
+             }
       
            #caja2 > div{
             display: flex;
@@ -1356,8 +1355,7 @@ margin-top: 50px;
             display: flex;
             flex-direction:row;
             justify-content:center;
-            width: 90%;
-            margin: auto;
+            width: 100%;
            }
       
            #caja3 > div{
