@@ -2504,7 +2504,7 @@ margin-top: 50px;
         overflow: hidden;
         display: block;
         margin-bottom: 100px;
-        margin-right: 200px;
+        margin-right: 300px;
    
       
         
@@ -2516,13 +2516,13 @@ margin-top: 50px;
    
         animation: scroll 10s linear infinite;
         -webkit-animation: scroll 40s linear infinite;
-        margin-right: 200px;}
+       }
        
 
         .slider .slide {
           
             width: 100%;
-            margin-right: 200px;
+            margin-right: 300px;
            
           
            
@@ -2534,7 +2534,7 @@ margin-top: 50px;
             width: 80%;
             margin: auto;
             margin-bottom: 100px;
-            margin-right: 200px;
+            margin-right: 300px;
            
            }
 
