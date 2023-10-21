@@ -2864,7 +2864,7 @@ margin-top: 50px;
             display: block;
            
             width: 100%;
-            background: white;
+            
           }
 
           
@@ -2887,7 +2887,7 @@ margin-top: 50px;
                 padding-top: 10px;
                 padding-left: 25px;
                 height:300px;
-                background: aqua;
+               
                 margin-top: 10px;
                
             }
@@ -2912,18 +2912,15 @@ margin-top: 50px;
              }
 
              #caja2{
-              display: flex;
-              flex-direction:column;
-              justify-content:center ;
+              display: block;
+              
               width: 100%;
             }
   
-              #caja2 > div{
-                display: flex;
-            }
+             
   
             .contenido2{
-              flex: 2;
+              display: block;
                 width: 100%;
                 font-size: 10px;
                 text-align: left;
@@ -2941,6 +2938,7 @@ margin-top: 50px;
               }
         
               #imagen7{
+                display: block;
                 position: absolute;
                   width: 100%;
                   height:350px;
