@@ -1284,9 +1284,9 @@ flex: 2;
     }
 
     #imagen{
-    flex:1;
+    flex:3;
      order: 2;
-      width: 90%;
+      width: 100%;
       margin: auto;
      
       margin-right: 0px;
