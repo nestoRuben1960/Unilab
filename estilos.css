@@ -1235,7 +1235,7 @@ flex: 2;
   display: flex;
   flex-direction:column;
   justify-content:center;
-  align-content:stretch;
+ 
   width: 90%;
  
   margin: auto;
@@ -1243,6 +1243,7 @@ flex: 2;
   margin-top: 10px;
   margin-bottom: 50px;
   border-radius: 20px 0px 0px 20px;
+  background: aqua;
    
    
    
@@ -1301,7 +1302,7 @@ flex: 2;
      }
 
      #titulo3{
-      flex: 1;
+      flex: 2;
       order: 1;
       height: 98px;
         text-align: center;
