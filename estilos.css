@@ -2484,10 +2484,10 @@ margin-top: 50px;
         width: 90%;
         margin: auto;
         justify-content:center;
-        align-content:center;
-        height: 180px;
+       
+       
         margin-top: 90px;
-        margin-bottom: 90px;
+       
        
       }
     
@@ -2554,8 +2554,7 @@ margin-top: 50px;
       
      
     .slider .slide-track {
-      flex: 2;
-      order: 2;
+     
      
       animation: scroll 40s linear infinite;
       -webkit-animation: scroll 40s linear infinite;
@@ -2564,16 +2563,14 @@ margin-top: 50px;
       
       
     .slider .slide {
-    flex: 2;
-    order: 2;
+   
       width: 100%;
       height: auto;
     }
      
     
     .slider .slide img {
-    flex: 2;
-    order: 2;
+   
       width: 100%;
     }
     
