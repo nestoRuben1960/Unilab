@@ -2888,6 +2888,7 @@ margin-top: 50px;
               font-size: 25px;
               color: black;
               position: relative
+              
             }
       
             #imagen9{
@@ -2897,6 +2898,7 @@ margin-top: 50px;
                   opacity: 0.5;
                  margin-left: 0px;
                   margin-top: 30px;
+                  padding-top: 25px;
              }
 
              #caja2{
