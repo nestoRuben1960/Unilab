@@ -2529,8 +2529,9 @@ margin-top: 50px;
         
         .slider .slide img {
          
-            width: 100%;
-            margin-left: 0px;
+            width: 80%;
+            margin: auto;
+           
            }
 
            #prepagas{
