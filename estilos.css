@@ -2480,7 +2480,7 @@ margin-top: 50px;
 
        #titulo{
         display: block;
-        height: 150px;;
+       
         text-align: center;
         font-size: 30px;
         color: blue;
@@ -2494,6 +2494,7 @@ margin-top: 50px;
       width: 100%;
       border-radius: 0px 0px 0px 0px;
       padding-top:  10px;
+      padding-bottom: 30px;
      
        }
 
@@ -2562,7 +2563,7 @@ margin-top: 50px;
            #titulo3{
            flex: 1;
            order: 1;
-            height:250px;
+           
               text-align: center;
               font-size: 35px;
               color:blue ;
@@ -2577,6 +2578,7 @@ margin-top: 50px;
             
            
             padding-top:  5px;
+            padding-bottom: 30px;
            
           
           
