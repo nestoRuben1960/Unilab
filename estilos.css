@@ -2480,7 +2480,7 @@ margin-top: 50px;
 
        #titulo{
        flex: 1;
-       order: 1;
+       order: 2;
        
         text-align: center;
         font-size: 30px;
@@ -2501,7 +2501,7 @@ margin-top: 50px;
 
        .slider {
         flex: 1;
-        order: 2;
+        order: 1;
        
         overflow: hidden;
         
