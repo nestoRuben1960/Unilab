@@ -2514,7 +2514,7 @@ margin-top: 50px;
 
        .slider .slide-track {
    
-        animation: scroll 40s linear infinite;
+        animation: scroll 10s linear infinite;
         -webkit-animation: scroll 40s linear infinite;
         margin-right: 200px;}
        
