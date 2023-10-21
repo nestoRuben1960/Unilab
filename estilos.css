@@ -1237,9 +1237,9 @@ flex: 2;
   justify-content:center;
   align-content:stretch;
   width: 90%;
-  height:350px;
+ 
   margin: auto;
-  background: darkcyan ;
+  
   margin-top: 10px;
   margin-bottom: 50px;
   border-radius: 20px 0px 0px 20px;
@@ -1283,7 +1283,7 @@ flex: 2;
 
     #imagen{
     flex:1;
-     order: 3;
+     order: 2;
       width: 500px;
       height: 350px;
       margin-right: 0px;
@@ -1294,8 +1294,8 @@ flex: 2;
      }
 
      #etiquetas{
-      flex: 4;
-      order: 2;
+      flex: 3;
+      order: 3;
       background: white ;
 
      }
