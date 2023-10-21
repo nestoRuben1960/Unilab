@@ -2667,12 +2667,13 @@ margin-top: 50px;
 
            #pie { 
             display: block;
-            margin-top: 100px;
+            margin-top: 200px;
             color: white;
            
             background:  #1d4169  ; 
             
             padding: 20px; 
+            padding-top: 20px;
             width: 100%;
             clear: both; 
            }
