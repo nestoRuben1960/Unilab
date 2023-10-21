@@ -2880,14 +2880,15 @@ margin-top: 50px;
                 font-weight: bold;
                 padding-top: 10px;
                 padding-left: 25px;
-                height:auto;
-                margin-bottom: 50px;
+                height:300px;
+               
             }
       
             .contenido1 p {
               font-size: 25px;
               color: black;
               position: relative
+              
               
             }
       
