@@ -1269,7 +1269,7 @@ flex: 2;
  
    
    #etiqueta:hover{
-     width: 140px;
+     width: 120px;
      background-color:darkcyan;
     
    }
@@ -2214,11 +2214,41 @@ margin-top: 50px;
                   margin-bottom: 100px;
                   width: 90%;
                   margin: auto;
-                  background: #000000;
-      
-                  
-            
+                  background: #000000
                  }
+
+                 #etiqueta {
+                  background:#0d7588;  
+                   float: left;
+                   width: 90px;
+                   height: 90px;
+                   border-radius: 20px 20px 20px 20px;
+                  font-size: 12px;
+                  
+                   margin-left: 20px;
+                   margin-top: 15px;
+                   transition:width 2s ease;
+                   -moz-transition:width 2s ease;
+                   -ms-transition:width 2s ease;
+                   -webkit-transition:width 2s ease;
+                   -o-transition:width 2s ease;
+                   text-decoration: none;
+               }
+               #etiqueta a{text-decoration: none;}
+               
+                 
+                 #etiqueta:hover{
+                   width: 120px;
+                   background-color:darkcyan;
+                  
+                 }
+               
+                  #etiqueta h3{
+                   text-align: center;
+                   padding-top: 35px;
+                 
+                   color: white;
+                  }
       
                  #pie { 
                   display: block;
@@ -2662,11 +2692,40 @@ margin-top: 50px;
             width: 90%;
             margin: auto;
             background: white;
-           
+          }
 
+          #etiqueta {
+            background:#0d7588;  
+             float: left;
+             width: 90px;
+             height: 90px;
+             border-radius: 20px 20px 20px 20px;
+            font-size: 12px;
             
-      
+             margin-left: 20px;
+             margin-top: 15px;
+             transition:width 2s ease;
+             -moz-transition:width 2s ease;
+             -ms-transition:width 2s ease;
+             -webkit-transition:width 2s ease;
+             -o-transition:width 2s ease;
+             text-decoration: none;
+         }
+         #etiqueta a{text-decoration: none;}
+         
+           
+           #etiqueta:hover{
+             width: 120px;
+             background-color:darkcyan;
+            
            }
+         
+            #etiqueta h3{
+             text-align: center;
+             padding-top: 35px;
+           
+             color: white;
+            }
 
            #pie { 
             display: block;
