@@ -1298,10 +1298,12 @@ flex: 2;
      }
 
      #etiquetas{
-      flex: 2;
+      
       order: 3;
       width: 60%;
+      height: 300px;
       margin: auto;
+      background: red;
      
 
      }
