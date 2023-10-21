@@ -2480,7 +2480,7 @@ margin-top: 50px;
 
        #prepagas{
         display: flex;
-        flex-direction:column;
+        flex-direction:row;
         width: 90%;
         margin: auto;
         justify-content:center;
