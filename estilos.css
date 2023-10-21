@@ -2479,7 +2479,8 @@ margin-top: 50px;
        } 
 
        #titulo{
-        display: block;
+       flex: 1;
+       order: 1;
        
         text-align: center;
         font-size: 30px;
@@ -2499,14 +2500,16 @@ margin-top: 50px;
        }
 
        .slider {
-        width: 100%;
+        flex: 1;
+        order: 2;
+       
         overflow: hidden;
-        display: block;
+        
         margin-bottom: 100px;
    
        
         
-        position:relative;
+        
        
        }
 
@@ -2533,7 +2536,9 @@ margin-top: 50px;
            }
 
            #prepagas{
-            display: block;
+            display: flex;
+            flex-direction:column;
+            justify-content:center;
            }
 
            #fondo{
