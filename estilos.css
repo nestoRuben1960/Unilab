@@ -2536,7 +2536,9 @@ margin-top: 50px;
            }
 
            #fondo{
-            display:block;
+            display: flex;
+            flex-direction:column;
+            justify-content:center;
             
             width: 100%;
             height:250px;
@@ -2550,14 +2552,16 @@ margin-top: 50px;
            }
 
            #imagen{
-           display: block;
+          flex: 1;
+          order: 2;
            width:100%;
            height:auto; 
              
            }
 
            #titulo3{
-           display: block;
+           flex: 1;
+           order: 1;
             height:150px;
               text-align: center;
               font-size: 35px;
@@ -2604,7 +2608,8 @@ margin-top: 50px;
           }
 
           #etiquetas{
-            display: block;
+           flex: 1;
+           order: 3;
             margin-top: 50px;
             margin-bottom: 100px;
             width: 90%;
