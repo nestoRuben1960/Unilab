@@ -1300,6 +1300,8 @@ flex: 2;
      #etiquetas{
       flex: 2;
       order: 3;
+      width: 60%;
+      margin: auto;
      
 
      }
