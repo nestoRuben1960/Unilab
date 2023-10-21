@@ -1165,7 +1165,7 @@ margin-top: 50px;
     text-transform: uppercase;
   text-rendering: optimizeLegibility;
   border-radius: 20px 0px 0px 20px;
-  padding-top: 25px;
+  padding-top: 15px;
 
 
    
@@ -1276,7 +1276,7 @@ flex: 2;
  
     #etiqueta h3{
      text-align: center;
-     padding-top: 30px;
+     padding-top: 35px;
    
      color: white;
     }
