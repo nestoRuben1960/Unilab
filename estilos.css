@@ -2505,7 +2505,7 @@ margin-top: 50px;
         display: block;
         margin-bottom: 100px;
    
-       margin-bottom: 75px;
+      
         
         position:relative;
        
@@ -2531,11 +2531,13 @@ margin-top: 50px;
          
             width: 80%;
             margin: auto;
+            margin-bottom: 100px;
            
            }
 
            #prepagas{
             display: block;
+            margin-bottom: 100px;
            }
 
       
