@@ -809,6 +809,7 @@ margin-top: 50px;
       width: 90%;
       margin: auto;
       background: white;
+      margin-top: 75px;
       }
 
      #caja1 > div{
@@ -820,10 +821,13 @@ margin-top: 50px;
       font-size: 25px;
       text-align: left;
       font-weight: bold;
-      padding-top: 50px;
-      padding-left: 25px;
+     
+      padding-left: 10px;
       height: 400px;
-      margin-bottom: 50px;
+      margin-top: 250px;
+    
+     
+     
       }
 
       .contenido1 p {
@@ -834,10 +838,10 @@ margin-top: 50px;
 
       #imagen9{
         position: absolute;
-        width: 850px;
-        height: 400px;
-        margin-left: 350px;
-        opacity: 0.5;
+      width: 910px;
+      height: 400px;
+      margin-left: 300px;
+      opacity: 0.5;
        }
 
 
@@ -847,6 +851,8 @@ margin-top: 50px;
       justify-content:center;
       width: 90%;
       margin: auto;
+     
+      
      }
 
      #caja2 > div{
@@ -859,6 +865,7 @@ margin-top: 50px;
       justify-content:center;
       width: 90%;
       margin: auto;
+     
      }
 
      #caja3 > div{
@@ -881,10 +888,11 @@ margin-top: 50px;
       font-size: 25px;
       text-align: left;
       font-weight: bold;
-      padding-top: 50px;
-      padding-left: 25px;
+      margin-top: 250px;
+    
+      padding-left: 10px;
       height: 400px;
-      margin-bottom: 50px;
+     
       }
 
       .contenido2 p {
@@ -897,9 +905,9 @@ margin-top: 50px;
       
      
       position: absolute;
-      width: 850px;
+      width: 910px;
       height: 400px;
-      margin-left: 350px;
+      margin-left: 300px;
       opacity: 0.5;
      }
 
@@ -918,13 +926,13 @@ margin-top: 50px;
     text-align: left;
     font-weight: bold;
     padding-top: 275px;
-     padding-left: 25px;
+     padding-left: 10px;
      
    
     height: 400px;
    
     margin-bottom: 50px;
-    background-image:url("");
+   
    
      }
 
@@ -932,15 +940,16 @@ margin-top: 50px;
       font-size: 25px;
       color: black;
       position: relative
+      
     }
 
 
       #imagen8{
        
         position: absolute;
-        width: 850px;
+        width: 910px;
         height: 400px;
-        margin-left: 350px;
+        margin-left: 300px;
         opacity: 0.5;
        }
 
@@ -952,7 +961,7 @@ margin-top: 50px;
 
      .left{
       flex: 1;
-      width: 150px;
+      width: 20%;
       height: 400px;
       flex-wrap: wrap; 
       color: #225677;
@@ -961,6 +970,7 @@ margin-top: 50px;
    padding-top: 100px;
     margin-bottom: 50px;
     margin-left: 25px;
+   
 
      }
 
@@ -1008,7 +1018,7 @@ margin-top: 50px;
       margin: auto;
      }
     
-
+    
     
 
    
@@ -1016,440 +1026,7 @@ margin-top: 50px;
     
 
     
-
-    @media (max-width: 1000px) { 
-      #cabecera{
-        display:block;
-       
-        background: darkblue;
-       
-        width: 100%;
-        height: auto;
-        padding-top: 10px;
-        padding-bottom: 10px;
-       
-      }
-
-  
-      #menu { 
-      display: block; 
-     text-align: center;
-     
-      width: 100%; 
-      height: 100%; 
-      padding: 0%; 
-      } 
-      
-      #menu li { 
-      display: inline-block;   
-       
-        text-align: center;
-      }
-
-      #prepagas{
-
-        display: block;
-        width: 100%;
-        height: auto;
-      }
-
-     
-     
-      
-       
-       
-
-       #titulo{
-       
-       display: block;
-        text-align: center;
-        font-size: 25px;
-        color: blue;
-        font-weight: bold;
-       
-        margin-top: 0px;
-        margin-bottom: 90px;
-        background: darkcyan;
-        font-family: verdana, 'Lato', sans-serif;
-        text-transform: uppercase;
-      text-rendering: optimizeLegibility;
-     width: 100%;
-     border-radius: 20px 20px 20px 20px;
-     
-      
-      padding-top:  5px;
-      padding-bottom: 20px;
-       }
-
-       .slider {
-       display: block;
-        overflow: hidden;
-        
-       
-        margin-bottom: 100px;
-        width: 100%;
-        margin: auto;
-       
-        
-        
-       
-       }
-
-       .slider .slide-track {
-        width: 100%;
-        animation: scroll 40s linear infinite;
-        -webkit-animation: scroll 40s linear infinite;
-       
-       }
-       
-
-        .slider .slide {
-          
-         width:100%;
-         margin: auto;
-           
-          
-           
-           
-        }
-        
-        .slider .slide img {
-         
-           
-           
-            width: 100%;
-            margin: auto;
-           }
-
-          
-
-           #fondo{
-            display:block;
-            
-           
-            height:auto;
-           background: white;
-           
-            margin-top: 100px;
-            margin-bottom: 100px;
-           
-           }
-
-           #imagen{
-           display: block;
-           width: 100%;
-           height: auto;
-          
-            
-             
-             
-           }
-
-           #titulo3{
-           display: block;
-            height:auto;
-              text-align: center;
-              font-size: 35px;
-              color:blue ;
-              font-weight: bold;
-              position: relative;
-              margin-top: 100px;
-             font-family:Arial, Helvetica, sans-serif Times, serif verdana, 'Lato', sans-serif;
-              text-transform: uppercase;
-            text-rendering: optimizeLegibility;
-            background:  darkcyan ;
-           width: 100%;
-           
-            padding-top:  5px;
-            padding-bottom: 20px;
-           
-          
-          
-          
-           
-           
-            letter-spacing: .15em;
-            text-shadow: 
-              -1px -1px 1px  white, 
-              0px 1px 0 darkblue, 
-              0px 2px 0 darkblue,  
-              0px 3px 0 darkblue , 
-              0px 4px 0 darkblue , 
-              0px 5px 0 darkblue , 
-              0px 6px 0 darkblue, 
-              0px 7px 0 darkblue, 
-              0px 8px 0  darkblue, 
-              0px 9px 0 darkblue, 
-              0px 10px 0 darkblue, 
-              0px 11px 0 darkblue, 
-              0px 12px 0 darkblue,  
-              0px 13px 0  darkblue, 
-              0px 14px 0 darkblue, 
-              0px 15px 0 darkblue, 
-              2px 20px 5px darkcyan,
-              5px 23px 5px darkcyan,
-              8px 27px 8px darkcyan,
-              8px 28px 35px darkcyan;
-          }
-
-          #etiquetas{
-            display: block;
-            margin-top: 50px;
-            margin-bottom: 100px;
-            width: 80%;
-            margin: auto;
-            
-      
-           }
-
-           #pie { 
-            display: block;
-            margin-top: 100px;
-            color: white;
-           
-            background:  #1d4169  ; 
-            
-            padding: 20px; 
-            width: 100%;
-            clear: both; 
-           }  
-        
-           #pie h3{
-            text-align: left;
-           }
-
-          
-
-         
-        }
-
-        #contenedor8{
-          display: flex;
-          flex-direction:row;
-          justify-content: space-between;
-          text-align:left;
-         
-          width: 100%;
-          height:auto;
-          
-          margin-bottom: 50px;
-         
-         
-        }
-        #contenedor8 > div{
-        width: 30%;
-        font-size: 17px;
-        margin-left: 20px;
-       
-        
-        }
-        
-        #contenido4{
-          flex: 1;
-          order: 2;
-         
-        
-        
-        
-         }
-        
-         
-          
-        
-         
-        
-         #contenido5{
-          flex: 1;
-          order: 1;
-         
-        
-        
-        
-        
-        
-        
-        
-        
-         }
-        
-         #contenido6{
-          flex: 1;
-          order: 3;
-         
-        
-         }
-        
-         #imagen4{
-          width: 100%;
-          height: auto;
-        
-        }
-        
-        #imagen5{
-          
-          width: 100%;
-          height: auto;
-        
-        }
-        
-        #imagen6{
-          width: 100%;
-          height: auto;
-        
-        }
-
-         .contenido3{   
-            padding-top: 50px;
-            height: 400px;
-          }
-
-          #caja1{
-            display: flex;
-            flex-direction:row;
-            justify-content:center;
-            width: 100%;
-            background: aqua;
-           
-           }
-      
-           #caja1 > div{
-            display: flex;
-            padding-left: 10px;
-           }
-      
-           .contenido1{
-            flex: 2;
-            font-size: 25px;
-            text-align: left;
-            font-weight: bold;
-            padding-top: 50px;
-            padding-left: 10px;
-            height: 400px;
-            margin-bottom: 50px;
-            }
-      
-            .contenido1 p {
-              font-size: 25px;
-              color: black;
-              position: relative
-             
-            }
-      
-            #imagen9{
-              position: absolute;
-              width: 70%;
-              height: 400px;
-              opacity: 0.5;
-              margin-left: 250px;
-              padding-left: 10px;
-             }
-      
-      
-             #caja2{
-              display: flex;
-              flex-direction:row;
-              justify-content:center;
-              width: 100%;
-             }
-      
-           #caja2 > div{
-            display: flex;
-            padding-left: 10px;
-
-           }
-      
-           #caja3{
-            display: flex;
-            flex-direction:row;
-            justify-content:center;
-            width: 100%;
-           }
-      
-           #caja3 > div{
-            display: flex;
-            padding-left: 10px;
-           }
-      
-           
-      
-      
-          
-      
-           
-           
-           
-      
-          
-      
-           .contenido2{
-            flex: 2;
-            font-size: 25px;
-            text-align: left;
-            font-weight: bold;
-            padding-top: 50px;
-            padding-left: 10px;
-            height: 400px;
-            margin-bottom: 50px;
-            }
-      
-            .contenido2 p {
-              font-size: 25px;
-              color: black;
-              position: relative
-            }
-      
-            #imagen7{
-              position: absolute;
-              width: 70%;
-              height: 400px;
-              opacity: 0.5;
-              margin-left: 250px;
-             }
-           
-           
-           
-      
-           .contenido3{
-            flex: 2;
-            font-size: 25px;
-            text-align: left;
-            font-weight: bold;
-            padding-top: 50px;
-            padding-left: 10px;
-            height: 400px;
-            margin-bottom: 50px;
-         
-           }
-      
-           .contenido3 p {
-            font-size: 25px;
-            color: black;
-            position: relative
-          }
-      
-          #imagen8{
-            position: absolute;
-            width: 70%;
-            height: 400px;
-            opacity: 0.5;
-            margin-left: 250px;
-           }
-           
-      
-           
-            .left{
-            flex: 1;
-            width: 20%;
-            height: 400px;
-            flex-wrap: wrap; 
-            color: #225677;
-            font-style: italic;
-            font-size: 20px;
-            padding-top: 100px;
-            margin-bottom: 50px;
-            margin-left: 25px;
-      
-           }
+ 
 
           @media (max-width: 720px) {
 
