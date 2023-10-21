@@ -1026,7 +1026,7 @@ margin-top: 50px;
         display: flex;
         flex-direction:column;
         justify-content:center;
-        background: red;
+        background:darkblue;
        
         width: 90%;
         margin: auto;
@@ -1251,10 +1251,10 @@ flex: 2;
   #etiqueta {
     background:#0d7588;  
      float: left;
-     width: 130px;
-     height: 130px;
+     width: 80px;
+     height: 80px;
      border-radius: 20px 20px 20px 20px;
-    font-size: 15px;
+    font-size: 10px;
      align-content: center;
      margin-left: 20px;
      margin-top: 30px;
