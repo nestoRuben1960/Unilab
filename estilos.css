@@ -2480,7 +2480,7 @@ margin-top: 50px;
 
        #titulo{
         display: block;
-        height:auto;
+        height: 250px;;
         text-align: center;
         font-size: 30px;
         color: blue;
@@ -2492,9 +2492,9 @@ margin-top: 50px;
         text-transform: uppercase;
       text-rendering: optimizeLegibility;
       width: 100%;
-      border-radius: 20px 20px 20px 20px;
+      border-radius: 0px 0px 0px 0px;
       padding-top:  10px;
-      padding-bottom: 20px;
+     
        }
 
        .slider {
