@@ -2504,6 +2504,7 @@ margin-top: 50px;
         overflow: hidden;
         display: block;
         margin-bottom: 100px;
+        margin-right: 200px;
    
       
         
@@ -2515,12 +2516,13 @@ margin-top: 50px;
    
         animation: scroll 40s linear infinite;
         -webkit-animation: scroll 40s linear infinite;
-        width:100%;}
+        margin-right: 200px;}
        
 
         .slider .slide {
           
             width: 100%;
+            margin-right: 200px;
            
           
            
@@ -2532,13 +2534,14 @@ margin-top: 50px;
             width: 80%;
             margin: auto;
             margin-bottom: 100px;
+            margin-right: 200px;
            
            }
 
            #prepagas{
             display: block;
             margin-top: 50px;
-            background: aqua;
+           
            }
 
       
