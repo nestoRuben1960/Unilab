@@ -2544,7 +2544,7 @@ margin-top: 50px;
            
            background: white;
            
-            margin-top: 100px;
+            margin-top: 50px;
            
             border-radius: 0px 0px 0px 0px;
             padding-top: 20px;
@@ -2562,7 +2562,7 @@ margin-top: 50px;
            #titulo3{
            flex: 1;
            order: 1;
-            height:200px;
+            height:250px;
               text-align: center;
               font-size: 35px;
               color:blue ;
@@ -2614,6 +2614,7 @@ margin-top: 50px;
            
             width: 90%;
             margin: auto;
+            background: white;
            
 
             
