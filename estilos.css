@@ -2463,7 +2463,7 @@ margin-top: 50px;
 
                 #caja1{
                   display: flex;
-                  flex-direction:row;
+                  flex-direction:column;
                   justify-content:center;
                   width: 90%;
                   margin: auto;
@@ -2476,7 +2476,8 @@ margin-top: 50px;
                  }
             
                  .contenido1{
-                  flex: 3;
+                  flex: 1;
+                  order: 2;
                   font-size: 25px;
                   text-align: left;
                   font-weight: bold;
@@ -2507,7 +2508,7 @@ margin-top: 50px;
             
                  #caja2{
                   display: flex;
-                  flex-direction:row;
+                  flex-direction:column;
                   justify-content:center;
                   width: 90%;
                   margin: auto;
@@ -2521,7 +2522,7 @@ margin-top: 50px;
             
                  #caja3{
                   display: flex;
-                  flex-direction:row;
+                  flex-direction:column;
                   justify-content:center;
                   width: 90%;
                   margin: auto;
@@ -2544,7 +2545,8 @@ margin-top: 50px;
                 
             
                  .contenido2{
-                  flex: 3;
+                  flex: 1;
+                  order: 2;
                   font-size: 25px;
                   text-align: left;
                   font-weight: bold;
@@ -2582,7 +2584,8 @@ margin-top: 50px;
             
             
                  .contenido3{
-                  flex: 3;
+                  flex: 1;
+                  order: 2;
                   font-size: 25px;
                 text-align: left;
                 font-weight: bold;
@@ -2624,8 +2627,10 @@ margin-top: 50px;
             
                  .left{
                   flex: 1;
-                  width: 20%;
-                  height: 400px;
+                  order: 1;
+                  width: 90%;
+                  margin: auto;
+                 
                   flex-wrap: wrap; 
                   color: black;
                   font-weight: bold;
