@@ -2404,6 +2404,7 @@ margin-top: 50px;
                   font-size: 25px;
                   padding-left: 10px;
                   padding-bottom: 10px;
+                  padding-right: 10px;
                 
                  
                   
@@ -2419,7 +2420,7 @@ margin-top: 50px;
                     position: absolute;
                   width: 90%;
                   margin: auto;
-                  height: 450px;
+                  height: auto;
                  
                   opacity: 0.5;
                    }
