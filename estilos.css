@@ -1866,8 +1866,8 @@ margin-top: 50px;
       display: flex;
       flex-direction:row;
       justify-content:center;
-      width: 90%;
-      margin: auto;
+      width: 100%;
+      
      
       
      }
@@ -1880,8 +1880,8 @@ margin-top: 50px;
       display: flex;
       flex-direction:row;
       justify-content:center;
-      width: 90%;
-      margin: auto;
+      width: 100%;
+     
      
      }
 
