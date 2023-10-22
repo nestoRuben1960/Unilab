@@ -2389,7 +2389,7 @@ margin-top: 50px;
                   margin: auto;
                   background: aqua;
                   margin-top: 75px;
-                  height: auto;
+                  height: 400px;
                   }
             
                  #caja1 > div{
@@ -2424,6 +2424,7 @@ margin-top: 50px;
                   padding-top: 0px;
                   padding-bottom: 0px;
                   opacity: 0.5;
+                  height: 400px;
                    }
             
             
