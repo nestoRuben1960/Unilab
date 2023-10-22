@@ -2864,6 +2864,7 @@ margin-top: 50px;
             display: block;
            
             width: 100%;
+            background: aqua;
             
           }
 
@@ -2871,7 +2872,7 @@ margin-top: 50px;
 
           #left{
             display: block;
-            order: 1;
+           
             width: 50%;
             margin: auto;
             height: 100px;
