@@ -1827,181 +1827,7 @@ margin-top: 50px;
       background: rgba(0,0,150,.2); 
      }
 
-     #caja1{
-      display: flex;
-      flex-direction:row;
-      justify-content:center;
-      width: 100%;
-     
-      background: white;
-      margin-top: 75px;
-      }
-
-     #caja1 > div{
-      display: flex;
-     }
-
-     .contenido1{
-      flex: 2;
-      
-      text-align: left;
-      font-weight: bold;
-     
-      padding-left: 10px;
-      height: 400px;
-      margin-top: 250px;
     
-     
-     
-      }
-
-      .contenido1 p {
-        font-size: 20px;
-        color: black;
-        position: relative
-      }
-
-      #imagen9{
-        position: absolute;
-      width:620px;
-      height: 400px;
-      margin-left: 210px;
-      opacity: 0.5;
-       }
-
-
-     #caja2{
-      display: flex;
-      flex-direction:row;
-      justify-content:center;
-      width: 100%;
-      
-     
-      
-     }
-
-     #caja2 > div{
-      display: flex;
-     }
-
-     #caja3{
-      display: flex;
-      flex-direction:row;
-      justify-content:center;
-      width: 100%;
-     
-     
-     }
-
-     #caja3 > div{
-      display: flex;
-     }
-
-     
-
-
-    
-
-     
-     
-     
-
-    
-
-     .contenido2{
-      flex: 3;
-      
-      text-align: left;
-      font-weight: bold;
-      margin-top: 250px;
-    
-      padding-left: 10px;
-      height: 400px;
-     
-      }
-
-      .contenido2 p {
-        font-size: 20px;
-        color: black;
-        position: relative
-      }
-
-     #imagen7{
-      
-     
-      position: absolute;
-      width: 620px;
-      height: 400px;
-      margin-left: 210px;
-      opacity: 0.5;
-     ;
-     }
-
-    
-
-     
-     
-   
-
-
-
-
-     .contenido3{
-      flex: 3;
-     
-    text-align: left;
-    font-weight: bold;
-    padding-top: 275px;
-     padding-left: 10px;
-     
-   
-    height: 400px;
-   
-    margin-bottom: 50px;
-   
-   
-     }
-
-     .contenido3 p {
-      font-size: 20px;
-      color: black;
-      position: relative
-      
-    }
-
-
-      #imagen8{
-       
-        position: absolute;
-        width: 620px;
-        height: 400px;
-        margin-left: 210px;
-        opacity: 0.5;
-       
-       }
-
-     
-   
-    
-     
-    
-
-     .left{
-      flex: 1;
-      width: 20%;
-      height: 400px;
-      flex-wrap: wrap; 
-      color: #225677;
-    font-style: italic;
-    font-size: 20px;
-   padding-top: 100px;
-    margin-bottom: 50px;
-    margin-left: 10px;
-    padding-left: 0px;
-   
-
-     }
-
      #caja1{
       display: flex;
       flex-direction:row;
@@ -2073,18 +1899,7 @@ margin-top: 50px;
       display: flex;
      }
 
-     
-
-
-    
-
-     
-     
-     
-
-    
-
-     .contenido2{
+      .contenido2{
       flex: 3;
       font-size: 25px;
       text-align: left;
@@ -2112,23 +1927,13 @@ margin-top: 50px;
       
       opacity: 0.5;
      }
-
-    
-
-     
-     
-   
-
-
-
-
      .contenido3{
       flex: 3;
       font-size: 25px;
-    text-align: left;
-    font-weight: bold;
-    padding-top: 275px;
-     padding-left: 10px;
+      text-align: left;
+      font-weight: bold;
+      padding-top: 275px;
+      padding-left: 10px;
      
    
     height: 400px;
@@ -2655,6 +2460,183 @@ margin-top: 50px;
                   font-size: 10px;
                   padding-top: 25px;
                 }
+
+                #caja1{
+                  display: flex;
+                  flex-direction:row;
+                  justify-content:center;
+                  width: 90%;
+                  margin: auto;
+                  background: white;
+                  margin-top: 75px;
+                  }
+            
+                 #caja1 > div{
+                  display: flex;
+                 }
+            
+                 .contenido1{
+                  flex: 3;
+                  font-size: 25px;
+                  text-align: left;
+                  font-weight: bold;
+                 
+                  padding-left: 10px;
+                  height: 400px;
+                  margin-top: 250px;
+                
+                 
+                 
+                  }
+            
+                  .contenido1 p {
+                    font-size: 25px;
+                    color: black;
+                    position: relative
+                  }
+            
+                  #imagen9{
+                    position: absolute;
+                  width: 90%;
+                  margin: auto;
+                  height: 450px;
+                 
+                  opacity: 0.5;
+                   }
+            
+            
+                 #caja2{
+                  display: flex;
+                  flex-direction:row;
+                  justify-content:center;
+                  width: 90%;
+                  margin: auto;
+                 
+                  
+                 }
+            
+                 #caja2 > div{
+                  display: flex;
+                 }
+            
+                 #caja3{
+                  display: flex;
+                  flex-direction:row;
+                  justify-content:center;
+                  width: 90%;
+                  margin: auto;
+                 
+                 }
+            
+                 #caja3 > div{
+                  display: flex;
+                 }
+            
+                 
+            
+            
+                
+            
+                 
+                 
+                 
+            
+                
+            
+                 .contenido2{
+                  flex: 3;
+                  font-size: 25px;
+                  text-align: left;
+                  font-weight: bold;
+                  margin-top: 250px;
+                
+                  padding-left: 10px;
+                  height: 400px;
+                 
+                  }
+            
+                  .contenido2 p {
+                    font-size: 25px;
+                    color: black;
+                    position: relative
+                  }
+            
+                 #imagen7{
+                  
+                 
+                  position: absolute;
+                  width: 90%;
+                  margin: auto;
+                  height: 450px;
+                  
+                  opacity: 0.5;
+                 }
+            
+                
+            
+                 
+                 
+               
+            
+            
+            
+            
+                 .contenido3{
+                  flex: 3;
+                  font-size: 25px;
+                text-align: left;
+                font-weight: bold;
+                padding-top: 275px;
+                 padding-left: 10px;
+                 
+               
+                height: 400px;
+               
+                margin-bottom: 50px;
+               
+               
+                 }
+            
+                 .contenido3 p {
+                  font-size: 25px;
+                  color: black;
+                  position: relative
+                  
+                }
+            
+            
+                  #imagen8{
+                   
+                    position: absolute;
+                    width: 90%;
+                    margin: auto;
+                    height: 450px;
+                   
+                   
+                    opacity: 0.5;
+                   }
+            
+                 
+               
+                
+                 
+                
+            
+                 .left{
+                  flex: 1;
+                  width: 20%;
+                  height: 400px;
+                  flex-wrap: wrap; 
+                  color: black;
+                  font-weight: bold;
+                font-style: italic;
+                font-size: 20px;
+               padding-top: 100px;
+                margin-bottom: 50px;
+                margin-left: 25px;
+               
+            
+                 }
 
                 #video1{
                   width: 400px;
