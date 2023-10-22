@@ -2387,7 +2387,7 @@ margin-top: 50px;
                   justify-content:center;
                   width: 100%;
                  
-                  background: aqua;
+                 
                   margin-top: 75px;
                   height: 500px;
                   }
@@ -2399,17 +2399,14 @@ margin-top: 50px;
                  .contenido1{
                   flex: 1;
                   order: 2;
-                 
                   text-align: left;
                   font-weight: bold;
                   font-size: 25px;
                   padding-left: 10px;
                   padding-bottom: 10px;
                   padding-right: 20px;
-                background: blue;
-                margin-bottom: 0px;
-                 
-                  
+                  background: blue;
+                  margin-bottom: 0px;
                   }
             
                   .contenido1 p {
@@ -2429,166 +2426,126 @@ margin-top: 50px;
                    }
             
             
-                 #caja2{
-                  display: flex;
-                  flex-direction:column;
-                  justify-content:center;
-                  width: 90%;
-                  margin: auto;
-                 
+                   #caja2{
+                    display: flex;
+                    flex-direction:column;
+                    justify-content:center;
+                    width: 100%;
+                    margin-top: 75px;
+                    height: 500px;
+                    }
                   
-                 }
+                 
             
                  #caja2 > div{
                   display: flex;
                  }
-            
-                 #caja3{
-                  display: flex;
-                  flex-direction:column;
-                  justify-content:center;
-                  width: 90%;
-                  margin: auto;
-                 
-                 }
-            
-                 #caja3 > div{
-                  display: flex;
-                 }
-            
-                 
-            
-            
-                
-            
-                 
-                 
-                 
-            
-                
-            
+
                  .contenido2{
                   flex: 1;
                   order: 2;
-                  font-size: 25px;
                   text-align: left;
                   font-weight: bold;
-                  margin-top: 250px;
-                
+                  font-size: 25px;
                   padding-left: 10px;
-                  height: 400px;
-                 
+                  padding-bottom: 10px;
+                  padding-right: 20px;
+                  background: blue;
+                  margin-bottom: 0px;
                   }
-            
+
                   .contenido2 p {
                     font-size: 25px;
                     color: black;
                     position: relative
                   }
+
+                  #image7{
+                    position: absolute;
+                    width: 100%;
+                    
+                    padding-top: 0px;
+                    padding-bottom: 0px;
+                    opacity: 0.5;
+                    height: 500px;
+                     }
+
+
             
-                 #imagen7{
-                  
-                 
-                  position: absolute;
-                  width: 90%;
-                  margin: auto;
-                  height: 450px;
-                  
-                  opacity: 0.5;
+                 #caja3{
+                  display: flex;
+                  flex-direction:column;
+                  justify-content:center;
+                  width: 100%;
+                  margin-top: 75px;
+                  height: 500px;
+                  }
+            
+                 #caja3 > div{
+                  display: flex;
                  }
-            
-                
-            
-                 
-                 
-               
-            
-            
-            
-            
+
                  .contenido3{
                   flex: 1;
                   order: 2;
+                  text-align: left;
+                  font-weight: bold;
                   font-size: 25px;
-                text-align: left;
-                font-weight: bold;
-                padding-top: 275px;
-                 padding-left: 10px;
-                 
-               
-                height: 400px;
-               
-                margin-bottom: 50px;
-               
-               
-                 }
-            
+                  padding-left: 10px;
+                  padding-bottom: 10px;
+                  padding-right: 20px;
+                  background: blue;
+                  margin-bottom: 0px;
+                  }
+
                  .contenido3 p {
                   font-size: 25px;
                   color: black;
                   position: relative
-                  
                 }
-            
-            
-                  #imagen8{
-                   
-                    position: absolute;
+
+                #imagen8{
+                  position: absolute;
+                  width: 100%;
+                  
+                  padding-top: 0px;
+                  padding-bottom: 0px;
+                  opacity: 0.5;
+                  height: 500px;
+                   }
+
+                   .left{
+                    flex: 1;
+                    order: 1;
                     width: 90%;
                     margin: auto;
-                    height: 450px;
                    
-                   
-                    opacity: 0.5;
-                   }
+                    flex-wrap: wrap; 
+                    color: black;
+                    font-weight: bold;
+                  font-style: italic;
+                  font-size: 20px;
+                 padding-top: 20px;
+                  margin-top: 0px;
+                  margin-left: 25px;
+                  }
+
+                  #video1{
+                    width: 400px;
+                    height: 300px;
+                  }
+  
+                  #video2{
+                    width: 400px;
+                    height: 300px;
+                  }
+
+                  }
+  
             
                  
-               
-                
-                 
-                
             
-                 .left{
-                  flex: 1;
-                  order: 1;
-                  width: 90%;
-                  margin: auto;
-                 
-                  flex-wrap: wrap; 
-                  color: black;
-                  font-weight: bold;
-                font-style: italic;
-                font-size: 20px;
-               padding-top: 20px;
-                margin-top: 0px;
-                margin-left: 25px;
-                background: red;
-               
-            
-                 }
-
-                #video1{
-                  width: 400px;
-                  height: 300px;
-                }
-
-                #video2{
-                  width: 400px;
-                  height: 300px;
-                }
-      
-               
-      
-              }
-
-
-          
-
-
-
-    
-
-    @media (max-width: 480px) {
+ @media (max-width: 480px) {
 
       #cabecera{
         display:block;
