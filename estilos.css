@@ -1902,7 +1902,7 @@ margin-top: 50px;
 
      .contenido2{
       flex: 3;
-      font-size: 25px;
+      
       text-align: left;
       font-weight: bold;
       margin-top: 250px;
@@ -1913,7 +1913,7 @@ margin-top: 50px;
       }
 
       .contenido2 p {
-        font-size: 25px;
+        font-size: 15px;
         color: black;
         position: relative
       }
@@ -1939,7 +1939,7 @@ margin-top: 50px;
 
      .contenido3{
       flex: 3;
-      font-size: 25px;
+     
     text-align: left;
     font-weight: bold;
     padding-top: 275px;
@@ -1954,7 +1954,7 @@ margin-top: 50px;
      }
 
      .contenido3 p {
-      font-size: 25px;
+      font-size: 15px;
       color: black;
       position: relative
       
