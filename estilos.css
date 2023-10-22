@@ -838,9 +838,10 @@ margin-top: 50px;
 
       #imagen9{
         position: absolute;
-      width: 910px;
-      height: 400px;
-      margin-left: 300px;
+      width: 90%;
+      margin: auto;
+      height: 450px;
+     
       opacity: 0.5;
        }
 
@@ -905,9 +906,10 @@ margin-top: 50px;
       
      
       position: absolute;
-      width: 910px;
-      height: 400px;
-      margin-left: 300px;
+      width: 90%;
+      margin: auto;
+      height: 450px;
+      
       opacity: 0.5;
      }
 
@@ -947,9 +949,11 @@ margin-top: 50px;
       #imagen8{
        
         position: absolute;
-        width: 910px;
-        height: 400px;
-        margin-left: 300px;
+        width: 90%;
+        margin: auto;
+        height: 450px;
+       
+       
         opacity: 0.5;
        }
 
@@ -964,7 +968,8 @@ margin-top: 50px;
       width: 20%;
       height: 400px;
       flex-wrap: wrap; 
-      color: #225677;
+      color: black;
+      font-weight: bold;
     font-style: italic;
     font-size: 20px;
    padding-top: 100px;
@@ -1554,19 +1559,21 @@ body{
 #contenedor8{
   display: flex;
   flex-direction:row;
-  justify-content: space-between;
+  justify-content:space-between;
   
   text-align:left;
  
-  width: 90%;
+  width: 100%;
   
-  margin: auto;
+ 
   margin-bottom: 50px;
+  background: aqua;
  
  
 }
 #contenedor8 > div{
   width: 25%;
+  display: flex;
  
  
   font-size: 17px;
@@ -1758,6 +1765,7 @@ margin-top: 50px;
   font-size: 25px;
   font-weight: bold;
   margin-left: 20px;
+  text-align: left;
   
   }
 
@@ -1857,7 +1865,7 @@ margin-top: 50px;
         position: absolute;
       width:620px;
       height: 400px;
-      margin-left: 200px;
+      margin-left: 210px;
       opacity: 0.5;
        }
 
@@ -1924,7 +1932,7 @@ margin-top: 50px;
       position: absolute;
       width: 620px;
       height: 400px;
-      margin-left: 200px;
+      margin-left: 210px;
       opacity: 0.5;
      ;
      }
@@ -1967,7 +1975,7 @@ margin-top: 50px;
         position: absolute;
         width: 620px;
         height: 400px;
-        margin-left: 200px;
+        margin-left: 210px;
         opacity: 0.5;
        
        }
@@ -1988,8 +1996,185 @@ margin-top: 50px;
     font-size: 20px;
    padding-top: 100px;
     margin-bottom: 50px;
-    margin-left: 15px;
+    margin-left: 10px;
     padding-left: 0px;
+   
+
+     }
+
+     #caja1{
+      display: flex;
+      flex-direction:row;
+      justify-content:center;
+      width: 90%;
+      margin: auto;
+      background: white;
+      margin-top: 75px;
+      }
+
+     #caja1 > div{
+      display: flex;
+     }
+
+     .contenido1{
+      flex: 3;
+      font-size: 25px;
+      text-align: left;
+      font-weight: bold;
+     
+      padding-left: 10px;
+      height: 400px;
+      margin-top: 250px;
+    
+     
+     
+      }
+
+      .contenido1 p {
+        font-size: 25px;
+        color: black;
+        position: relative
+      }
+
+      #imagen9{
+        position: absolute;
+      width: 90%;
+      margin: auto;
+      height: 450px;
+     
+      opacity: 0.5;
+       }
+
+
+     #caja2{
+      display: flex;
+      flex-direction:row;
+      justify-content:center;
+      width: 90%;
+      margin: auto;
+     
+      
+     }
+
+     #caja2 > div{
+      display: flex;
+     }
+
+     #caja3{
+      display: flex;
+      flex-direction:row;
+      justify-content:center;
+      width: 90%;
+      margin: auto;
+     
+     }
+
+     #caja3 > div{
+      display: flex;
+     }
+
+     
+
+
+    
+
+     
+     
+     
+
+    
+
+     .contenido2{
+      flex: 3;
+      font-size: 25px;
+      text-align: left;
+      font-weight: bold;
+      margin-top: 250px;
+    
+      padding-left: 10px;
+      height: 400px;
+     
+      }
+
+      .contenido2 p {
+        font-size: 25px;
+        color: black;
+        position: relative
+      }
+
+     #imagen7{
+      
+     
+      position: absolute;
+      width: 90%;
+      margin: auto;
+      height: 450px;
+      
+      opacity: 0.5;
+     }
+
+    
+
+     
+     
+   
+
+
+
+
+     .contenido3{
+      flex: 3;
+      font-size: 25px;
+    text-align: left;
+    font-weight: bold;
+    padding-top: 275px;
+     padding-left: 10px;
+     
+   
+    height: 400px;
+   
+    margin-bottom: 50px;
+   
+   
+     }
+
+     .contenido3 p {
+      font-size: 25px;
+      color: black;
+      position: relative
+      
+    }
+
+
+      #imagen8{
+       
+        position: absolute;
+        width: 90%;
+        margin: auto;
+        height: 450px;
+       
+       
+        opacity: 0.5;
+       }
+
+     
+   
+    
+     
+    
+
+     .left{
+      flex: 1;
+      width: 20%;
+      height: 400px;
+      flex-wrap: wrap; 
+      color: black;
+      font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+   padding-top: 100px;
+    margin-bottom: 50px;
+    margin-left: 25px;
    
 
      }
@@ -2022,9 +2207,20 @@ margin-top: 50px;
       order: 1;
       flex-wrap: wrap;  
       width: 60%;
+      text-align: left;
       
       
      }
+
+     #contacto h2{
+      color: black;
+      font-style: italic;
+      font-size: 15px;
+      font-weight: bold;
+      margin-left: 20px;
+      text-align: left;
+      
+      }
 
      #linea{
       margin-top: 90px;
@@ -2369,7 +2565,18 @@ margin-top: 50px;
                 #contacto{
                   display: block;
                   width: 100%;
+                  text-align: left;
                 }
+
+                #contacto h2{
+                  color: black;
+                  font-style: italic;
+                  font-size: 15px;
+                  font-weight: bold;
+                  margin-left: 20px;
+                  text-align: left;
+                  
+                  }
 
                 #caja1{
                   display: flex;
@@ -2861,7 +3068,18 @@ margin-top: 50px;
           #contacto{
             display: block;
             width: 100%;
+            text-align: left;
           }
+
+          #contacto h2{
+            color: black;
+            font-style: italic;
+            font-size: 15px;
+            font-weight: bold;
+            margin-left: 20px;
+            text-align: left;
+            
+            }
 
           #caja1{
             display: block;
