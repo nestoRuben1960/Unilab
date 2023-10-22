@@ -2417,11 +2417,11 @@ margin-top: 50px;
                   } 
             
                   #imagen9{
-                    position: absolute;
+                  position: absolute;
                   width: 90%;
                   margin: auto;
-                  height: auto;
-                 
+                  padding-top: 0px;
+                  padding-bottom: 0px;
                   opacity: 0.5;
                    }
             
