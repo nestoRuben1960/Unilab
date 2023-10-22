@@ -2960,18 +2960,15 @@ margin-top: 50px;
               
 
                #caja3{
-                display: flex;
-                flex-direction:column;
-                justify-content:center ;
+                display:block;
+               
                 width: 100%;
               }
     
-                #caja13> div{
-                  display: flex;
-              }
+                
     
               .contenido3{
-                flex: 2;
+                display: block;
                 width: 100%;
                 font-size: 10px;
                 text-align: left;
@@ -2989,6 +2986,7 @@ margin-top: 50px;
                 }
           
                 #imagen8{
+                  display: block;
                   position: absolute;
                   width: 100%;
                   height:350px;
