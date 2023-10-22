@@ -2385,11 +2385,11 @@ margin-top: 50px;
                   display: flex;
                   flex-direction:column;
                   justify-content:center;
-                  width: 90%;
-                  margin: auto;
+                  width: 100%;
+                 
                   background: aqua;
                   margin-top: 75px;
-                  height: 400px;
+                  height: 500px;
                   }
             
                  #caja1 > div{
@@ -2419,12 +2419,12 @@ margin-top: 50px;
             
                   #imagen9{
                   position: absolute;
-                  width: 90%;
-                  margin: auto;
+                  width: 100%;
+                  
                   padding-top: 0px;
                   padding-bottom: 0px;
                   opacity: 0.5;
-                  height: 400px;
+                  height: 500px;
                    }
             
             
