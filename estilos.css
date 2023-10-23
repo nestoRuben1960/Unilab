@@ -2433,6 +2433,7 @@ margin-top: 50px;
                     width: 100%;
                     margin-top: 75px;
                     height: 500px;
+                    background: aqua;
                    
                     }
                   
@@ -2451,7 +2452,7 @@ margin-top: 50px;
                   padding-left: 15px;
                   padding-bottom: 30px;
                   padding-right: 15px;
-                 
+                 background: red;
                   margin-bottom: 0px;
                   }
 
