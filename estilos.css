@@ -2442,6 +2442,171 @@ margin-top: 50px;
                     color: blue;
                     font-weight: bold;
                     position: relative;
+                    margin-top: 90px;
+                    background: darkcyan;
+                    font-family: verdana, 'Lato', sans-serif;
+                    text-transform: uppercase;
+                  text-rendering: optimizeLegibility;
+                  width: 100%;
+                  border-radius: 20px 20px 20px 20px;
+                  padding-top:  10px;
+                  padding-bottom: 20px;
+                   }
+            
+                   .slider {
+                    width: 100%;
+                    overflow: hidden;
+                    display: block;
+                    margin-bottom: 100px;
+               
+                   
+                    
+                    position:relative;
+                   
+                   }
+            
+                   .slider .slide-track {
+               
+                    animation: scroll 40s linear infinite;
+                    -webkit-animation: scroll 40s linear infinite;
+                    width:100%;}
+                   
+            
+                    .slider .slide {
+                      
+                        width: 100%;
+                       
+                      
+                       
+                       
+                    }
+                    
+                    .slider .slide img {
+                     
+                        width: 100%;
+                        margin-left: 0px;
+                       }
+            
+                       #prepagas{
+                        display: block;
+                       }
+            
+                       #fondo{
+                        display:block;
+                        
+                        width: 100%;
+                        height:auto;
+                       background: white;
+                       
+                        margin-top: 100px;
+                        margin-bottom: 100px;
+                       
+                       }
+            
+                       #imagen{
+                       display: block;
+                       width:100%;
+                       height:auto; 
+                         
+                       }
+            
+                       #titulo3{
+                       display: block;
+                        height:auto;
+                          text-align: center;
+                          font-size: 35px;
+                          color:blue ;
+                          font-weight: bold;
+                          position: relative;
+                          margin-top: 100px;
+                         font-family:Arial, Helvetica, sans-serif Times, serif verdana, 'Lato', sans-serif;
+                          text-transform: uppercase;
+                        text-rendering: optimizeLegibility;
+                        background: darkcyan;
+                        border-radius: 20px 20px 20px 20px;
+                        
+                       
+                        padding-top:  5px;
+                       
+                      
+                      
+                      
+                       
+                       
+                        letter-spacing: .15em;
+                        text-shadow: 
+                          -1px -1px 1px  white, 
+                          0px 1px 0 darkblue, 
+                          0px 2px 0 darkblue,  
+                          0px 3px 0 darkblue , 
+                          0px 4px 0 darkblue , 
+                          0px 5px 0 darkblue , 
+                          0px 6px 0 darkblue, 
+                          0px 7px 0 darkblue, 
+                          0px 8px 0  darkblue, 
+                          0px 9px 0 darkblue, 
+                          0px 10px 0 darkblue, 
+                          0px 11px 0 darkblue, 
+                          0px 12px 0 darkblue,  
+                          0px 13px 0  darkblue, 
+                          0px 14px 0 darkblue, 
+                          0px 15px 0 darkblue, 
+                          2px 20px 5px darkcyan,
+                          5px 23px 5px darkcyan,
+                          8px 27px 8px darkcyan,
+                          8px 28px 35px darkcyan;
+                      }
+            
+                      #etiquetas{
+                        display: block;
+                        margin-top: 50px;
+                        margin-bottom: 100px;
+                        width: 90%;
+                        margin: auto;
+                        background: #000000
+                       }
+      
+                       #etiqueta {
+                        background:#0d7588;  
+                         float: left;
+                         width: 90px;
+                         height: 90px;
+                         border-radius: 20px 20px 20px 20px;
+                        font-size: 12px;
+                        
+                         margin-left: 20px;
+                         margin-top: 15px;
+                         transition:width 2s ease;
+                         -moz-transition:width 2s ease;
+                         -ms-transition:width 2s ease;
+                         -webkit-transition:width 2s ease;
+                         -o-transition:width 2s ease;
+                         text-decoration: none;
+                     }
+                     #etiqueta a{text-decoration: none;}
+                     
+                       
+                       #etiqueta:hover{
+                         width: 120px;
+                         background-color:darkcyan;
+                        
+                       }
+                     
+                        #etiqueta h3{
+                         text-align: center;
+                         padding-top: 35px;
+                       
+                         color: white;
+                        }
+
+                  #titulo{
+                    display: block;
+                    height:auto;
+                    text-align: center;
+                    font-size: 30px;
+                    color: blue;
+                    font-weight: bold;
+                    position: relative;
                     margin-top: 50px;
                     background: darkcyan;
                     font-family: verdana, 'Lato', sans-serif;
