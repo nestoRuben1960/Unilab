@@ -2317,7 +2317,7 @@ margin-top: 50px;
                 
                 #contenedor8{
                   display: flex;
-                  flex-direction:row;
+                  flex-direction:column;
                   justify-content: space-between;
                   
                   text-align:left;
@@ -2902,7 +2902,8 @@ margin-top: 50px;
            
           }
           #contenedor8 > div{
-            width: 100%;
+            width: 90%;
+            margin: auto;
            
            
             font-size: 17px;
