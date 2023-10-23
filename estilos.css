@@ -2317,79 +2317,85 @@ margin-top: 50px;
                 
                 #contenedor8{
                   display: flex;
-                  flex-direction:column;
+                  flex-direction:row;
                   justify-content: space-between;
+                  
                   text-align:left;
                  
-                  width: 100%;
-                  height:auto;
+                  width: 90%;
                   
+                  margin: auto;
                   margin-bottom: 50px;
                  
                  
                 }
                 #contenedor8 > div{
-                width: 25%;
-                font-size: 17px;
-                padding-left: 10px;
-                padding-right: 10px;
-           
-                
-                }
-                
-                #contenido4{
+                  width: 90%;
+                  margin: auto;
+                 
+                 
+                  font-size: 17px;
+                  }
+                  
+                .contenido4{
                   flex: 1;
                   order: 2;
                  
+                  margin-top: 30px;
+                }
                 
+                .contenido4 h3{
                 
-                
-                 }
-                
-                 
-                  
-                
-                 
-                
-                 #contenido5{
-                  flex: 1;
-                  order: 1;
-                 
-                
-                
-                
-                
-                
-                
-                
-                
-                 }
-                
-                 #contenido6{
-                  flex: 1;
-                  order: 3;
-                 
-                
-                 }
-                
-                 #imagen4{
-                  width: 100%;
-                  height: auto;
+                  font-weight:normal;
+                  margin-top: 30px;
                 
                 }
                 
-                #imagen5{
+                 
                   
-                  width: 100%;
-                  height: auto;
                 
+                 
+                
+                 .contenido5{
+                  flex: 1;
+                  order: 1;
+                  margin-top: 30px;
+                 }
+                
+                 .contenido5 h3{
+                
+                  font-weight:normal;
+                  margin-top: 30px;
+                }
+                
+                
+                .contenido6{
+                  flex: 1;
+                  order: 3;
+                  margin-top: 30px;
+                 }
+                
+                 .contenido6 h3{
+                
+                  font-weight:normal;
+                  margin-top: 30px;
+                }
+                
+                #imagen4{
+                  width: 100%;
+                  height: 300px;
+                }
+                
+                #imagen5{
+                  width: 100%;
+                  height: 300px;
                 }
                 
                 #imagen6{
                   width: 100%;
-                  height: auto;
-                
+                  height: 300px;
                 }
+                
         
       
                
@@ -2881,96 +2887,86 @@ margin-top: 50px;
           }
           
           
-          #contenedor8{
-            display: block;
-           
+           #contenedor8{
+            display: flex;
+            flex-direction:column;
+            justify-content: space-between;
+            
             text-align:left;
            
-            width: 100%;
+            width: 90%;
+            
             margin: auto;
-            height:auto;
-           
             margin-bottom: 50px;
-            font-size: 17px;
            
            
           }
-         
-          
-          #contenido4{
-           display: block;
-           width: 100%;
-          padding-left: 5px;
-         
-           margin-bottom: 30px;
+          #contenedor8 > div{
+            width: 100%;
            
+           
+            font-size: 17px;
+            }
+            
+          .contenido4{
+            flex: 1;
+            order: 2;
+           
+            margin-top: 30px;
+          }
           
+          .contenido4 h3{
           
+            font-weight:normal;
+            margin-top: 30px;
           
-           }
+          }
           
            
             
           
            
           
-           #contenido5{
-            display: block;
+           .contenido5{
+            flex: 1;
+            order: 1;
+            margin-top: 30px;
+           }
+          
+           .contenido5 h3{
+          
+            font-weight:normal;
+            margin-top: 30px;
+          }
+          
+          
+          .contenido6{
+            flex: 1;
+            order: 3;
+            margin-top: 30px;
+           }
+          
+           .contenido6 h3{
+          
+            font-weight:normal;
+            margin-top: 30px;
+          }
+          
+          #imagen4{
             width: 100%;
-            padding-left: 5px;
-           
-           
-           
-            margin-bottom: 30px;
-           
-          
-          
-          
-          
-          
-          
-          
-          
-           }
-          
-           #contenido6{
-            display: block;
-           width: 100%;
-           padding-left: 5px;
-          
-          
-           margin-bottom: 30px;
-           
-          
-           }
-          
-           #imagen4{
-            width:100%;
-           
-            height:auto;
-           
-            margin-top: 20px;
-          
+            height: 300px;
           }
           
           #imagen5{
-            width:100%;
-           
-            height:auto; 
-           
-            margin-top: 20px;
-            
-          
+            width: 100%;
+            height: 300px;
           }
           
           #imagen6{
-            width:100%;
-           
-            height:auto;
-            
-            margin-top: 20px;
-          
+            width: 100%;
+            height: 300px;
           }
+          
 
          
 
