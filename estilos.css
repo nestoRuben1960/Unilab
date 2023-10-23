@@ -1572,24 +1572,24 @@ body{
 }
 
 
+
+
 #contenedor8{
   display: flex;
   flex-direction:row;
-  justify-content:space-between;
+  justify-content: space-between;
   
   text-align:left;
  
-  width: 100%;
+  width: 90%;
   
- 
+  margin: auto;
   margin-bottom: 50px;
-  background: aqua;
  
  
 }
 #contenedor8 > div{
   width: 25%;
-  display: flex;
  
  
   font-size: 17px;
@@ -1653,6 +1653,7 @@ body{
   width: 100%;
   height: 300px;
 }
+
 
 
  
