@@ -810,6 +810,7 @@ margin-top: 50px;
       margin: auto;
       background: white;
       margin-top: 75px;
+      height: 500px;
       }
 
      #caja1 > div{
@@ -818,12 +819,15 @@ margin-top: 50px;
 
      .contenido1{
       flex: 3;
+      order: 2;
       font-size: 25px;
       text-align: left;
       font-weight: bold;
     
-      padding-left: 10px;
-     padding-top: 250px;
+      padding-left: 15px;
+      padding-right: 15px;
+     padding-bottom:  30px;
+     margin-bottom: 0px;
      
     
      
@@ -841,7 +845,9 @@ margin-top: 50px;
       width: 90%;
       margin: auto;
       height: 450px;
-     
+      padding-top: 0px;
+      padding-bottom: 0px;
+     height: 500px;
       opacity: 0.5;
        }
 
@@ -853,6 +859,7 @@ margin-top: 50px;
       width: 90%;
       margin: auto;
      margin-top: 75px;
+     height: 500px;
       
      }
 
@@ -860,18 +867,7 @@ margin-top: 50px;
       display: flex;
      }
 
-     #caja3{
-      display: flex;
-      flex-direction:row;
-      justify-content:center;
-      width: 90%;
-      margin: auto;
-     margin-top: 75px;
-     }
-
-     #caja3 > div{
-      display: flex;
-     }
+    
 
      
 
@@ -914,7 +910,19 @@ margin-top: 50px;
      }
 
     
+     #caja3{
+      display: flex;
+      flex-direction:row;
+      justify-content:center;
+      width: 90%;
+      margin: auto;
+     margin-top: 75px;
+     height: 500px;
+     }
 
+     #caja3 > div{
+      display: flex;
+     }
      
      
    
@@ -927,13 +935,14 @@ margin-top: 50px;
       font-size: 25px;
     text-align: left;
     font-weight: bold;
-    padding-bottom: 10px;
-     padding-left: 10px;
+    padding-bottom: 30px;
+     padding-left: 15px;
+     padding-right: 15px;
      
-   padding-top: 250px;
+  
    
    
-    margin-bottom: 100px;
+    margin-bottom: 0px;
    
    
      }
@@ -951,8 +960,10 @@ margin-top: 50px;
         position: absolute;
         width: 90%;
         margin: auto;
-        height: 450px;
-       
+        height: 500px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+      
        
         opacity: 0.5;
        }
@@ -966,15 +977,15 @@ margin-top: 50px;
      .left{
       flex: 1;
       width: 20%;
-      height: 400px;
+     
       flex-wrap: wrap; 
       color: black;
       font-weight: bold;
     font-style: italic;
     font-size: 20px;
    padding-top: 100px;
-    margin-bottom: 50px;
-    margin-left: 25px;
+    margin-bottom: 0px;
+    margin-left: 15px;
    
 
      }
@@ -1836,6 +1847,7 @@ margin-top: 50px;
       margin: auto;
       background: white;
       margin-top: 75px;
+      height: 450px;
       }
 
      #caja1 > div{
@@ -1848,9 +1860,11 @@ margin-top: 50px;
       text-align: left;
       font-weight: bold;
      
-      padding-left: 10px;
-      height: 400px;
-      margin-top: 250px;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-bottom: 30px;
+      height: 450px;
+      margin-bottom: 0px;
     
      
      
@@ -1867,6 +1881,8 @@ margin-top: 50px;
       width: 90%;
       margin: auto;
       height: 450px;
+      padding-top: 0px;
+      padding-bottom: 0px;
      
       opacity: 0.5;
        }
@@ -1878,6 +1894,8 @@ margin-top: 50px;
       justify-content:center;
       width: 90%;
       margin: auto;
+      height: 450px;
+      margin-top: 75px;
      
       
      }
@@ -1886,28 +1904,17 @@ margin-top: 50px;
       display: flex;
      }
 
-     #caja3{
-      display: flex;
-      flex-direction:row;
-      justify-content:center;
-      width: 90%;
-      margin: auto;
-     
-     }
-
-     #caja3 > div{
-      display: flex;
-     }
-
-      .contenido2{
+     .contenido2{
       flex: 3;
       font-size: 25px;
       text-align: left;
       font-weight: bold;
-      margin-top: 250px;
+      margin-bottom: 0px;
+      padding-bottom: 30px;
+      padding-right: 15px;
     
-      padding-left: 10px;
-      height: 400px;
+      padding-left: 15px;
+      height: 450px;
      
       }
 
@@ -1917,28 +1924,50 @@ margin-top: 50px;
         position: relative
       }
 
-     #imagen7{
+      #imagen7{
       
      
-      position: absolute;
+        position: absolute;
+        width: 90%;
+        margin: auto;
+        height: 450px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        
+        opacity: 0.5;
+       }
+
+     #caja3{
+      display: flex;
+      flex-direction:row;
+      justify-content:center;
       width: 90%;
       margin: auto;
       height: 450px;
-      
-      opacity: 0.5;
+      margin-top: 75px;
+     
      }
+
+     #caja3 > div{
+      display: flex;
+     }
+
+     
+
+     
      .contenido3{
       flex: 3;
       font-size: 25px;
       text-align: left;
       font-weight: bold;
-      padding-top: 275px;
-      padding-left: 10px;
+      padding-bottom: 30px;
+      padding-left: 15px;
+      padding-right: 15px;
      
    
-    height: 400px;
+    height: 450px;
    
-    margin-bottom: 50px;
+    margin-bottom: 0px;
    
    
      }
@@ -1957,6 +1986,8 @@ margin-top: 50px;
         width: 90%;
         margin: auto;
         height: 450px;
+        padding-top: 0px;
+        padding-bottom: 0px;
        
        
         opacity: 0.5;
@@ -1971,14 +2002,14 @@ margin-top: 50px;
      .left{
       flex: 1;
       width: 20%;
-      height: 400px;
+      height: 450px;
       flex-wrap: wrap; 
       color: black;
       font-weight: bold;
     font-style: italic;
     font-size: 20px;
    padding-top: 100px;
-    margin-bottom: 50px;
+    margin-top: 0px;
     margin-left: 25px;
    
 
@@ -2402,10 +2433,12 @@ margin-top: 50px;
                   text-align: left;
                   font-weight: bold;
                  
-                  padding-left: 10px;
-                  padding-top: 10px;
-                  padding-right: 10px;
+                  padding-left: 15px;
+                  padding-bottom: 30px;
+                  padding-right: 15px;
                 background: red;
+                margin-bottom: 0px;
+                height: 200px;
                  
                   }
             
@@ -2448,12 +2481,13 @@ margin-top: 50px;
                   order: 2;
                   text-align: left;
                   font-weight: bold;
-                  font-size: 25px;
+                  font-size: 20px;
                   padding-left: 15px;
                   padding-bottom: 30px;
                   padding-right: 15px;
                  background: red;
                   margin-bottom: 0px;
+                  height: 200px;
                   }
 
                   .contenido2 p {
@@ -2464,8 +2498,7 @@ margin-top: 50px;
 
                   #image7{
                     position: absolute;
-                    width: 90%;
-                    margin: auto;
+                    width: 100%;
                     
                     padding-top: 0px;
                     padding-bottom: 0px;
@@ -2496,10 +2529,10 @@ margin-top: 50px;
                  
                   text-align: left;
                   font-weight: bold;
-                  font-size: 25px;
-                  padding-left: 10px;
+                  font-size: 20px;
+                  padding-left: 15px;
                  
-                  padding-right: 10px;
+                  padding-right: 15px;
                   padding-bottom: 30px;
                   background: red;
                   margin-bottom: 0px;
@@ -2536,6 +2569,7 @@ margin-top: 50px;
                   font-style: italic;
                   font-size: 20px;
                  padding-top: 30px;
+                 padding-left: 15px;
                  background: blue;
                  
                 
@@ -2960,145 +2994,168 @@ margin-top: 50px;
             
             }
 
-          #caja1{
-            display: block;
-           
-            width: 100%;
-           
-            margin-top: 0px;
-            
-          }
-
-          
-
-          #left{
-            display: block;
-           font-size: 15px;
-            width: 50%;
-            margin: auto; 
-            padding-left: 25px;
-          }
-
-          .contenido1{
-           display: block;
+            #caja1{
+              display: flex;
+              flex-direction:column;
+              justify-content:center;
+              width: 100%;
+             
+             background: aqua;
+              margin-top: 75px;
+              height: 500px;
+              }
+        
+             #caja1 > div{
+              display: flex;
+             }
+        
+             .contenido1{
+              flex: 1;
+              order: 2;
+              text-align: left;
+              font-weight: bold;
+             
+              padding-left: 15px;
+              padding-bottom: 30px;
+              padding-right: 15px;
+            background: red;
+            margin-bottom: 0px;
+            height: 200px;
+             
+              }
+        
+              .contenido1 p {
+                font-size: 25px;
+                color: black;
+                position: relative
+              } 
+        
+              #imagen9{
+              position: absolute;
+              width: 100%;
+              
+              padding-top: 0px;
+              padding-bottom: 0px;
+              opacity: 0.5;
+              height: 500px;
+               }
+        
+        
+               #caja2{
+                display: flex;
+                flex-direction:column;
+                justify-content:center;
                 width: 100%;
-                font-size: 10px;
-                text-align: left;
-                font-weight: bold;
-                padding-top: 10px;
-                padding-left: 25px;
-                height:300px;
+                margin-top: 75px;
+                height: 500px;
+                background: aqua;
                
-                margin-top: 10px;
-               
-            }
-      
-            .contenido1 p {
+                }
+              
+             
+        
+             #caja2 > div{
+              display: flex;
+             }
+
+             .contenido2{
+              flex: 1;
+              order: 2;
+              text-align: left;
+              font-weight: bold;
+              font-size: 20px;
+              padding-left: 15px;
+              padding-bottom: 30px;
+              padding-right: 15px;
+             background: red;
+              margin-bottom: 0px;
+              height: 200px;
+              }
+
+              .contenido2 p {
+                font-size: 25px;
+                color: black;
+                position: relative
+              }
+
+              #image7{
+                position: absolute;
+                width: 100%;
+                
+                padding-top: 0px;
+                padding-bottom: 0px;
+                opacity: 0.5;
+                height: 500px;
+                 }
+
+
+        
+             #caja3{
+              display: flex;
+              flex-direction:column;
+              justify-content:center;
+              width: 100%;
+              margin-top: 75px;
+              height: 500px;
+              background: aqua;
+              }
+        
+             #caja3 > div{
+              display: flex;
+             }
+
+             .contenido3{
+              flex: 1;
+              order: 2;
+              width: 100%;
+             
+              text-align: left;
+              font-weight: bold;
+              font-size: 20px;
+              padding-left: 15px;
+             
+              padding-right: 15px;
+              padding-bottom: 30px;
+              background: red;
+              margin-bottom: 0px;
+             
+             
+             
+              }
+
+             .contenido3 p {
               font-size: 25px;
               color: black;
               position: relative
-              
-              
             }
-      
-            #imagen9{
-              display: block;
+
+            #imagen8{
               position: absolute;
-                  width: 100%;
-                  height:350px;
-                  opacity: 0.5;
-                 margin-left: 0px;
-                  margin-top: 0px;
-                 
-             }
-
-             #caja2{
-              display:flex;
-              height: 500px;
               width: 100%;
-
-
-            }
-
-            .contenido2{
-            flex:1;
-            order: 2;
-                   width: 100%;
-                   font-size: 10px;
-                   text-align: left;
-                   font-weight: bold;
-                   padding-bottom: 30px;
-                   padding-left: 15px;
-                   padding-right: 15px;
-                   
-                  
-                   margin-bottom: 0px;
-                  
-               }
-         
-               .contenido2 p {
-                 font-size: 25px;
-                 color: black;
-                 position: relative
-                 
-                 
-               }
-         
-               #imagen7{
-                
-                 position: absolute;
-                     width: 100%;
-                     height:500px;
-                     opacity: 0.5;
-                    padding-top: 0px;
-                    padding-bottom: 0px;
-                    
-                }
-  
-             
-  
-            
-        
               
-              
+              padding-top: 0px;
+              padding-bottom: 0px;
+              opacity: 0.5;
+              height: 500px;
+               }
 
-               #caja3{
-                display:block;
-               
-                width: 100%;
-              }
-    
-                
-    
-              .contenido3{
-                display: block;
-                width: 100%;
-                font-size: 10px;
-                text-align: left;
+               .left{
+                flex: 1;
+                order: 1;
+                width: 90%;
+                margin: auto;
+               margin-top: 0px;
+                flex-wrap: wrap; 
+                color: black;
                 font-weight: bold;
-                padding-bottom: 30px;
-                padding-left: 15px;
-                padding-right: 15px;
-               
-                margin-bottom: 0px;
-                }
-          
-                .contenido3 p {
-                  font-size: 25px;
-                  color: black;
-                  position: relative
-                }
-          
-                #imagen8{
-                  display: block;
-                  position: absolute;
-                  width: 100%;
-                  height:350px;
-                  opacity: 0.5;
-                  margin-left: 0px;
-                  margin-top: 0px;
-                 }
-
+              font-style: italic;
+              font-size: 20px;
+             padding-top: 30px;
+             padding-left: 15px;
+             background: blue;
+             
+            
+              }
                 
 
                 #video1{
