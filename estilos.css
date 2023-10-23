@@ -2418,7 +2418,7 @@ margin-top: 50px;
                   justify-content:center;
                   width: 100%;
                  
-                 background: aqua;
+                
                   margin-top: 75px;
                   height: 500px;
                   }
@@ -2436,7 +2436,7 @@ margin-top: 50px;
                   padding-left: 15px;
                   padding-bottom: 30px;
                   padding-right: 15px;
-                background: red;
+               
                 margin-bottom: 0px;
                 height: 200px;
                  
@@ -2466,7 +2466,7 @@ margin-top: 50px;
                     width: 100%;
                     margin-top: 75px;
                     height: 500px;
-                    background: aqua;
+                   
                    
                     }
                   
@@ -2485,7 +2485,7 @@ margin-top: 50px;
                   padding-left: 15px;
                   padding-bottom: 30px;
                   padding-right: 15px;
-                 background: red;
+                
                   margin-bottom: 0px;
                   height: 200px;
                   }
@@ -2515,7 +2515,7 @@ margin-top: 50px;
                   width: 100%;
                   margin-top: 75px;
                   height: 500px;
-                  background: aqua;
+                 
                   }
             
                  #caja3 > div{
@@ -2534,7 +2534,7 @@ margin-top: 50px;
                  
                   padding-right: 15px;
                   padding-bottom: 30px;
-                  background: red;
+                 
                   margin-bottom: 0px;
                  
                  
@@ -2570,7 +2570,7 @@ margin-top: 50px;
                   font-size: 20px;
                  padding-top: 30px;
                  padding-left: 15px;
-                 background: blue;
+                
                  
                 
                   }
@@ -3000,7 +3000,7 @@ margin-top: 50px;
               justify-content:center;
               width: 100%;
              
-             background: aqua;
+            
               margin-top: 75px;
               height: 500px;
               }
@@ -3018,7 +3018,7 @@ margin-top: 50px;
               padding-left: 15px;
               padding-bottom: 30px;
               padding-right: 15px;
-            background: red;
+           
             margin-bottom: 0px;
             height: 200px;
              
@@ -3048,7 +3048,6 @@ margin-top: 50px;
                 width: 100%;
                 margin-top: 75px;
                 height: 500px;
-                background: aqua;
                
                 }
               
@@ -3067,7 +3066,7 @@ margin-top: 50px;
               padding-left: 15px;
               padding-bottom: 30px;
               padding-right: 15px;
-             background: red;
+            
               margin-bottom: 0px;
               height: 200px;
               }
@@ -3097,7 +3096,7 @@ margin-top: 50px;
               width: 100%;
               margin-top: 75px;
               height: 500px;
-              background: aqua;
+             
               }
         
              #caja3 > div{
@@ -3116,8 +3115,7 @@ margin-top: 50px;
              
               padding-right: 15px;
               padding-bottom: 30px;
-              background: red;
-              margin-bottom: 0px;
+             
              
              
              
