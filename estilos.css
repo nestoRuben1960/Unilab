@@ -3025,7 +3025,7 @@ margin-top: 50px;
               }
         
               .contenido1 p {
-                font-size: 25px;
+                font-size: 15px;
                 color: black;
                 position: relative
               } 
@@ -3063,7 +3063,7 @@ margin-top: 50px;
               order: 2;
               text-align: left;
               font-weight: bold;
-              font-size: 20px;
+             
               padding-left: 15px;
               padding-bottom: 30px;
               padding-right: 15px;
@@ -3073,7 +3073,7 @@ margin-top: 50px;
               }
 
               .contenido2 p {
-                font-size: 25px;
+                font-size: 15px;
                 color: black;
                 position: relative
               }
@@ -3111,7 +3111,7 @@ margin-top: 50px;
              
               text-align: left;
               font-weight: bold;
-              font-size: 20px;
+             
               padding-left: 15px;
              
               padding-right: 15px;
@@ -3124,7 +3124,7 @@ margin-top: 50px;
               }
 
              .contenido3 p {
-              font-size: 25px;
+              font-size: 15px;
               color: black;
               position: relative
             }
@@ -3149,7 +3149,7 @@ margin-top: 50px;
                 color: black;
                 font-weight: bold;
               font-style: italic;
-              font-size: 15px;
+              font-size: 20px;
              padding-top: 30px;
              padding-left: 15px;
              background: blue;
