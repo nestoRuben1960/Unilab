@@ -1590,7 +1590,7 @@ body{
 }
 #contenedor8 > div{
   width: 25%;
- 
+ padding-right: 15px;
  
   font-size: 17px;
   }
