@@ -823,7 +823,7 @@ margin-top: 50px;
       font-size: 25px;
       text-align: left;
       font-weight: bold;
-    
+      height: 500px;
       padding-left: 15px;
       padding-right: 15px;
      padding-bottom:  30px;
@@ -844,7 +844,7 @@ margin-top: 50px;
         position: absolute;
       width: 90%;
       margin: auto;
-      height: 450px;
+      
       padding-top: 0px;
       padding-bottom: 0px;
      height: 500px;
@@ -885,9 +885,10 @@ margin-top: 50px;
       font-size: 25px;
       text-align: left;
       font-weight: bold;
-     padding-top: 250px;
-    
-      padding-left: 10px;
+      padding-bottom: 30px;
+      height: 500px;
+      padding-left: 15px;
+      padding-right: 15px;
      
      
       }
@@ -904,7 +905,9 @@ margin-top: 50px;
       position: absolute;
       width: 90%;
       margin: auto;
-      height: 450px;
+      height: 500px;
+      padding-top: 0px;
+      padding-bottom: 0px;
       
       opacity: 0.5;
      }
@@ -938,7 +941,7 @@ margin-top: 50px;
     padding-bottom: 30px;
      padding-left: 15px;
      padding-right: 15px;
-     
+     height: 500px;
   
    
    
