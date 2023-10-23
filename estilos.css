@@ -821,10 +821,10 @@ margin-top: 50px;
       font-size: 25px;
       text-align: left;
       font-weight: bold;
-     
+    
       padding-left: 10px;
-      height: 400px;
-      margin-top: 250px;
+     padding-top: 250px;
+     
     
      
      
@@ -852,7 +852,7 @@ margin-top: 50px;
       justify-content:center;
       width: 90%;
       margin: auto;
-     
+     margin-top: 75px;
       
      }
 
@@ -866,7 +866,7 @@ margin-top: 50px;
       justify-content:center;
       width: 90%;
       margin: auto;
-     
+     margin-top: 75px;
      }
 
      #caja3 > div{
@@ -889,10 +889,10 @@ margin-top: 50px;
       font-size: 25px;
       text-align: left;
       font-weight: bold;
-      margin-top: 250px;
+     padding-top: 250px;
     
       padding-left: 10px;
-      height: 400px;
+     
      
       }
 
@@ -927,13 +927,13 @@ margin-top: 50px;
       font-size: 25px;
     text-align: left;
     font-weight: bold;
-    padding-top: 275px;
+    padding-bottom: 10px;
      padding-left: 10px;
      
+   padding-top: 250px;
    
-    height: 400px;
    
-    margin-bottom: 50px;
+    margin-bottom: 100px;
    
    
      }
@@ -2403,7 +2403,7 @@ margin-top: 50px;
                   font-weight: bold;
                   font-size: 25px;
                   padding-left: 10px;
-                  padding-bottom: 10px;
+                  padding-top: 250px;
                   padding-right: 10px;
                  
                   margin-bottom: 100px;
@@ -2449,7 +2449,7 @@ margin-top: 50px;
                   font-weight: bold;
                   font-size: 25px;
                   padding-left: 10px;
-                  padding-bottom: 30px;
+                  padding-top: 250px;
                   padding-right: 10px;
                  
                   margin-bottom: 100px;
@@ -2493,7 +2493,7 @@ margin-top: 50px;
                   font-weight: bold;
                   font-size: 25px;
                   padding-left: 10px;
-                  padding-bottom: 30px;
+                  padding-top: 250px;
                   padding-right: 10px;
                  
                   margin-bottom: 100px;
@@ -2526,7 +2526,7 @@ margin-top: 50px;
                     font-weight: bold;
                   font-style: italic;
                   font-size: 20px;
-                 padding-top: 20px;
+                 padding-top: 50px;
                   margin-top: 50px;
                   margin-left: 25px;
                 
