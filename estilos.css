@@ -2490,7 +2490,7 @@ margin-top: 50px;
                  .contenido3{
                   flex: 1;
                   order: 2;
-                  width: 90px;
+                  width: 90%;
                   margin: auto;
                   text-align: left;
                   font-weight: bold;
