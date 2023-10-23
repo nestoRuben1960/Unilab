@@ -2387,7 +2387,7 @@ margin-top: 50px;
                   justify-content:center;
                   width: 100%;
                  
-                 
+                 background: aqua;
                   margin-top: 75px;
                   height: 500px;
                   }
@@ -2401,12 +2401,12 @@ margin-top: 50px;
                   order: 2;
                   text-align: left;
                   font-weight: bold;
-                  font-size: 25px;
+                 
                   padding-left: 10px;
-                  padding-top: 0px;
+                  padding-top: 10px;
                   padding-right: 10px;
-                 height: 200px;
-                  margin-top:  200px;
+                background: red;
+                 
                   }
             
                   .contenido1 p {
@@ -2526,9 +2526,9 @@ margin-top: 50px;
                     font-weight: bold;
                   font-style: italic;
                   font-size: 20px;
-                 padding-top: 50px;
-                  margin-top: 50px;
-                  margin-left: 25px;
+                 padding-top: 10px;
+                 background: blue;
+                 
                 
                   }
 
