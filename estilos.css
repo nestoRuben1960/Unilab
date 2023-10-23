@@ -2480,6 +2480,7 @@ margin-top: 50px;
                   width: 100%;
                   margin-top: 75px;
                   height: 500px;
+                  background: aqua;
                   }
             
                  #caja3 > div{
@@ -2493,10 +2494,12 @@ margin-top: 50px;
                   font-weight: bold;
                   font-size: 25px;
                   padding-left: 10px;
-                  padding-top: 250px;
+                  padding-top: 0px;
                   padding-right: 10px;
+                  padding-bottom: 10px;
+                  background: red;
                  
-                  margin-bottom: 100px;
+                 
                   }
 
                  .contenido3 p {
