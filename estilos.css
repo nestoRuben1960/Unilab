@@ -2490,8 +2490,8 @@ margin-top: 50px;
                  .contenido3{
                   flex: 1;
                   order: 2;
-                  width: 90%;
-                  margin: auto;
+                  width: 100%;
+                 
                   text-align: left;
                   font-weight: bold;
                   font-size: 25px;
@@ -2500,7 +2500,7 @@ margin-top: 50px;
                   padding-right: 10px;
                   padding-bottom: 30px;
                   background: red;
-                  margin-bottom: 0px;
+                 
                  
                  
                   }
@@ -2972,8 +2972,7 @@ margin-top: 50px;
             display: block;
            font-size: 15px;
             width: 50%;
-            margin: auto;
-            height: 100px;
+            margin: auto; 
             padding-left: 25px;
           }
 
@@ -3072,10 +3071,11 @@ margin-top: 50px;
                 font-size: 10px;
                 text-align: left;
                 font-weight: bold;
-                padding-top: 10px;
-                padding-left: 25px;
-                height:auto;
-                margin-bottom: 50px;
+                padding-bottom: 30px;
+                padding-left: 15px;
+                padding-right: 15px;
+               
+                margin-bottom: 0px;
                 }
           
                 .contenido3 p {
