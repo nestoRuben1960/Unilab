@@ -2441,9 +2441,9 @@ margin-top: 50px;
                   padding-left: 15px;
                   padding-bottom: 30px;
                   padding-right: 15px;
-               
-                margin-bottom: 0px;
-                height: 200px;
+                  padding-top: 0px;
+                  margin-bottom: 0px;
+                  height: 200px;
                  
                   }
             
@@ -2490,7 +2490,7 @@ margin-top: 50px;
                   padding-left: 15px;
                   padding-bottom: 30px;
                   padding-right: 15px;
-                
+                padding-top: 0px;
                   margin-bottom: 0px;
                   height: 200px;
                   }
@@ -2539,7 +2539,7 @@ margin-top: 50px;
                  
                   padding-right: 15px;
                   padding-bottom: 30px;
-                 
+                 padding-top: 0px;
                   margin-bottom: 0px;
                  
                  
@@ -3023,7 +3023,7 @@ margin-top: 50px;
               padding-left: 15px;
               padding-bottom: 30px;
               padding-right: 15px;
-           
+           padding-top: 0px;
             margin-bottom: 0px;
             height: 200px;
              
@@ -3071,7 +3071,7 @@ margin-top: 50px;
               padding-left: 15px;
               padding-bottom: 30px;
               padding-right: 15px;
-            
+            padding-top: 0px;
               margin-bottom: 0px;
               height: 200px;
               }
@@ -3120,6 +3120,7 @@ margin-top: 50px;
              
               padding-right: 15px;
               padding-bottom: 30px;
+              padding-top: 0px;
              
              
              
