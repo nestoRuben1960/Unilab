@@ -811,6 +811,7 @@ margin-top: 50px;
       background: white;
       margin-top: 75px;
       height: 500px;
+      background: aqua;
       }
 
      #caja1 > div{
@@ -828,6 +829,7 @@ margin-top: 50px;
       padding-right: 15px;
      padding-bottom:  30px;
      margin-bottom: 0px;
+     background: blue;
      
     
      
@@ -846,7 +848,7 @@ margin-top: 50px;
       margin: auto;
       
       padding-top: 0px;
-      padding-bottom: 0px;
+      padding-bottom: 50px;
      height: 500px;
       opacity: 0.5;
        }
@@ -989,6 +991,7 @@ margin-top: 50px;
    padding-top: 100px;
     margin-bottom: 0px;
     margin-left: 15px;
+    background: red;
    
 
      }
