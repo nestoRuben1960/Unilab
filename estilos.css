@@ -2333,7 +2333,7 @@ margin-top: 50px;
                   width: 90%;
                   margin: auto;
                  
-                 
+                 margin-top: 75px;
                   font-size: 17px;
                   }
                   
@@ -2904,6 +2904,7 @@ margin-top: 50px;
           #contenedor8 > div{
             width: 90%;
             margin: auto;
+            margin-top: 75px;
            
            
             font-size: 17px;
