@@ -1,5 +1,6 @@
 # nestoRuben1960.github.io
 #Equipo Los Ingeniosos
+
 E-mail de los integrantes : 
 
 1-Iván Nina (ivanninacondori96@gmail.com)
@@ -7,12 +8,9 @@ E-mail de los integrantes : 
 3-Néstor Balleri Lamas (nestor.lamas@bue.edu.ar)
 
 
-#
+#Memoria descriptiva del proyecto Unilab
 
-Memoria descriptiva del proyecto Unilab
-
-#
-Actividad
+#Actividad
 
 Documentación: Incluir en la entrega final del proyecto web un archivo de documentación preliminar en formato PDF. Esta documentación deberá contener la planificación, organización, objetivo y descripción del proyecto, detallando cómo se han abordado los diferentes aspectos del desarrollo. Las pautas y especificaciones detalladas para este punto serán proporcionadas en un documento aparte para asegurar una presentación consistente y adecuada de la documentación.
 
