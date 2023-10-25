@@ -226,19 +226,14 @@
         
     <footer id="pie">
 
-        <div>
-            <button id="boton1">Aries</button>
-            <button id="boton2">Tauro</button>
-            <button id="boton3">Geminis</button>
-        
-        </div>
+       
         <div>
         <img id="foto">
         </div>
         
         <script>
           
-                fetch("faceboof.png")
+                fetch("facebook.png")
                     .then(response => response.blob())
                     .then(datos => document.getElementById("foto").setAttribute('src', URL.createObjectURL(datos)));
             
