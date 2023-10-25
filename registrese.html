@@ -124,6 +124,39 @@
     <p class="tengo-cuenta"><a href="" class="tengo-cuenta">Ya tengo cuenta</a></p>
     
 </form>
+
+<div id="resultado"></div>
+
+
+<script>
+    const form=document.querySelector("#form")
+    formform.addEventListener("submit",event=>{  event.preventDefault()
+  const datosFormulario=newFormData(form)
+    
+  
+  
+  })
+     
+  
+      
+          fetch('https://scratchya.com.ar/cursojs/generartarjeta.php' , {method:"POST", body:datosFormulario})
+              .then(response => response.blob())
+              .then(blob=>{
+              const urldelobjeto=URL.createObjectURL(blob)
+              const img=document.createElement("img")
+              document.querySelector("#resultado").appendChild(img)})
+              
+      
+  
+  </script>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+
 <footer id="pie">
             
     <div id="pie1">

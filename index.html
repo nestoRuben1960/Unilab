@@ -45,6 +45,12 @@
                 } 
                 window.addEventListener("load", iniciar);
                 </script>
+
+
+
+
+    </head>
+
           
 
 
@@ -219,11 +225,45 @@
     </section>      
         
     <footer id="pie">
+
+        
+    
             
         <div id="pie1">
             <h2> <center>Laboratorio</center></h2>
             <h2> <center>Unilab S.R.L.</center></h2>
         </div>
+        <div>
+
+        <img id="facebook">
+
+</div>
+
+
+
+
+<script>
+  const form=document.querySelector("#form")
+  formform.addEventListener("submit",event=>{  event.preventDefault()
+const datosFormulario=newFormData(form)
+  
+
+
+})
+   
+
+    
+        fetch('https://scratchya.com.ar/cursojs/generartarjeta.php' , {method:"POST", body:datosFormulario})
+            .then(response => response.blob())
+            .then(blob=>{
+            const urldelobjeto=URL.createObjectURL(blob)
+            const img=document.createElement("img")
+            document.querySelector("#facebook").appendChild(img)})
+            
+    
+
+</script>
+
 
         <div id="pie2">
             <h3><i class='bx bx-building-house' style='color:aqua'></i>Drección: Bulnes 1812 Ciudad autonoma de Bs As</h3>
@@ -237,7 +277,7 @@
             <div id="pie3"><hr>
             <h3><center>2023 Unilab-Todos los derechos reservados<center></h3>
         </div>
-    </footer>      
+        </footer>      
 
          
        
