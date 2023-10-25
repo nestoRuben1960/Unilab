@@ -228,14 +228,28 @@
 
        
         <div>
-        <img id="foto">
+        <img id="facebook">
+        <img id="instagram">
+        <img id="twitter">
+        <img id="whatsapp">
+        
         </div>
         
         <script>
           
                 fetch("facebook.png")
                     .then(response => response.blob())
-                    .then(datos => document.getElementById("foto").setAttribute('src', URL.createObjectURL(datos)));
+                    .then(datos => document.getElementById("facebook").setAttribute('src', URL.createObjectURL(datos)));
+                fetch("facebook.png")
+                    .then(response => response.blob())
+                    .then(datos => document.getElementById("instagram").setAttribute('src', URL.createObjectURL(datos)));
+                fetch("facebook.png")
+                    .then(response => response.blob())
+                    .then(datos => document.getElementById("twitter").setAttribute('src', URL.createObjectURL(datos)));
+                fetch("facebook.png")
+                    .then(response => response.blob())
+                    .then(datos => document.getElementById("whatsapp").setAttribute('src', URL.createObjectURL(datos)));
+
             
         
         </script>
