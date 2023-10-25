@@ -77,6 +77,33 @@
 <iframe id="video2" width="853" height="480" src="https://www.youtube.com/embed/EECNv-S8qFQ" title="Análisis de Sangre" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
+<div>
+    <button id="boton1">Aries</button>
+    <button id="boton2">Tauro</button>
+    <button id="boton3">Geminis</button>
+
+</div>
+<div>
+<img id="foto">
+</div>
+
+<script>
+    document.getElementById("boton1").addEventListener("click", () => mostrar( "C:\Users\sul40\OneDrive\Escritorio\brain-2676370_1280.jpg ") );
+    document.getElementById("boton2").addEventListener("click", () => mostrar('facebook.png'));
+    document.getElementById("boton3").addEventListener("click", () => mostrar('geminis.png'));
+
+
+    function mostrar(signo) {
+        fetch(signo)
+            .then(response => response.blob())
+            .then(datos => document.getElementById("foto").setAttribute('src', URL.createObjectURL(datos)));
+    }
+
+</script>
+
+
+
+
 
 <footer id="pie">
             
