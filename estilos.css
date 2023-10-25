@@ -1062,9 +1062,8 @@ margin-top: 50px;
       margin: auto;
      }
 
-
     
-    @media(max-width:1120px){
+ @media(max-width:1120px){
 
   #cabecera{
         display: flex;
