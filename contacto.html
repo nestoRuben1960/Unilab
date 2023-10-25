@@ -161,6 +161,49 @@
         <h3><i class='bx bxs-door-open' style='color:aqua' ></i>Horario de Administración: </h3>
         <h3>Lunes a Viernes de 8 a 18 hs</h3>
     </div>
+
+    <div id="redeSociales">
+
+       
+        <span class="redes"><a href="facebook.com">
+            <img id="facebook">    
+        </a></span>
+
+        <span class="redes"><a href="instagram.com">
+            <img id="instagram">    
+        </a></span>
+
+        <span class="redes"><a href="twitter.com">
+            <img id="twitter">    
+        </a></span>
+
+        <span class="redes"><a href="whatsapp.com">
+            <img id="whatsapp">    
+        </a></span>
+    </div>
+       
+       
+        
+        
+        <script>
+          
+                fetch("facebook.png")
+                    .then(response => response.blob())
+                    .then(datos => document.getElementById("facebook").setAttribute('src', URL.createObjectURL(datos)));
+                fetch("instagram.png")
+                    .then(response => response.blob())
+                    .then(datos => document.getElementById("instagram").setAttribute('src', URL.createObjectURL(datos)));
+                fetch("twitter.png")
+                    .then(response => response.blob())
+                    .then(datos => document.getElementById("twitter").setAttribute('src', URL.createObjectURL(datos)));
+                fetch("whatsapp.png")
+                    .then(response => response.blob())
+                    .then(datos => document.getElementById("whatsapp").setAttribute('src', URL.createObjectURL(datos)));
+
+            
+        
+        </script>
+          
         <div id="pie3"><hr>
         <h3><center>2023 Unilab-Todos los derechos reservados<center></h3>
     </div>
