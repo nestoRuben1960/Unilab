@@ -142,10 +142,10 @@
     text-transform: uppercase;
   text-rendering: optimizeLegibility;
   border-radius: 20px 0px 0px 20px;
-  padding-top: 15px;
+  padding-top: auto;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 15px;
+  padding-bottom: auto;
 
   }
    
@@ -272,12 +272,12 @@ flex: 2;
       text-rendering: optimizeLegibility;
       
       border-radius: 20px 20px 20px 20px;
-      padding-top:  15px;
+      padding-top:  auto;
       padding-left: 15px;
       padding-right: 15px;
-      padding-bottom: 15px;
-      margin-left: auto;
-      margin-right: auto;
+      padding-bottom: auto;
+     
+     
      }
     
     
