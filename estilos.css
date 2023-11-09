@@ -48,7 +48,7 @@
       #titulo1 {
     
         color:aqua; 
-        font-size: 25px;
+        font-size: 35px;
        
       }
     
@@ -97,7 +97,7 @@
     display: inline-block; 
     list-style: none; 
     padding: 15px; 
-    font:  25px verdana, sans-serif; 
+    font:  20px verdana, sans-serif; 
     text-decoration: none;
    }
    #menu a{
