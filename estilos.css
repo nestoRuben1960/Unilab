@@ -3,7 +3,7 @@
         display: flex;
         flex-direction:column;
         justify-content:center;
-        background: darkblue;
+        background:  #1d4169  ;
        
         width: 90%;
         margin: auto;
@@ -316,7 +316,7 @@ flex: 2;
     
     color: white;
    
-    background:  #1d4169    ; 
+    background: darkblue   ; 
     
     padding: 20px; 
     width: 90%;
