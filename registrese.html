@@ -85,32 +85,25 @@
             </nav>
     
 
-   
-
-       
-
-    
-   
-    
-
-
-
 
 
 <!--FORMULARIO---->
-<form class="form">
+
+<form action="{{ url_for('registrarForm') }}" method="POST" autocomplete="off">
+
         
     <!--TITULO------------------------>
     <h1 class="titulo">Registrarse</h1>
     
     <!--CAJAS-DE-ENTRADA-DE-DATOS------------------------------------------------>
-    <input class="cajas" type="text" placeholder="Nombre" required maxlength="30">
-    <input class="cajas" type="text" placeholder="Apellido" required maxlength="30">
-    <input class="cajas" type="datetime" placeholder="Fecha de Nacimiento (dd/mm/aaaa)" required maxlength="30">
-    <input class="cajas" type="email" placeholder="Email" required maxlength="30">
-    <input class="cajas" type="number" placeholder="Teleéfono" required maxlength="30">
-    <input class="cajas" type="text" placeholder="Elija un nombre de Usuario" required  maxlength="30">
-    <input class="cajas" type="password" placeholder="Elija una contraseña" id="clave1" required maxlength="30">
+    <input class="cajas" type="text" placeholder="Nombre"  name="nombre" maxlength="30">
+    <input class="cajas" type="text" placeholder="Apellido" name="apellido" required maxlength="30">
+    <input class="cajas" type="datetime" placeholder="Fecha de Nacimiento (dd/mm/aaaa)" name="fecha"    required maxlength="30">
+    <input class="cajas" type="email" placeholder="Email"  name="email" required maxlength="30">
+    <input class="cajas" type="number" placeholder="Teleéfono" name="telefono"   required maxlength="30">
+    <input class="cajas" type="text" placeholder="Prepaga"  name="prepaga" required maxlength="30">
+    <input class="cajas" type="text" placeholder="Elija un nombre de Usuario" name="usuario" required  maxlength="30">
+    <input class="cajas" type="password" placeholder="Elija una contraseña" id="clave1" name="clave"  required maxlength="30">
     <input class="cajas" type="password" placeholder="Repita la contraseña" id="clave2" required maxlength="30">
 
     <!--TERMINOS-Y-CONDICIONES---------------------------------------------------------------------------------->
@@ -160,12 +153,12 @@
     </div>
 
     <div id="pie2">
-        <h3><i class='bx bx-building-house' style='color:aqua'></i>Drección: Bulnes 1812 Ciudad autonoma de Bs As</h3>
-        <h3><i class='bx bxs-phone bx-xs' style='color:aqua'></i>T.e.:4555-5693</h3>
-        <h3><i class='bx bx-envelope bx-xs' style='color:aqua'></i>Email: laboratorio@unilab.com</h3>
-        <h3><i class='bx bxs-injection' style='color:aqua'></i>Horario de Extracción: </h3>
+        <h3><i class='bx bx-building-house' style='color:white'></i>Drección: Bulnes 1812 Ciudad autonoma de Bs As</h3>
+        <h3><i class='bx bxs-phone bx-xs' style='color:white'></i>T.e.:4555-5693</h3>
+        <h3><i class='bx bx-envelope bx-xs' style='color:white'></i>Email: laboratorio@unilab.com</h3>
+        <h3><i class='bx bxs-injection' style='color:white'></i>Horario de Extracción: </h3>
         <h3>Lunes a Viernes de 8 a 12 hs</h3>
-        <h3><i class='bx bxs-door-open' style='color:aqua' ></i>Horario de Administración: </h3>
+        <h3><i class='bx bxs-door-open' style='color:white' ></i>Horario de Administración: </h3>
         <h3>Lunes a Viernes de 8 a 18 hs</h3>
     </div>
 
