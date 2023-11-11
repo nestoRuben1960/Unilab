@@ -36,9 +36,9 @@
 
       #titulo1 {
     
-        color:darkorange; 
+        color:#FA8C25; 
         font-size: 35px;
-       
+       font-family: Arial, Helvetica, sans-serif ;
       }
 
      
@@ -75,14 +75,15 @@
  
   height: 100%;
   
-  width: 70%;
+  width: 52%;
   margin: auto;
+  background:#48037D;
    
    
     
     text-decoration: none;
    
-    border-radius: 0px 0px 20px 20px;
+    border-radius: 20px 20px 20px 20px;
    } 
 
 #menu li { 
@@ -94,11 +95,11 @@
    }
    #menu a{
     text-decoration: none;
-    color: darkblue;
+    color: white;
     font-weight: bold;
    }
    #menu a:hover {
-    background-color:darkblue;
+    background-color: #FA8C25 ;
     color:#ffffff; 
     font: bold 35px , sans-serif; 
     padding: 10px; 
@@ -424,10 +425,10 @@ body{
 
 #h2{
   text-align: center;
-  font-size: 30px;
+  font-size: 35px;
   font-family: arial;
   margin-top: 150px;
-  color: rgb(67, 4, 119); 
+  color: #48037D   ; 
   font-weight: bold;
  
 }
