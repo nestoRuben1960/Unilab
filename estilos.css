@@ -126,7 +126,7 @@
     flex: 1;
     height:auto;
     text-align: center;
-    font-size: 25px;
+    font-size: 22px;
     color: white;
     font-weight: bold;
     position: relative;
@@ -255,7 +255,7 @@ flex: 2;
       order: 1;
       height: 100px;
         text-align: center;
-        font-size: 25px;
+        font-size: 22px;
         color:white ;
         font-weight: bold;
         position: relative;
