@@ -505,7 +505,7 @@ body{
 }
 
 #titulo2{
-  background: aqua;
+  color:#FA8C25; ;
 
 }
 
@@ -1031,7 +1031,7 @@ margin-top: 50px;
         display: flex;
         flex-direction:column;
         justify-content:center;
-        background:darkblue;
+        background:white  ;
        
         width: 100%;
        
@@ -1045,7 +1045,7 @@ margin-top: 50px;
         display: flex;
         flex-direction:column;
         justify-content:center;
-        background: darkblue;
+        background: white;
        
         width: 100%;
         
@@ -1075,7 +1075,7 @@ margin-top: 50px;
 
       #titulo1 {
     
-        color:aqua; 
+        color:#FA8C25;   ; 
         font-size: 25px;
        
       }
@@ -1130,11 +1130,11 @@ margin-top: 50px;
    }
    #menu a{
     text-decoration: none;
-    color: darkblue;
+    color:white;  
     font-weight: bold;
    }
    #menu a:hover {
-    background-color:darkblue;
+    background-color: #FA8C25;   
     color:#ffffff; 
     font: bold 35px , sans-serif; 
     padding: 10px; 
@@ -2019,7 +2019,7 @@ margin-top: 50px;
             #cabecera{
               display:block;
              
-              background: darkblue;
+              background: white;
              
               width: 100%;
               padding-top: 10px;
