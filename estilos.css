@@ -1074,6 +1074,12 @@ margin-top: 50px;
        
       }
 
+      .redes img {
+  
+        width: 30px;
+        height: 30px;
+      }
+
 
 
 
@@ -2073,6 +2079,12 @@ margin-top: 50px;
              #cabeceralogo > div { 
              text-align: center; 
              } 
+
+             .redes img {
+  
+              width: 30px;
+              height: 30px;
+            }
       
            
       
@@ -2825,6 +2837,12 @@ margin-top: 50px;
             margin-top: 50px;
            
            }
+
+           .redes img {
+  
+            width: 30px;
+            height: 30px;
+          }
 
       
     
