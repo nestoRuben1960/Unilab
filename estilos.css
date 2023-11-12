@@ -2080,6 +2080,14 @@ margin-top: 50px;
              text-align: center; 
              } 
 
+             #redeSociales { 
+              display: flex;
+              flex-direction:row;
+              justify-content:center;
+              width: 30%;
+              margin:auto;
+             }
+
              .redes img {
   
               width: 30px;
@@ -2837,6 +2845,15 @@ margin-top: 50px;
             margin-top: 50px;
            
            }
+
+           #redeSociales { 
+            display: flex;
+            flex-direction:row;
+            justify-content:center;
+            width: 30%;
+            margin:auto;
+           }
+
 
            .redes img {
   
