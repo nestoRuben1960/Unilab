@@ -1953,6 +1953,15 @@ margin-top: 50px;
         opacity: 0.5;
        }
 
+       #redeSociales { 
+        display: flex;
+        flex-direction:row;
+        justify-content:center;
+        width: 20%;
+        margin:auto;
+        margin-top: 30px;
+       }
+
      
    
     
@@ -2086,6 +2095,7 @@ margin-top: 50px;
               justify-content:center;
               width: 50%;
               margin:auto;
+              margin-top: 30px;
              }
 
              .redes img {
@@ -2852,6 +2862,7 @@ margin-top: 50px;
             justify-content:center;
             width: 50%;
             margin:auto;
+            margin-top: 30px;
            }
 
 
