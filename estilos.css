@@ -2038,6 +2038,10 @@ margin-top: 50px;
       width: 90%;
       margin: auto;
      }
+    
+
+    #titulo1{
+      font-size: 35px;
     }
     
 
@@ -2060,6 +2064,10 @@ margin-top: 50px;
               padding-bottom: 10px;
               height: auto;
              
+            }
+
+           #titulo1{
+              font-size: 35px;
             }
       
         
@@ -2646,7 +2654,9 @@ margin-top: 50px;
                   
             
                   
-                  
+                       titulo1{
+                        font-size: 35px;
+                      }
                     
                     
                       
@@ -2761,6 +2771,10 @@ margin-top: 50px;
         padding-bottom: 10px;
         height: auto;
         background: white;
+      }
+
+      #titulo1{
+        font-size: 35px;
       }
 
   
