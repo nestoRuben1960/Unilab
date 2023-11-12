@@ -512,7 +512,7 @@ body{
 #novedades{
   margin-top: 50px;
   margin-bottom: 10px;
-  font-size: 20px;
+  font-size: 18px;
   color: #225677 ;
   text-align: left;
 }
@@ -532,12 +532,14 @@ body{
  
  
 }
-#contenedor8 > div{
-  width: 25%;
- 
- 
-  font-size: 17px;
-  }
+
+
+  #contenedor8 > div{
+    width: 25%;
+   padding-right: 18px;
+   
+    font-size: 17px;
+    }
   
 .contenido4{
   flex: 1;
@@ -712,7 +714,7 @@ body{
 #linea {
 color: #225677;
 font-style: italic;
-font-size: 35px;
+font-size: 25px;
 font-weight: bold;
 margin-left: 20px;
 margin-top: 50px;
@@ -805,7 +807,7 @@ margin-top: 50px;
      .contenido1{
       flex: 3;
       order: 2;
-      font-size: 25px;
+      font-size: 20px;
       text-align: left;
       font-weight: bold;
       height: 500px;
@@ -821,7 +823,7 @@ margin-top: 50px;
       }
 
       .contenido1 p {
-        font-size: 25px;
+        font-size: 20px;
         color: black;
         position: relative
       }
@@ -834,7 +836,7 @@ margin-top: 50px;
       padding-top: 0px;
       padding-bottom: 0px;
      height: 500px;
-      opacity: 0.3;
+      opacity: 0.2;
        }
 
 
@@ -869,7 +871,7 @@ margin-top: 50px;
 
      .contenido2{
       flex: 3;
-      font-size: 25px;
+      font-size: 20px;
       text-align: left;
       font-weight: bold;
       padding-top: 300px;
@@ -881,7 +883,7 @@ margin-top: 50px;
       }
 
       .contenido2 p {
-        font-size: 25px;
+        font-size: 20px;
         color: black;
         position: relative
       }
@@ -896,7 +898,7 @@ margin-top: 50px;
       padding-top: 0px;
       padding-bottom: 0px;
       
-      opacity: 0.3;
+      opacity: 0.2;
      }
 
     
@@ -922,7 +924,7 @@ margin-top: 50px;
 
      .contenido3{
       flex: 3;
-      font-size: 25px;
+      font-size: 20px;
     text-align: left;
     font-weight: bold;
     padding-top: 300px;
@@ -938,7 +940,7 @@ margin-top: 50px;
      }
 
      .contenido3 p {
-      font-size: 25px;
+      font-size: 20px;
       color: black;
       position: relative
       
@@ -955,7 +957,7 @@ margin-top: 50px;
         padding-bottom: 0px;
       
        
-        opacity: 0.3;
+        opacity: 0.2;
        }
 
      
@@ -972,7 +974,7 @@ margin-top: 50px;
       color: black;
       font-weight: bold;
     font-style: italic;
-    font-size: 20px;
+    font-size: 15px;
    padding-top: 100px;
     margin-bottom: 0px;
     margin-left: 15px;
