@@ -1831,7 +1831,7 @@ margin-top: 50px;
       }
 
       .contenido1 p {
-        font-size: 15px;
+        font-size: 18px;
         color: black;
         position: relative
       }
@@ -1866,7 +1866,7 @@ margin-top: 50px;
 
      .contenido2{
       flex: 3;
-      font-size: 15px;
+      font-size: 18px;
       text-align: left;
       font-weight: bold;
       margin-bottom: 0px;
@@ -1879,7 +1879,7 @@ margin-top: 50px;
       }
 
       .contenido2 p {
-        font-size: 15px;
+        font-size: 18px;
         color: black;
         position: relative
       }
@@ -1917,7 +1917,7 @@ margin-top: 50px;
      
      .contenido3{
       flex: 3;
-      font-size: 15px;
+      font-size: 18px;
       text-align: left;
       font-weight: bold;
       padding-bottom: 30px;
@@ -1933,7 +1933,7 @@ margin-top: 50px;
      }
 
      .contenido3 p {
-      font-size: 15px;
+      font-size: 18px;
       color: black;
       position: relative
       
@@ -2278,7 +2278,7 @@ margin-top: 50px;
                   }
             
                   .contenido1 p {
-                    font-size: 15px;
+                    font-size: 18px;
                     color: black;
                     position: relative
                   } 
@@ -2316,7 +2316,7 @@ margin-top: 50px;
                   order: 2;
                   text-align: left;
                   font-weight: bold;
-                  font-size: 15px;
+                  font-size: 18px;
                   padding-left: 15px;
                   padding-bottom: 30px;
                   padding-right: 15px;
@@ -2326,7 +2326,7 @@ margin-top: 50px;
                   }
 
                   .contenido2 p {
-                    font-size: 15px;
+                    font-size: 18px;
                     color: black;
                     position: relative
                   }
@@ -2364,7 +2364,7 @@ margin-top: 50px;
                  
                   text-align: left;
                   font-weight: bold;
-                  font-size: 15px;
+                  font-size: 18px;
                   padding-left: 15px;
                  
                   padding-right: 15px;
@@ -2377,7 +2377,7 @@ margin-top: 50px;
                   }
 
                  .contenido3 p {
-                  font-size: 17px;
+                  font-size: 18px;
                   color: black;
                   position: relative
                 }
@@ -3168,7 +3168,7 @@ margin-top: 50px;
               }
         
               .contenido1 p {
-                font-size: 15px;
+                font-size: 18px;
                 color: black;
                 position: relative
               } 
@@ -3215,7 +3215,7 @@ margin-top: 50px;
               }
 
               .contenido2 p {
-                font-size: 15px;
+                font-size: 18px;
                 color: black;
                 position: relative
               }
@@ -3266,7 +3266,7 @@ margin-top: 50px;
               }
 
              .contenido3 p {
-              font-size: 15px;
+              font-size: 18px;
               color: black;
               position: relative
             }
