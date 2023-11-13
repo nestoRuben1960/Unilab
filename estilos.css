@@ -33,7 +33,7 @@
 
 
       .logos {
-        flex:1
+        flex:1;
        
        
       }
@@ -138,16 +138,16 @@
     flex: 1;
     height:auto;
     text-align: center;
-    font-size: 22px;
+    font-size: 25px;
     color: white;
     font-weight: bold;
     position: relative;
     background: darkcyan ;
     font-family:Arial, Helvetica, sans-serif Times, serif verdana, 'Lato', sans-serif;
-    text-transform: uppercase;
+   
   text-rendering: optimizeLegibility;
   border-radius: 20px 0px 0px 20px;
-  padding-top: 45px;
+  padding-top: 55px;
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: auto;
@@ -267,17 +267,17 @@ flex: 2;
       order: 1;
       height: 100px;
         text-align: center;
-        font-size: 22px;
+        font-size: 25px;
         color:white ;
         font-weight: bold;
         position: relative;
         margin-top: 100px;
        font-family:Arial, Helvetica, sans-serif Times, serif verdana, 'Lato', sans-serif;
-        text-transform: uppercase;
+        
       text-rendering: optimizeLegibility;
       
       border-radius: 20px 20px 20px 20px;
-      padding-top:  auto;
+      padding-top:  35px;
       padding-left: 15px;
       padding-right: 15px;
       padding-bottom: auto;
@@ -347,7 +347,7 @@ flex: 2;
 
 
    .redes {
-    flex:1
+    flex:1;
    
    
   }
@@ -842,7 +842,7 @@ margin-top: 50px;
       .contenido1 p {
         font-size: 20px;
         color: black;
-        position: relative
+        position: relative;
       }
 
       #imagen9{
@@ -902,7 +902,7 @@ margin-top: 50px;
       .contenido2 p {
         font-size: 20px;
         color: black;
-        position: relative
+        position: relative;
       }
 
      #imagen7{
@@ -959,7 +959,7 @@ margin-top: 50px;
      .contenido3 p {
       font-size: 20px;
       color: black;
-      position: relative
+      position: relative;
       
     }
 
@@ -1085,7 +1085,7 @@ margin-top: 50px;
 
 
       .logos {
-        flex:1
+        flex:1;
        
        
       }
@@ -1100,7 +1100,7 @@ margin-top: 50px;
 
       #titulo1 {
     
-        color:#FA8C25;   ; 
+        color:#FA8C25;    
         font-size: 30px;
        
       }
@@ -1444,7 +1444,7 @@ body{
   font-size: 40px;
   font-family: arial;
   margin-top: 150px;
-  color: #48037D
+  color: #48037D;
   text-shadow: 0px 0px 6px black;
 }
 
@@ -1512,10 +1512,8 @@ body{
   }
 }
 
-#titulo2{
-  background: aqua;
 
-}
+
 
 #novedades{
   margin-top: 50px;
@@ -1833,7 +1831,7 @@ margin-top: 50px;
       .contenido1 p {
         font-size: 18px;
         color: black;
-        position: relative
+        position: relative;
       }
 
       #imagen9{
@@ -1881,7 +1879,7 @@ margin-top: 50px;
       .contenido2 p {
         font-size: 18px;
         color: black;
-        position: relative
+        position: relative;
       }
 
       #imagen7{
@@ -1935,7 +1933,7 @@ margin-top: 50px;
      .contenido3 p {
       font-size: 18px;
       color: black;
-      position: relative
+      position: relative;
       
     }
 
@@ -2044,7 +2042,7 @@ margin-top: 50px;
       font-size: 35px;
     }
     
-
+ }
    
 
     
