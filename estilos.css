@@ -1974,7 +1974,7 @@ margin-top: 50px;
       height: 450px;
       flex-wrap: wrap; 
       color: black;
-      font-weight: bold;
+      font-weight: normal;
     font-style:normal;
     font-size: 17px;
    padding-top: 30px;
@@ -2400,7 +2400,7 @@ margin-top: 50px;
                    margin-top: 0px;
                     flex-wrap: wrap; 
                     color: black;
-                    font-weight: bold;
+                    font-weight: normal;
                   font-style: normal;
                   font-size: 17px;
                  padding-top: 30px;
@@ -2654,7 +2654,7 @@ margin-top: 50px;
                   
             
                   
-                       titulo1{
+                       #titulo1{
                         font-size: 35px;
                       }
                     
@@ -3289,8 +3289,8 @@ margin-top: 50px;
                margin-top: 0px;
                 flex-wrap: wrap; 
                 color: black;
-                font-weight: bold;
-              font-style: italic;
+                font-weight: normal;
+              font-style: normal;
               font-size: 17px;
              padding-top: 30px;
              padding-left: 15px;
