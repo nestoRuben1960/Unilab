@@ -1195,7 +1195,7 @@ margin-top: 50px;
    
   text-rendering: optimizeLegibility;
   border-radius: 20px 0px 0px 20px;
-  padding-top: 50px;
+  padding-top: 40px;
 }
 
  .slider {
@@ -1318,7 +1318,7 @@ flex: 2;
       text-rendering: optimizeLegibility;
       
       border-radius: 20px 20px 20px 20px;
-      padding-top:  50px;
+      padding-top:  40px;
       margin-left: auto;
       margin-right: auto;
    }
