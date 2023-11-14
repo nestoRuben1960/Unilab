@@ -1101,7 +1101,7 @@ margin-top: 50px;
       #titulo1 {
     
         color:#FA8C25;    
-        font-size: 30px;
+        font-size: 35px;
        
       }
     
@@ -1192,7 +1192,7 @@ margin-top: 50px;
     position: relative;
     background: darkcyan ;
     font-family: verdana, 'Lato', sans-serif;
-    text-transform: uppercase;
+   
   text-rendering: optimizeLegibility;
   border-radius: 20px 0px 0px 20px;
   padding-top: 50px;
@@ -1314,7 +1314,7 @@ flex: 2;
         position: relative;
         margin-top: 70px;
        font-family:Arial, Helvetica, sans-serif Times, serif verdana, 'Lato', sans-serif;
-        text-transform: uppercase;
+        
       text-rendering: optimizeLegibility;
       
       border-radius: 20px 20px 20px 20px;
@@ -1441,11 +1441,11 @@ body{
 
 #h2{
   text-align: center;
-  font-size: 40px;
+  font-size: 30px;
   font-family: arial;
   margin-top: 150px;
   color: #48037D;
-  text-shadow: 0px 0px 6px black;
+ 
 }
 
 .content-all{
@@ -2431,7 +2431,7 @@ margin-top: 50px;
                     margin-top: 90px;
                     background: darkcyan;
                     font-family: verdana, 'Lato', sans-serif;
-                    text-transform: uppercase;
+                   
                   text-rendering: optimizeLegibility;
                   width: 100%;
                   border-radius: 20px 20px 20px 20px;
@@ -2506,7 +2506,7 @@ margin-top: 50px;
                           position: relative;
                           margin-top: 100px;
                           font-family:Arial, Helvetica, sans-serif Times, serif verdana, 'Lato', sans-serif;
-                          text-transform: uppercase;
+                         
                         text-rendering: optimizeLegibility;
                         background: darkcyan;
                         border-radius: 20px 20px 20px 20px;
@@ -2569,7 +2569,7 @@ margin-top: 50px;
                     margin-top: 50px;
                     background: darkcyan;
                     font-family: verdana, 'Lato', sans-serif;
-                    text-transform: uppercase;
+                   
                   text-rendering: optimizeLegibility;
                   width: 90%;
                   margin: auto;
@@ -2698,7 +2698,7 @@ margin-top: 50px;
                          
                           margin-top: 50px;
                           font-family:Arial, Helvetica, sans-serif Times, serif verdana, 'Lato', sans-serif;
-                          text-transform: uppercase;
+                         
                         text-rendering: optimizeLegibility;
                         background: darkcyan;
                         border-radius: 20px 20px 20px 20px;
@@ -2813,7 +2813,7 @@ margin-top: 50px;
         margin-top: 50px;
         background: darkcyan;
         font-family: verdana, 'Lato', sans-serif;
-        text-transform: uppercase;
+       
       text-rendering: optimizeLegibility;
       width: 90%;
       margin: auto;
@@ -2946,7 +2946,7 @@ margin-top: 50px;
              
               margin-top: 50px;
              font-family:Arial, Helvetica, sans-serif Times, serif verdana, 'Lato', sans-serif;
-              text-transform: uppercase;
+             
             text-rendering: optimizeLegibility;
             background: darkcyan;
             border-radius: 20px 20px 20px 20px;
