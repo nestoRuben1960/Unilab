@@ -138,7 +138,7 @@
     flex: 1;
     height:auto;
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     color: white;
     font-weight: bold;
     position: relative;
@@ -151,6 +151,11 @@
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: auto;
+
+  }
+
+  #titulo h3{
+    font-size: 15px;
 
   }
    
@@ -742,7 +747,7 @@ margin-top: 50px;
   color: black;
   font-style: italic;
   font-size: 25px;
-  font-weight: bold;
+  font-weight:normal;
   margin-left: 20px;
   
   }
@@ -1732,7 +1737,7 @@ margin-top: 50px;
   color: black;
   font-style: italic;
   font-size: 25px;
-  font-weight: bold;
+  font-weight: normal;
   margin-left: 20px;
   text-align: left;
   
@@ -2019,7 +2024,7 @@ margin-top: 50px;
       color: black;
       font-style: italic;
       font-size: 15px;
-      font-weight: bold;
+      font-weight: normal;
       margin-left: 20px;
       text-align: left;
       
@@ -2241,7 +2246,7 @@ margin-top: 50px;
                   color: black;
                   font-style: italic;
                   font-size: 15px;
-                  font-weight: bold;
+                  font-weight: normal;
                   margin-left: 20px;
                   text-align: left;
                 }
