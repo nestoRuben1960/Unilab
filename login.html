@@ -57,7 +57,7 @@
                         if(user == 'unilab' && password == '1234'){
                             document.form.submit()
                         }else{
-                            alert("Usuario Inválido");
+                            alert("Usuario y/o contraseña inválidos")
                             window.location.href='login.html'
                         }} 
                     
@@ -110,7 +110,7 @@
     
     <!--CAJAS-DE-ENTRADA-DE-DATOS------------------------------------------------>
    
-    <input class="cajas" type="text" placeholder=" Usuario" name="login" id="login"  maxlength="30">
+    <input class="cajas" type="text" placeholder=" Usuario" name="login" id="login" required  maxlength="30">
     <input class="cajas" type="password" placeholder="Contraseña" id="password" name="password"  required maxlength="30">
    
 
