@@ -3,7 +3,7 @@ createApp({
 data() { 
 return { 
 pacientes:[], 
-url:'http://localhost:5000/pacientes', 
+url:'https://unilabsrl.pythonanywhere.com/pacientes ', 
 // si el backend esta corriendo local usar localhost 5000(si no lo subieron a pythonanywhere) url:'http://mcerda.pythonanywhere.com/productos', // si ya lo subieron a pythonanywhere error:false, 
 error:false,
 

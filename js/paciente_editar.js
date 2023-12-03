@@ -18,7 +18,7 @@ createApp({
             telefono:"",
             email:"", 
             prepaga:"", 
-            url:'http://localhost:5000/pacientes/'+id, 
+            url:'https://unilabsrl.pythonanywhere.com/pacientes /'+id, 
            }
     }, 
     methods: { 
